@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="@color/black">
+
+    <com.ruffian.library.widget.RView
+        android:id="@+id/v_bg"
+        android:layout_width="0dp"
+        android:layout_height="116dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:background_normal="@color/white"
+        app:corner_radius="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shadow_color="@color/grey" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_bg"
+        app:layout_constraintRight_toRightOf="@+id/v_bg"
+        app:layout_constraintTop_toTopOf="@+id/v_bg"
+        tools:text="您要操作吗？" />
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="24dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="16dp"
+        android:textColor="#DE3A3A"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/v_bg"
+        app:layout_constraintRight_toRightOf="@+id/v_bg"
+        tools:text="確認" />
+
+    <TextView
+        android:id="@+id/tv_left"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:textColor="#4B91CA"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_right"
+        app:layout_constraintRight_toLeftOf="@id/tv_right"
+        app:layout_constraintTop_toTopOf="@+id/tv_right"
+        tools:text="取消" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

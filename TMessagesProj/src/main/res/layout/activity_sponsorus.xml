@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_top"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/sponsour_top_bg"
+            android:layout_width="match_parent"
+            android:layout_height="119dp"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_marginTop="-50dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/iv_top"
+            app:layout_constraintTop_toBottomOf="@+id/iv_top"
+            android:src="@drawable/sponsour_logo"
+            android:scaleType="centerCrop"
+            android:layout_width="78dp"
+            android:layout_height="78dp"/>
+
+        <ImageView
+            android:id="@+id/iv_back"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_top"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="12dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:src="@drawable/calls_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        tools:text="@string/sponsorus_tips"
+        android:textColor="#2f2f33"
+        android:textSize="18sp" />
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/tv_coin_type"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="6dp"
+        tools:text="MATIC"
+        app:text_color_normal="#828283"
+        android:textStyle="bold"
+        app:corner_radius="8dp"
+        app:border_width_normal="1dp"
+        app:border_color_normal="#DCDDE0"
+        app:icon_width="24dp"
+        app:icon_height="24dp"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:layout_marginVertical="24dp"
+        tools:icon_normal_left="@drawable/user_chain_logo_18"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nickname"
+        app:layout_constraintRight_toRightOf="@+id/tv_nickname"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="12dp"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_customquantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        tools:text="@string/sponsorus_customquantity"
+        android:textColor="@color/theme_color"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_sponsorus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingVertical="15dp"
+            tools:text="@string/sponsorus_sure"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:background_normal="@array/gradient_linkwallet_bg"
+            app:corner_radius="42dp"
+            app:gradient_orientation="LEFT_RIGHT" />
+
+        <com.ruffian.library.widget.RLinearLayout
+            android:id="@+id/ll_loading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:paddingVertical="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:background_normal="@array/gradient_linkwallet_bg"
+            app:corner_radius="42dp"
+            app:gradient_orientation="LEFT_RIGHT">
+
+            <ProgressBar
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:includeFontPadding="false"
+                tools:text="@string/Loading"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </com.ruffian.library.widget.RLinearLayout>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_wallet_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        tools:text="@string/sponsorus_walletbalance"
+        android:textColor="#828283"
+        android:textSize="14sp" />
+
+</LinearLayout>

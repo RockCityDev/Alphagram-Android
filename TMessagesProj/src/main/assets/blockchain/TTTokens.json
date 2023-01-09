@@ -1,0 +1,233 @@
+[
+  {
+    "contractAddress": "0x4f3c8e20942461e2c3bdd8311ac57b0c222f2b82",
+    "name": "TT20-USDT",
+    "symbol": "USDT",
+    "decimals": 6,
+    "image": "https://static.thundercore.com/tokens/icons/TT_Usdt.png"
+  },
+  {
+    "contractAddress": "0x18fB0A62f207A2a082cA60aA78F47a1af4985190",
+    "name": "TT20-Wrapped Bitcoin",
+    "symbol": "WBTC",
+    "decimals": 8,
+    "image": "https://static.thundercore.com/tokens/icons/TT_BTC.png"
+  },
+  {
+    "contractAddress": "0x22e89898A04eaf43379BeB70bf4E38b1faf8A31e",
+    "name": "TT20-USD Coin",
+    "symbol": "USDC",
+    "decimals": 6,
+    "image": "https://static.thundercore.com/tokens/icons/TT_usdc.png"
+  },
+  {
+    "contractAddress": "0x6576Bb918709906DcbFDCeae4bB1e6df7C8a1077",
+    "name": "TT-ETH",
+    "symbol": "ETH",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/TT_eth.png"
+  },
+  {
+    "contractAddress": "0xBEB0131D95AC3F03fd15894D0aDE5DBf7451d171",
+    "name": "TT-BUSD",
+    "symbol": "TT-BUSD",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/tt-busd.png"
+  },
+  {
+    "contractAddress": "0x8EF1A1E0671Aa44852f4d87105eF482470bB3e69",
+    "name": "TT-BNB",
+    "symbol": "TT-BNB",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/tt-bnb.png"
+  },
+  {
+    "contractAddress": "0xFd6Ec3E37F112bD30BbD726E7b0E73000CC2B98d",
+    "name": "TT-HUSD",
+    "symbol": "TT-HUSD",
+    "decimals": 8,
+    "image": "https://static.thundercore.com/tokens/icons/tt_husd.png"
+  },
+  {
+    "contractAddress": "0x0212b1F75503413b01A98158434c4570FB6e808c",
+    "name": "TT-HT",
+    "symbol": "TT-HT",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/tt_ht.png"
+  },
+  {
+    "contractAddress": "0x2b31e3b88847f03c1335e99a0d1274a2c72059de",
+    "name": "TT20-SAI",
+    "symbol": "SAI",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/TT_Sai.png"
+  },
+  {
+    "contractAddress": "0x1F489E0282cFA883A4224C91309bC4D4c062ed93",
+    "name": "NICER",
+    "symbol": "NICER",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/NICER.png"
+  },
+  {
+    "contractAddress": "0xC1E7000f379f2247Ae930ba98d5568cd9D0b924b",
+    "name": "RISER",
+    "symbol": "RISER",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/riser.png"
+  },
+  {
+    "contractAddress": "0x0Bc00f449785cce91A5Ea38D31d6a9f21DdAFf08",
+    "name": "HTC USD",
+    "symbol": "USDX",
+    "decimals": 6,
+    "image": "https://static.thundercore.com/tokens/icons/HTCUSD.jpg"
+  },
+  {
+    "contractAddress": "0x8C2eeccd83752DB11594e699BBC8f756c4d03Cb9",
+    "name": "Punch",
+    "symbol": "PUNCH",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/punch.png"
+  },
+  {
+    "contractAddress": "0xC35a7A4adee299Bf44A32977647b3651D1378755",
+    "name": "Myanmar Kyat Coin",
+    "symbol": "MMKC",
+    "decimals": 6,
+    "image": "https://static.thundercore.com/tokens/icons/mmkc.png"
+  },
+  {
+    "contractAddress": "0xfE146D5710015d4075355fb7bE8d133346EC63c2",
+    "name": "Ram",
+    "symbol": "RAM",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/ram.png"
+  },
+  {
+    "contractAddress": "0x47fe33d321EEF4719FdFf38EA72B1dFC7f0cdf10",
+    "name": "Oolong",
+    "symbol": "OOL",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/oolong.png"
+  },
+  {
+    "contractAddress": "0xe15c1cbF2de3fd15864F48A66b9da07736dAF578",
+    "name": "GuessToken",
+    "symbol": "GuessToken",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/guesstoken.png"
+  },
+  {
+    "contractAddress": "0xFCDEa9f405bc6bd85C2e90c1DEbB9F3ca7a59D8f",
+    "name": "Zippy Dice",
+    "symbol": "DICEZ",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/dicez.png"
+  },
+  {
+    "contractAddress": "0xD46d770b3032D92D9E1d4e5B925bB8840cDB4314",
+    "name": "Zippy",
+    "symbol": "ZIPPY",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/zippy.png"
+  },
+  {
+    "contractAddress": "0x6E690DaC861fE7441770f84146F263d1CFBE909C",
+    "name": "Acorn",
+    "symbol": "ACORN",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/acorn.png"
+  },
+  {
+    "contractAddress": "0x152FeA8177a31F4FE1cDe7AdaB12C744F1860166",
+    "name": "Zippy Hodl",
+    "symbol": "HODLZ",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/hodlz.png"
+  },
+  {
+    "contractAddress": "0xD441cD6eCfA027721B4d9ea5D9a6A9649ad8b3dA",
+    "name": "Farm Thunder Token",
+    "symbol": "FTT",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/ftt.png"
+  },
+  {
+    "contractAddress": "0x14cb5Fe5b7803120816c0117d0a284F79578D42a",
+    "name": "Decimal 18",
+    "symbol": "DEC18",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/dec18.png"
+  },
+  {
+    "contractAddress": "0x17BE63fe855e9Ea6BC80907cd0BDb70A3C4ee40f",
+    "name": "Decimal 6",
+    "symbol": "DEC6",
+    "decimals": 6,
+    "image": "https://static.thundercore.com/tokens/icons/dec6.png"
+  },
+  {
+    "contractAddress": "0x33cb73c5264647e014b9674c0e92bf9e910d0b91",
+    "name": "NUM Token",
+    "symbol": "NUM",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/num.png"
+  },
+  {
+    "contractAddress": "0xfF99e917cF1E081A4e52836bbE8DF610cbAb9DD7",
+    "name": "Planet Master Token",
+    "symbol": "PMT",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/pmt.png"
+  },
+  {
+    "contractAddress": "0x6aB6d61428fde76768D7b45D8BFeec19c6eF91A8",
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/avax.png"
+  },
+  {
+    "contractAddress": "0x818ec0A7Fe18Ff94269904fCED6AE3DaE6d6dC0b",
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/ape.png"
+  },
+  {
+    "contractAddress": "0x461d52769884ca6235B685EF2040F47d30C94EB5",
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/dai.png"
+  },
+  {
+    "contractAddress": "0x333333331193762b9dd5828fA91aFA40d8432B7A",
+    "name": "XY Token",
+    "symbol": "XY",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/xy.png"
+  },
+  {
+    "contractAddress": "0xFA9DbFc80A3cFdd7192ccee23567d7bA58ea6F07",
+    "name": "Techno Fun",
+    "symbol": "TFN",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/tfn.png"
+  },
+  {
+    "contractAddress": "0x218c3c3D49d0E7B37aff0D8bB079de36Ae61A4c0",
+    "name": "NFTmall GEM Token",
+    "symbol": "GEM",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/gem.png"
+  },
+  {
+    "contractAddress": "0xD3e916699dA7266EF673d10342334e25cfFc2Ab6",
+    "name": "Dolphin",
+    "symbol": "Dolphin",
+    "decimals": 18,
+    "image": "https://static.thundercore.com/tokens/icons/Dolphin.png"
+  }
+]

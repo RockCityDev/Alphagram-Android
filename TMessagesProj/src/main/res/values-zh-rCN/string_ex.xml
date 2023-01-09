@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- string-array -->
+    <string name="array_my_mix_tables">我的收藏|我的下载|本地缓存</string>
+    <string name="array_channel_loading_tips">正在读取频道列表...|正在加载资料库...|正在更新频道消息...|正在获取未读的频道...</string>
+    <string name="array_theme_tables">HOT|NEW|动态主题</string>
+    <string name="array_tgclean_type_tables">图片|视频|文件|音频|其他</string>
+    <string name="array_intro_tips">全面的TG社交，讯息分组更直接|聚焦频道内容，不遗留项目资讯|好工具上架，让您事半功倍</string>
+
+    <string name="title_my">我的</string>
+
+    <!--日期-->
+    <string name="dateformat">MM月dd日</string>
+    <string name="dateformat2">MM-dd hh:mm</string>
+    <string name="dateformat3">MM-dd HH:mm</string>
+    <string name="dateformat_am">aa hh:mm</string>
+
+    <string name="wait_for_network">现在好像没有网络....</string>
+    <string name="wifi_net">WIFI网络</string>
+    <string name="mobile_net">手机网络</string>
+
+    <!--视频模块-->
+    <string name="video_from">来自：</string>
+    <string name="download_pause">已暂停</string>
+    <string name="download_fail">已失败</string>
+    <string name="download_nostart">未下载</string>
+    <string name="ac_down_cancel">取消</string>
+    <string name="ac_save_album_null_tips">没有保存到相册的任务</string>
+    <string name="ac_downing_null_tips">没有正在下载的任务</string>
+    <string name="ac_downed_null_tips">还没有任何视频</string>
+    <string name="ac_message_null_tips">还没有任何消息</string>
+    <string name="ac_downed_text_checkall">全选</string>
+    <string name="ac_downed_text_checkno">取消全选</string>
+    <string name="ac_downed_text_delete">删除</string>
+    <string name="ac_downed_delete_ok">删除成功</string>
+    <string name="ac_downed_save_to_gallery_ok">已保存到相册</string>
+    <string name="ac_downed_text_check_num">已选中 %d 个文件</string>
+    <string name="tools_local_video">本地视频</string>
+    <string name="tools_local_file">本地文件</string>
+    <string name="fg_textview_expand">展开</string>
+    <string name="fg_textview_collapse">收起</string>
+    <string name="vw_video_collect">收藏</string>
+    <string name="vw_video_collected">已收藏</string>
+    <string name="vw_video_download">下载</string>
+    <string name="vw_video_save_album">存到相册</string>
+    <string name="vw_video_guide_text">最新的视频已全部浏览完毕</string>
+    <string name="vw_video_guide_btn_text">跳转到更早的未读视频</string>
+    <string name="vw_video_guide_play_normal">继续顺序播放</string>
+    <string name="vw_video_main_loading">视频载入中，请稍等...</string>
+    <string name="vw_video_full_tip">全屏观看</string>
+    <string name="vw_video_speed_text1">1.0倍</string>
+    <string name="vw_video_speed_text1_n">1.0倍(正常)</string>
+    <string name="vw_video_speed_text0.75">0.75倍</string>
+    <string name="vw_video_speed_text1.25">1.25倍</string>
+    <string name="vw_video_speed_text1.5">1.5倍</string>
+    <string name="vw_video_speed_text2.0">2.0倍</string>
+    <string name="vw_edit_cancel">取消</string>
+    <string name="vw_local_scan">本地</string>
+    <string name="vw_local_cache">缓存</string>
+    <string name="vw_save_cache">保存到缓存</string>
+    <string name="vw_save_album">保存到相册</string>
+    <string name="ac_download_text_save_gallery">转存到相册</string>
+    <string name="ac_download_text_delete">删除</string>
+    <string name="ac_download_text_share">分享</string>
+    <string name="view_play_guide_text">跳转到上次播放</string>
+
+    <!--设置-->
+    <string name="login_proxy_text">使用代理</string>
+    <string name="login_proxy_tips">针对Telegram不可用的国家和地区</string>
+    <string name="act_set_recommend">推荐</string>
+    <string name="view_home_message_folder">消息分组</string>
+    <string name="view_home_contact_us">联系我们</string>
+
+    <string name="view_filter_add_all">一键添加全部</string>
+    <string name="view_filter_delete_all">删除全部本地文件夹</string>
+
+    <!--翻译-->
+    <string name="translate_title">翻译</string>
+    <string name="translate_setting_title">翻译设置</string>
+    <string name="translate_dialog_loading">翻译中…</string>
+    <string name="translate_dialog_error">翻译失败</string>
+    <string name="language_text">选择语言</string>
+    <string name="login_language_text_en">English</string>
+    <string name="login_language_text_tw">繁体中文(台湾)</string>
+    <string name="login_language_text_hk">繁体中文(香港)</string>
+    <string name="login_language_text_cnf">繁体中文</string>
+    <string name="login_language_text_cn">简体中文</string>
+    <string name="translate_dialog_close">确认</string>
+    <string name="translate_switch_title">聊天气泡翻译按钮</string>
+    <string name="translate_switch_info">每条消息右侧显示快捷翻译按钮</string>
+    <string name="translate_choose_language">选择语言</string>
+    <string name="translate_language_auto">自动检测</string>
+    <string name="translate_language_af">南非荷兰语</string>
+    <string name="translate_language_sq">阿尔巴尼亚语</string>
+    <string name="translate_language_ar">阿拉伯语</string>
+    <string name="translate_language_hy">亚美尼亚语</string>
+    <string name="translate_language_az">阿塞拜疆语</string>
+    <string name="translate_language_be">白俄罗斯语</string>
+    <string name="translate_language_bn">孟加拉语</string>
+    <string name="translate_language_bg">保加利亚语</string>
+    <string name="translate_language_ca">加泰罗尼亚语</string>
+    <string name="translate_language_zh_cn">简体中文</string>
+    <string name="translate_language_zh_tw">繁体中文</string>
+    <string name="translate_language_hr">克罗地亚语</string>
+    <string name="translate_language_cs">捷克语</string>
+    <string name="translate_language_da">丹麦语</string>
+    <string name="translate_language_nl">荷兰语</string>
+    <string name="translate_language_en">英语</string>
+    <string name="translate_language_eo">世界语</string>
+    <string name="translate_language_et">爱沙尼亚语</string>
+    <string name="translate_language_tl">菲律宾语</string>
+    <string name="translate_language_fi">芬兰语</string>
+    <string name="translate_language_fr">法语</string>
+    <string name="translate_language_fy">弗里西亚语</string>
+    <string name="translate_language_gl">加利西亚语</string>
+    <string name="translate_language_ka">格鲁吉亚语</string>
+    <string name="translate_language_de">德语</string>
+    <string name="translate_language_el">希腊语</string>
+    <string name="translate_language_gu">古吉拉特语</string>
+    <string name="translate_language_ht">海地语</string>
+    <string name="translate_language_ha">豪萨语</string>
+    <string name="translate_language_hi">印地语</string>
+    <string name="translate_language_hu">匈牙利语</string>
+    <string name="translate_language_is">冰岛语</string>
+    <string name="translate_language_ig">伊博语</string>
+    <string name="translate_language_id">印尼语</string>
+    <string name="translate_language_ga">爱尔兰语</string>
+    <string name="translate_language_it">义大利语</string>
+    <string name="translate_language_ja">日语</string>
+    <string name="translate_language_jw">爪哇语</string>
+    <string name="translate_language_kn">卡纳达语</string>
+    <string name="translate_language_kk">哈萨克语</string>
+    <string name="translate_language_km">高棉语</string>
+    <string name="translate_language_ko">韩语</string>
+    <string name="translate_language_ku">库尔德语</string>
+    <string name="translate_language_ky">吉尔吉斯语</string>
+    <string name="translate_language_lo">老挝语</string>
+    <string name="translate_language_la">拉丁语</string>
+    <string name="translate_language_lv">拉脱维亚语</string>
+    <string name="translate_language_lt">立陶宛语</string>
+    <string name="translate_language_lb">卢森堡语</string>
+    <string name="translate_language_mk">马其顿语</string>
+    <string name="translate_language_mg">马拉加斯语</string>
+    <string name="translate_language_ms">马来语</string>
+    <string name="translate_language_ml">马拉雅拉姆语</string>
+    <string name="translate_language_mt">马尔他语</string>
+    <string name="translate_language_mi">毛利语</string>
+    <string name="translate_language_mr">马拉地语</string>
+    <string name="translate_language_mn">蒙古语</string>
+    <string name="translate_language_my">缅甸语</string>
+    <string name="translate_language_ne">尼泊尔语</string>
+    <string name="translate_language_no">挪威语</string>
+    <string name="translate_language_ps">普什图语</string>
+    <string name="translate_language_fa">波斯语</string>
+    <string name="translate_language_pl">波兰语</string>
+    <string name="translate_language_pt">葡萄牙语</string>
+    <string name="translate_language_ma">旁遮普语</string>
+    <string name="translate_language_ro">罗马尼亚语</string>
+    <string name="translate_language_ru">俄语</string>
+    <string name="translate_language_gd">苏格兰盖尔语</string>
+    <string name="translate_language_sr">塞尔维亚语</string>
+    <string name="translate_language_st">塞索托语</string>
+    <string name="translate_language_sn">修纳语</string>
+    <string name="translate_language_sd">信德语</string>
+    <string name="translate_language_si">僧伽罗语</string>
+    <string name="translate_language_sk">斯洛伐克语</string>
+    <string name="translate_language_sl">斯洛文尼亚语</string>
+    <string name="translate_language_so">索马利亚语</string>
+    <string name="translate_language_es">西班牙语</string>
+    <string name="translate_language_su">苏丹语</string>
+    <string name="translate_language_sw">斯瓦希里语</string>
+    <string name="translate_language_sv">瑞典语</string>
+    <string name="translate_language_tg">塔吉克语</string>
+    <string name="translate_language_ta">泰米尔语</string>
+    <string name="translate_language_te">泰卢固语</string>
+    <string name="translate_language_th">泰语</string>
+    <string name="translate_language_tr">土耳其语</string>
+    <string name="translate_language_uk">乌克兰语</string>
+    <string name="translate_language_uz">乌兹别克语</string>
+    <string name="translate_language_vi">越南语</string>
+    <string name="translate_language_cy">威尔士语</string>
+    <string name="translate_language_xh">科萨语</string>
+    <string name="translate_language_yi">意第绪语</string>
+    <string name="translate_language_yo">约鲁巴语</string>
+    <string name="translate_language_zu">祖鲁语</string>
+    <string name="translate_language_iw">希伯來语</string>
+
+    <!--无痕-->
+    <string name="stealth_login_title">启用无痕模式</string>
+    <string name="stealth_login_tips">“对方看不到消息已读”</string>
+    <string name="stealth_toast_open">无痕模式已开启</string>
+    <string name="stealth_toast_close">无痕模式已关闭</string>
+    <string name="stealth_menu_title_on">开启无痕模式</string>
+    <string name="stealth_menu_title_off">关闭无痕模式</string>
+    <string name="stealth_header_item_title_on">对 ta 开启无痕</string>
+    <string name="stealth_header_item_title_off">对 ta 关闭无痕</string>
+
+    <string name="bot_token_login_text">通过 Bot Token 登录</string>
+    <string name="bot_token_login_title">Bot Token 登录</string>
+    <string name="bot_phone_login_text">通过手机号码登录</string>
+    <string name="bot_token_login_hint">请输入您的 Bot Token</string>
+    <string name="bot_token_login_tips">提示：
+        \n您可以通过 @BotFather 创建机器人 Bot.
+        \n这里填写 @BotFather 发送给您的 Bot Token.
+        \n\n如果您以 Bot 登录，您会有 Bot 的所有限制，包括如下：
+        \n-- 无法访问联系人.
+        \n-- 无法加入群组和频道.(除非添加了他们的管理员)
+        \n-- 您只可以回复其他用户，前提是他给您 “/start”.
+        \n-- 无法看到消息是否已读.</string>
+    <string name="bot_token_login_invalid">无效的访问令牌</string>
+    <string name="ac_video_feed_ad_tips">升级到谷歌纯净版</string>
+    <string name="ad_banner_text">去广告</string>
+
+    <string name="login_phone_view_title">用手机号码登录 Telegram</string>
+    <string name="login_phone_view_subtitle">请选择您的国家代码并输入您的手机号码</string>
+    <string name="login_see_phone_title">不允许任何人看我的手机号码</string>
+    <string name="login_see_phone_desc">保护个人隐私，强烈建议勾选</string>
+
+    <string name="tv_delete_all">全部删除</string>
+    <string name="tv_delete_dialog_title">删除前确认</string>
+    <string name="tv_delete_dialog_content">确认要清空全部内容，操作不可恢复</string>
+    <string name="tv_delete_dialog_positive_button">确认删除</string>
+    <string name="tv_download_file_not_finish">没有下载完成的文件</string>
+
+    <string name="currency_tab_price">价格</string>
+    <string name="currency_tab_general">概览</string>
+    <string name="currency_tab_exchange">交易</string>
+    <string name="currency_price_1d">1天</string>
+    <string name="currency_price_1w">1周</string>
+    <string name="currency_price_1m">1月</string>
+    <string name="currency_price_3m">3月</string>
+    <string name="currency_price_1y">1年</string>
+    <string name="currency_price_max">全部</string>
+    <string name="currency_general_rank">市值</string>
+    <string name="currency_general_website">网站</string>
+    <string name="currency_general_announcement">公告</string>
+    <string name="currency_general_explorer">浏览器</string>
+    <string name="currency_general_source_code">源代码</string>
+    <string name="currency_general_community">社区</string>
+    <string name="currency_general_tags">标签</string>
+    <string name="currency_general_market_cap">市值</string>
+    <string name="currency_general_24h_vol">交易量（24h）</string>
+    <string name="currency_general_circulating_supply">流通总量</string>
+    <string name="currency_general_total_supply">总供应量</string>
+    <string name="currency_data_source">数据源</string>
+
+    <!--******************************************-->
+    <string name="http_unknown_error">请求出错，未知错误</string>
+    <string name="http_token_error">登录失效，请重新登录</string>
+    <string name="http_data_explain_error">数据解析异常，请稍后</string>
+    <string name="http_server_out_time">服务器请求超时，请稍后再试</string>
+    <string name="http_network_error">请求失败，请检查网络设置</string>
+    <string name="http_response_error">服务器响应异常，请稍后再试</string>
+    <string name="http_server_error">服务器连接异常，请稍后再试</string>
+    <string name="http_request_cancel">请求被中断，请重试</string>
+    <string name="http_response_null_body">服务器数据返回异常，请稍后再试</string>
+
+    <!--登录-->
+    <string name="ac_login_title">输入手机号，获取注册验证码</string>
+    <string name="ac_login_register_tip">注册成功后，手机号码是Telegram的登录账号，在聊天页面左上角修改Telegram用户名，头像和隐私安全设置。</string>
+    <string name="splash_btn_login">Telegram 账号登录</string>
+    <string name="splash_btn_register_tip">沒有Telegram账号? </string>
+    <string name="splash_btn_register">注册</string>
+
+    <!--首页-->
+    <string name="home_unbind_wallet_tips">你还未绑定任何数字钱包</string>
+    <string name="home_link_wallet">链接钱包</string>
+    <string name="home_contact">联系人</string>
+    <string name="home_unknown_sender">陌生人</string>
+    <string name="home_commontools">实用工具</string>
+    <string name="home_relatedme">与我相关</string>
+    <string name="home_my_wallet">我的数字钱包</string>
+    <string name="home_edit_nft_photo">编辑 NFT 头像</string>
+    <string name="home_msg_group">信息分组</string>
+    <string name="message_center_content">消息中心</string>
+    <string name="message_center_myjoin_group">我参与的群组</string>
+    <string name="message_center_archiveortop">归档和置顶</string>
+
+    <!--首页弹窗菜单-->
+    <string name="homeoption_pop_qrcode">扫一扫</string>
+    <string name="homeoption_pop_createmsg">建立新消息</string>
+    <string name="homeoption_pop_addfriend">添加好友</string>
+    <string name="homeoption_pop_creategroup">新建群组</string>
+    <string name="homeoption_pop_createchannel">新建频道</string>
+    <string name="homeoption_pop_encryptedchat">发起加密聊天</string>
+    <string name="homeoption_pop_relatedme">管理&quot;与我相关的&quot;</string>
+
+    <!--好工具-->
+    <string name="commontools_system_tool">系统工具</string>
+    <string name="commontools_content_recommend">内容推荐</string>
+    <string name="commontools_oneclick_cleanup">立即清理</string>
+    <string name="commontools_local_cache_size_tips">目前存储空间已占用</string>
+    <string name="commontools_scan_qrcode">扫描 QR cord</string>
+    <string name="commontools_add_friend">邀请好友</string>
+    <string name="commontools_download_management">下载管理</string>
+    <string name="commontools_my_collection">我的收藏</string>
+    <string name="commontools_resource_navigation">资源导航</string>
+    <string name="commontools_group_recommend">群组推荐</string>
+    <string name="commontools_channel_recommend">频道推荐</string>
+    <string name="commontools_official_group_ch">官方中文群</string>
+    <string name="commontools_official_group_ex">官方英文群</string>
+    <string name="commontools_official_channel_ch">官方中文频道</string>
+    <string name="commontools_official_channel_ex">官方英文频道</string>
+
+    <!--频道焦点-->
+    <string name="dg_channel_block">取消关注频道</string>
+    <string name="dg_channel_block_ok">你已取消关注该频道</string>
+    <string name="dg_channel_all_media">显示所有媒体</string>
+    <string name="dg_channel_in_chat">在聊天中显示</string>
+    <string name="channel_more_message_format">展开%d条折迭消息</string>
+    <string name="channel_tag_all_text">全部</string>
+    <string name="channel_recommend_tag_secret">私密🙈</string>
+    <string name="fragment_channel_coutent_title">频道焦点</string>
+    <string name="fragment_channel_coutent_like">赞</string>
+    <string name="fragment_channel_coutent_comments">评论</string>
+    <string name="fragment_channel_coutent_share">传送</string>
+    <string name="fragment_channel_nolike_tips">当前频道不支持点赞！</string>
+
+    <!--个人主页-->
+    <string name="user_personal_message">消息</string>
+    <string name="user_personal_voice">语音</string>
+    <string name="user_personal_video">视频</string>
+    <string name="user_personal_secret_chat">密谈</string>
+    <string name="user_personal_add_friend">加好友</string>
+    <string name="user_personal_edit_friend">編輯</string>
+    <string name="user_personal_main_page">主页</string>
+    <string name="user_personal_introduction">个人描述</string>
+    <string name="user_personal_common_group">共同群组</string>
+    <string name="user_personal_msg_num">在本群組共发送了%d条消息 ></string>
+    <string name="user_personal_last_msg_date">上次发送消息于</string>
+    <string name="user_personal_online_time">最后上线时间</string>
+
+    <!-- 好友列表-->
+    <string name="view_title_text">好友名單</string>
+
+    <!--sticker收藏-->
+    <string name="sticker_my_collect">我的收藏</string>
+
+    <!--清除消息-->
+    <string name="dialog_clean_all">您要将所有未读通知清除吗?</string>
+    <string name="dialog_clean_tv_cancel">取消</string>
+    <string name="dialog_clean_tv_ok">确认清除</string>
+
+    <!--闪屏页-->
+    <string name="splash_tips">Devoted to the best crypto social.</string>
+
+    <!--消息分组新-->
+    <string name="FilterContactsNew">联系人</string>
+    <string name="FilterNonContactsNew">非联系人</string>
+    <string name="FilterGroupsNew">群组</string>
+    <string name="FilterChannelsNew">频道</string>
+    <string name="FilterBotsNew">机器人</string>
+    <string name="FilterUnreadNew">未读</string>
+    <string name="FiltersNew">分组</string>
+    <string name="FilterRecommendedNew">推荐分组</string>
+    <string name="CreateNewFilterNew">新建分组</string>
+
+    <!--theme-->
+    <string name="view_theme">主题市场</string>
+    <string name="ac_title_theme">主题市场</string>
+    <string name="view_theme_used_count">人正在使用</string>
+
+    <!--设置页面-->
+    <string name="setting_linkwallet_title">链接钱包</string>
+    <string name="setting_change_wallet">重新链接钱包</string>
+    <string name="setting_wallet_unbind_title">我的数字钱包</string>
+    <string name="setting_wallet_uninstall_toast">目前只提供MataMask钱包，请建立钱包后点击连接</string>
+
+    <!--绑定钱包页面-->
+    <string name="act_bindwallet_linkwallet">链接钱包</string>
+    <string name="act_bindwallet_select_linkwallet">选择你要链接的数字钱包</string>
+    <string name="act_bindwallet_cancel">取消</string>
+
+    <!--与我相关设置-->
+    <string name="act_relatedme_setting_title">与我相关设置</string>
+    <string name="act_relatedme_setting_addtoping_list">加入置顶列表</string>
+    <string name="act_relatedme_setting_meetcriteria_group">符合该条件的群（%d）</string>
+    <string name="act_relatedme_setting_archive_list">加入所有归档列表</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list">成员人数以内的群组</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list_tips">成员人数少于 %d 人的群</string>
+    <string name="act_relatedme_setting_filter_title">筛选</string>
+    <string name="act_relatedme_setting_blacklist">黑名单</string>
+    <string name="act_relatedme_setting_whitelist">白名单</string>
+
+    <!--黑白名单页面-->
+    <string name="act_permissions_chat_addwhitelist">加入白名单</string>
+    <string name="act_permissions_chat_addblacklist">加入黑名单</string>
+    <string name="act_permissions_chat_whitelist_num">白名单%d</string>
+    <string name="act_permissions_chat_blacklist_num">黑名单%d</string>
+    <string name="act_permissions_chat_remove">移除</string>
+    <string name="act_permissions_chat_channel">%d 个关注</string>
+    <string name="act_permissions_chat_group">%d 个成员</string>
+    <string name="act_permissions_chat_confirm_addwhitelist">确认加入白名单</string>
+    <string name="act_permissions_chat_confirm_addblacklist">确认拉黑</string>
+    <string name="act_permissions_chat_selectoruser">选择用户</string>
+    <string name="act_permissions_black_null_tips1">未添加黑名单</string>
+    <string name="act_permissions_black_null_tips2">黑名单用户不受任何群组筛选影响</string>
+    <string name="act_permissions_white_null_tips1">未添加白名单</string>
+    <string name="act_permissions_white_null_tips2">白名单用户不受任何群组筛选影响</string>
+
+    <!--社群推荐-->
+    <string name="view_community_recommendtab_title">社群推荐</string>
+    <string name="view_community_recommendtab_search">搜索群组和频道</string>
+    <string name="view_community_recommendtab_recommend">专属推荐</string>
+    <string name="view_community_recommendtab_showall_recommend">显示全部</string>
+    <string name="view_community_recommendtab_hottopic">热门话题</string>
+    <string name="view_community_recommendtab_morerecommend">更多社群推荐</string>
+    <string name="view_community_recommendtab_findandjoin">探索并加入</string>
+    <string name="view_community_recommendtab_group">群组</string>
+    <string name="view_community_recommendtab_channel">频道</string>
+    <string name="view_community_recommendtab_boot">机器人</string>
+    <string name="channel_subscription_num">%d 位订阅</string>
+    <string name="group_subscription_num">%d 位成员</string>
+    <string name="online_num">•   %d  人在线上</string>
+    <string name="view_community_recommendtab_addchannel">加入频道</string>
+    <string name="view_community_recommendtab_addgroup">加入群组</string>
+    <string name="view_community_recommend_invate">很遗憾，此群組／频道已不存在或转为私人，点击确认后将移除此选项</string>
+    <string name="view_community_recommend_confirm">确认</string>
+
+    <!-- 群搜索-->
+    <string name="act_recommend_search_text">来自    αlphagram    的搜索</string>
+    <string name="act_recommend_tg_search_text">来自    Telegram    的搜索</string>
+    <string name="act_recommend_tg_search_hint">输入要搜索群组</string>
+    <string name="act_recommend_tg_search_more">展示更多</string>
+
+    <!-- 消息中心清空陌生人-->
+    <string name="act_delete_other_dialog_title">确定要清空这些对话消息吗？</string>
+    <string name="act_delete_other_dialog_left_text">取消</string>
+    <string name="act_delete_other_dialog_right_text">确定</string>
+
+    <!-- NFT资产列表-->
+    <string name="nft_assets_title">选择NFT</string>
+    <string name="nft_assets_empty_text">尚无NFT</string>
+    <string name="wallet_suggest_text">推荐</string>
+
+    <!--新建群组-->
+    <string name="create_group_describe">群描述</string>
+    <string name="create_group_add_describe">添加群描述</string>
+    <string name="create_group_join_group">无限制</string>
+    <string name="create_group_paytojoin_group">付费入群</string>
+    <string name="create_group_conditionjoin_group">条件入群</string>
+    <string name="create_group_input_tokennum_min">最小Token数</string>
+    <string name="create_group_paynum">数量</string>
+    <string name="create_group_input_paynum">需要支付的数量</string>
+    <string name="create_group_link_wallet">链接钱包</string>
+
+    <!--vip群组-->
+    <string name="vip_group_title">币圈社群</string>
+    <string name="vip_group_properties">钱包总资产</string>
+    <string name="vip_group_link_wallet">链接钱包</string>
+    <string name="vip_group_link_detail">查看资产细节</string>
+    <string name="vip_group_joined">已加入</string>
+    <string name="vip_group_created">已创建</string>
+    <string name="vip_group_wating">等待后台验证中，请稍后再试</string>
+    <string name="vip_group_join_null">没有加入任何群/频道</string>
+    <string name="vip_group_crate_null">没有创建任何群/频道</string>
+    <string name="vip_group_tag_all">全部</string>
+    <string name="group_pay_join_tag_title">社群标签</string>
+    <string name="group_pay_join_amount_title">入群价格</string>
+    <string name="group_pay_join_pay_join">付费入群</string>
+    <string name="group_pay_confirm_title">支付订单确认</string>
+    <string name="group_pay_confirm_permit_title">入群许可</string>
+    <string name="group_pay_confirm_pay_member_count">%d 人已付费</string>
+    <string name="group_pay_confirm_status_title">状态</string>
+    <string name="group_pay_confirm_pay_off">待支付</string>
+    <string name="group_pay_confirm_pay_fail">支付失败</string>
+    <string name="group_pay_confirm_pay_continue">继续支付</string>
+    <string name="group_pay_confirm_pay_on">已支付？联系客服</string>
+    <string name="group_pay_confirm_pay_success">支付成功</string>
+    <string name="group_pay_confirm_pay_confirm">确认支付</string>
+    <string name="group_pay_confirm_paying">支付中...</string>
+    <string name="group_pay_confirm_pay_cancel">取消</string>
+    <string name="group_validate_join_tag_title">社群标签</string>
+    <string name="group_validate_join_condition_join_title">入群条件</string>
+    <string name="group_validate_join_condition_join">持有 ≥ %s 可入群</string>
+    <string name="group_validate_join_join_success">验证成功，正在加入</string>
+    <string name="group_validate_join_validating">正在验证...</string>
+    <string name="group_validate_join_validate_join">验证入群</string>
+    <string name="group_validate_join_validate_cancel">取消</string>
+    <string name="group_validate_join_validate_not_satisfied">不满足入群条件，请重试</string>
+    <string name="group_validate_join_validate_fail">授权失败，请重试</string>
+    <string name="uplink_verification_title">上链验证中...</string>
+    <string name="uplink_verification_content">完成后自动进入群组\n大约需要 30s</string>
+    <string name="uplink_verification_know">我知道了</string>
+
+    <!--群，频道详情-->
+    <string name="chat_details_tag">标签</string>
+    <string name="chat_details_describe">群描述</string>
+    <string name="chat_details_add_describe">添加群描述</string>
+
+    <!--钱包主页-->
+    <string name="wallet_home_token_empty_text">尚无代币</string>
+    <string name="wallet_home_transaction_empty_text">尚无交易记录</string>
+
+    <!--聊天页面-转账-->
+    <string name="chat_transfer_meunbind_wallet">你未绑定钱包</string>
+    <string name="chat_transfer_otherunbind_wallet">对方未绑定钱包</string>
+    <string name="chat_transfer_meubbind_tips">你需要先绑定数字货币钱包才可以给他人转账</string>
+    <string name="chat_transfer_otherubbind_tips">对方未绑定钱包，你可以邀请对方绑定数字钱包后进行转账</string>
+    <string name="chat_transfer_bind_wallet">绑定数字货币钱包</string>
+    <string name="chat_transfer_invite_bind_wallet">邀请对方绑定钱包</string>
+    <string name="chat_transfer_towhotransfer">向%s转账</string>
+    <string name="chat_transfer_toyoutransfer">向你转账</string>
+    <string name="chat_transfer_input_price_tips">输入交易数量</string>
+    <string name="chat_transfer_wallet_balance">钱包余额：%s</string>
+    <string name="chat_transfer_nextstep">下一步</string>
+    <string name="chat_transfer_balance">余额：%s</string>
+    <string name="chat_transfer_confirm">确认转账</string>
+    <string name="chat_transfer_back">返回</string>
+
+    <!--gas费用对话框-->
+    <string name="gas_tips_dialog_title">什么是燃料费？</string>
+    <string name="gas_tips_dialog_content">燃料费支付给在以太坊网络上处理交易的加密货币工厂。αlphagram 不从燃料费中获利。</string>
+    <string name="gas_tips_dialog_bottom_tips">燃料费由网络设定，并根据网络流量和交易的复杂性而波动。</string>
+
+    <!--转账详情对话框-->
+    <string name="transfer_detatils_dialog_title">转账详情</string>
+    <string name="transfer_detatils_dialog_status">状态</string>
+    <string name="transfer_detatils_dialog_status1">已确认</string>
+    <string name="transfer_detatils_dialog_num">数额</string>
+    <string name="transfer_detatils_dialog_gasfee">估算的燃料费</string>
+    <string name="transfer_detatils_dialog_totalnum">总数额</string>
+    <string name="transfer_detatils_dialog_goto_etherscan">在  %s 上查看</string>
+
+    <!--转账页面-->
+    <string name="transfer_activity_title">转账</string>
+    <string name="transfer_activity_sended">发送到：</string>
+    <string name="transfer_activity_search_hint">搜索ID、公钥 (0x) 或ENS</string>
+    <string name="transfer_activity_recenttransactions">最近交易</string>
+    <string name="transfer_activity_myfriend">我的好友</string>
+    <string name="transfer_activity_transfer_nextstep">下一步</string>
+    <string name="transfer_activity_nobind_friend">暂无绑定钱包的好友</string>
+    <string name="transfer_activity_tips">交易历史和支持交易的好友会出现在这里</string>
+
+
+    <!-- 闪屏页 -->
+    <string name="ac_splash_btn_login">log in with Telegram account</string>
+    <string name="ac_splash_btn_register_tip">No Telegram account? </string>
+    <string name="ac_splash_btn_register">Sign in</string>
+    <string name="view_title_message">Channels</string>
+    <string name="view_lancher_title">αlphagram</string>
+    <string name="view_lancher_desc">The best TG Social・Secure・Private</string>
+
+    <!-- 清除缓存-->
+    <string name="ac_tgclean_title_image">图片</string>
+    <string name="ac_tgclean_null_file">没有该类型文件</string>
+    <string name="ac_tgclean_views_grid">宫格视图</string>
+    <string name="ac_tgclean_views_list">列表视图</string>
+    <string name="ac_tgclean_loading_text">扫描中…</string>
+    <string name="ac_tgclean_total_show_format">当前共 %d 个文件，总计 %s</string>
+    <string name="ac_title_storage_clean">清理缓存</string>
+    <string name="dg_storage_scan_tips">正在扫描…</string>
+    <string name="dg_storage_total">本地缓存已占用</string>
+    <string name="dg_storage_scan_clean">一键清理</string>
+    <string name="dg_storage_scan_close">关闭</string>
+    <string name="dg_storage_more_fun_theme">主题市场</string>
+    <string name="dg_storage_more_fun_wallpaper">动态主题</string>
+    <string name="dg_storage_more_fun_message">消息分组</string>
+    <string name="dg_storage_more_fun_collect">我的收藏</string>
+    <string name="dg_storage_more_fun_resource">资源导航</string>
+    <string name="dg_storage_more_fun_download">下载管理</string>
+    <string name="dg_storage_more_fun_delete_msg">被其他人删除的消息</string>
+    <string name="view_home_official_group">官方群组(Q&amp;A)</string>
+
+    <!-- 被删除的消息-->
+    <string name="ac_delete_msg_group_title">被删除的消息分组</string>
+    <string name="ac_delete_msg_list_title">被删除的消息列表</string>
+    <string name="delete_msg_pop_title">重要提醒：</string>
+    <string name="delete_msg_pop_content">如果对方未经允许删除或清空了和你有关的聊天记录，可以在“被删除的消息”列表里找到。 </string>
+    <string name="delete_msg_pop_know">我知道了</string>
+    <string name="delete_msg_dialog_title">删除前确认</string>
+    <string name="delete_msg_dialog_content">确认要清空该群被删除的消息？\n操作不可恢复</string>
+    <string name="delete_msg_dialog_group_content">确认要清空全部群组被删除的消息？\n操作不可恢复</string>
+    <string name="delete_msg_dialog_confirm">确认删除</string>
+    <string name="delete_msg_list_text">清空该组消息</string>
+    <string name="delete_msg_group_all">永久清除这些消息</string>
+    <string name="delete_msg_by_time">72小时后自动永久删除</string>
+
+    <!--  stickerGif列表-->
+    <string name="ac_sticker_gif_title">StickerGif</string>
+    <string name="sticker_tab_gif">GIFs</string>
+    <string name="sticker_tab_sticker">Stickers</string>
+    <string name="sticker_tab_collect">Collects</string>
+    <string name="sticker_dialog_popular">Popular GIF</string>
+    <string name="sticker_dialog_collect">My Collections</string>
+
+    <!--钱包主页-->
+    <string name="wallet_home_act_contract_address_title">合约地址</string>
+    <string name="wallet_home_act_token_id_title">代币ID</string>
+    <string name="wallet_home_act_blockchain_title">区块链</string>
+    <string name="wallet_home_act_token_standard_title">代币标准</string>
+    <string name="wallet_home_act_bar_tokenid">代币</string>
+    <string name="wallet_home_act_bar_nft">NFT</string>
+    <string name="wallet_home_act_bar_transactionhistory">交易历史</string>
+    <string name="wallet_home_copy_address">钱包地址已复制</string>
+    <string name="wallet_home_tip_input_address">请输入钱包地址</string>
+    <string name="wallet_home_tip_install">请先安装该钱包再链接</string>
+    <string name="wallet_home_switch_address">请切换至绑定的地址</string>
+
+    <!--钱包主页操作对话框-->
+    <string name="dialog_wallet_opera_title">已与 %s 链接</string>
+    <string name="dialog_wallet_opera_disconnect">断开链接</string>
+    <string name="dialog_wallet_opera_change">重新链接</string>
+    <string name="dialog_wallet_opera_copyaddress">复制地址</string>
+    <string name="dialog_wallet_opera_viewexplorer">在浏览器上查看</string>
+
+    <!--钱包绑定弹窗-->
+    <string name="dialog_wallet_binding_title">授权绑定中...</string>
+    <string name="dialog_wallet_binding_content">请在打开的 %s 中授权签名</string>
+    <string name="dialog_wallet_binding_cancel">取消</string>
+
+    <string name="home_sponsor_us">打赏我们😁🙏🧧</string>
+
+    <string name="commontools_official_vipgroup">币圈社群</string>
+    <string name="commontools_official_transfertransaction">转账交易</string>
+
+
+    <string name="setting_add_wallet">新增钱包地址</string>
+    <string name="setting_wallet_open_nft">开启 NFT 头像显示</string>
+
+    <string name="vip_group_numberofholdings">持有 ≥ %s %s</string>
+    <string name="vip_group_groupmember">%s 成员</string>
+    <string name="vip_group_join">加入</string>
+
+
+    <string name="chat_transfer_input_price_tips1">钱包余额不足</string>
+    <string name="chat_transfer_error_bind_address_title">无法授权转账</string>
+    <string name="chat_transfer_error_bind_address_tips">该钱包地址未经授权无法转账，请切换至已绑定的钱包地址。</string>
+    <string name="chat_transfer_error_bind_address_btn">切换钱包地址</string>
+
+
+    <!--选择燃料费-->
+    <string name="dialog_selector_gassfee_title">选择燃料费档位</string>
+
+    <!--转账-选择链对话框-->
+    <string name="dialog_transfer_selector_chaintype_title">选择链类型</string>
+    <!--转账-选择币种对话框-->
+    <string name="dialog_transfer_selector_cointype_title">选择代币</string>
+
+    <!--打赏-->
+    <string name="sponsorus_tips">向开发者打赏</string>
+    <string name="sponsorus_customquantity">自定义币种和数量</string>
+    <string name="sponsorus_sure">确定打赏</string>
+    <string name="sponsorus_walletbalance">钱包余额：%s</string>
+
+    <!--toast提示-->
+    <string name="toast_tips_scqtx">请上传群头像</string>
+    <string name="toast_tips_qxzdsje">请选择打赏金额</string>
+    <string name="toast_tips_dscg">打赏成功</string>
+    <string name="toast_tips_qsr_min_tokennum">请输入最小token数</string>
+    <string name="toast_tips_qx_min_token_must">最小token数必须大于0</string>
+    <string name="toast_tips_qx_bindwallet">请先绑定钱包</string>
+    <string name="toast_tips_qsr_paynum">请输入需要支付的数量</string>
+    <string name="toast_tips_qqh_bindaddress">请切换至绑定的地址</string>
+
+    <!--单独转账入口-->
+    <string name="ac_wallet_tips">无效的 Ethereum 钱包地址</string>
+    <string name="ac_wallet_content">請正確填寫支持 Ethereum 的錢包地址，暫不支持跨鏈轉帳。</string>
+    <string name="ac_wallet_btn">我知道了</string>
+
+    <string name="dg_storage_more_fun_transfer">转账</string>
+    <string name="chat_transfer_tips">请确认将转账的地址正确，避免导致资产遗失</string>
+    <string name="dg_transfer_step_tow_title">转账确认</string>
+    <string name="dg_transfer_invter_text">嗨，%s！ 快来下载 αlphagram app，连结你的加密钱包，体验更快速方便的虚拟货币转帐！\n点我看连结钱包设定教学：https://reurl.cc/pMqmg4</string>
+
+    <string name="btn_null_function_tips">即将上线，敬请期待</string>
+    <string name="wallet_home_input">输入钱包地址：0X...</string>
+    <string name="wallet_home_btn">查询</string>
+    <string name="create_group_type">私人群组类型</string>
+    <string name="create_group_tips_unlimit">任何人都可以加入此私人群组</string>
+    <string name="create_group_tips_conditions">用户需连接钱包且满足资产条件才能加入私人群组</string>
+    <string name="create_group_tips_pay">用户需连接钱包且支付一定资产才能加入私人群组</string>
+    <string name="create_group_conditions_described">权衡描述</string>
+    <string name="create_group_pay_described">支付描述</string>
+    <string name="create_group_address_title">数位钱包</string>
+    <string name="create_group_chain_type">区块链 / 网络</string>
+    <string name="create_group_token_type">资产标准</string>
+    <string name="create_group_coin_type">币种类型</string>
+    <string name="create_group_input_tokenaddress">输入合约地址</string>
+    <string name="toast_tips_please_input_tokenaddress">请输入合约地址</string>
+    <string name="group_details_invitation_title">Group3 邀请链接</string>
+    <string name="group_details_invitation_tips">用户可以由此链接通过验证后加入您的私人群组。 </string>
+    <string name="dialog_create_group_successful_addconding">入群条件</string>
+    <string name="dialog_create_group_successful_addpaynum">入群费用</string>
+    <string name="dialog_create_group_successful_condition_join">持有 ≥ %s</string>
+    <string name="group_details_share_successful">分享成功</string>
+    <string name="wallet_failure_tips">绑定失效，请重新绑定钱包</string>
+    <string name="group_share_content">%s群组发来邀请，欢迎加入讨论</string>
+
+    <string name="currency_fragment_wallet_unbind">钱包未链接</string>
+    <string name="currency_fragment_empty_data_title">暂无群组</string>
+    <string name="currency_fragment_empty_data_tips">还没有该币相关群组推荐</string>
+    <string name="dialog_user_personal_transfer_to_he">转账给他</string>
+    <string name="dialog_user_personal_wallet">钱包</string>
+    <string name="dialog_user_personal_look_wallet">查看钱包身份</string>
+    <string name="other_user_wallet_info_wallet_address">钱包地址</string>
+    <string name="other_user_wallet_info_network">目前主网络</string>
+    <string name="other_user_wallet_info_details">钱包详细资讯</string>
+
+    <!--删除机器人-->
+    <string name="delete_bot_title">警告</string>
+    <string name="delete_bot_content">若移除群助手机器人，新成员入群验证将失效，群组将变为免费群。</string>
+    <string name="delete_bot_confirm">确认移除</string>
+    <string name="delete_bot_cancel">取消</string>
+
+    <string name="groug_create_speech_welcome">Hello world！这里是 %s</string>
+</resources>

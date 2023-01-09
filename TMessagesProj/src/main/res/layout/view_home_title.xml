@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/rl_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/home_avatar_frame_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp">
+
+            <FrameLayout
+                android:id="@+id/fl_home_avatar"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/iv_stealth_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_tealth"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@+id/home_avatar_frame_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:text="Hi, Yifan" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/iv_home_add"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            app:icon_src_normal="@drawable/btn_add_tittle_bar"
+            app:icon_with_text="true" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/iv_home_search"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_home_add"
+            app:icon_src_normal="@drawable/btn_search_tittle_bar"
+            app:icon_with_text="true" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/iv_home_clean"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_home_search"
+            app:icon_src_normal="@drawable/btn_clean_tittle_bar"
+            app:icon_with_text="true" />
+
+        <FrameLayout
+            android:id="@+id/download_frame"
+            android:layout_width="54dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/iv_home_clean"></FrameLayout>
+
+    </RelativeLayout>
+</LinearLayout>

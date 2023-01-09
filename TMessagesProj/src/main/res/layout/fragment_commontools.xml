@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/clear_cache"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:paddingStart="22dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:text="@string/ac_title_storage_clean" />
+
+    <com.ruffian.library.widget.RConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp">
+
+        <com.ruffian.library.widget.RView
+            android:id="@+id/v_clear_cache"
+            android:layout_width="0dp"
+            android:layout_height="103dp"
+            app:background_normal="#F7F8F9"
+            app:corner_radius="12dp" />
+
+        <TextView
+            android:id="@+id/tv_cache_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:includeFontPadding="false"
+            android:text="--"
+            android:textColor="#000000"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/localcacheccupied"
+            app:layout_constraintLeft_toLeftOf="@+id/v_clear_cache"
+            app:layout_constraintTop_toTopOf="@+id/v_clear_cache"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:text="976.32" />
+
+        <TextView
+            android:id="@+id/localcacheccupied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:textColor="#56565C"
+            android:textSize="13sp"
+            app:layout_constraintBottom_toBottomOf="@+id/v_clear_cache"
+            app:layout_constraintLeft_toLeftOf="@+id/tv_cache_size"
+            app:layout_constraintTop_toBottomOf="@+id/tv_cache_size"
+            tools:text="@string/commontools_local_cache_size_tips" />
+
+        <TextView
+            android:id="@+id/tv_cache_size_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="17dp"
+            android:text=""
+            android:textColor="#56565C"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toRightOf="@+id/tv_cache_size"
+            app:layout_constraintTop_toTopOf="@+id/tv_cache_size" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_clear_cache"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="8dp"
+            android:textSize="13sp"
+            app:background_normal="#46BDFE"
+            app:corner_radius="100dp"
+            app:layout_constraintBottom_toBottomOf="@+id/v_clear_cache"
+            app:layout_constraintRight_toRightOf="@+id/v_clear_cache"
+            app:layout_constraintTop_toTopOf="@+id/v_clear_cache"
+            app:text_color_normal="@color/white"
+            tools:text="@string/commontools_oneclick_cleanup" />
+    </com.ruffian.library.widget.RConstraintLayout>
+
+    <TextView
+        android:id="@+id/system_tool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="22dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="10dp"
+        android:text="@string/commontools_system_tool"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_system_tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:overScrollMode="never" />
+
+    <TextView
+        android:id="@+id/content_recommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="22dp"
+        android:paddingTop="24dp"
+        android:paddingBottom="10dp"
+        android:text="@string/commontools_content_recommend"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_content_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:visibility="gone" />
+</LinearLayout>

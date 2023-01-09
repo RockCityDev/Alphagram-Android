@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/media_frame"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/ic_stagger_video_backgroud">
+
+        <FrameLayout
+            android:id="@+id/image_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:id="@+id/ll_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/ic_video4_status_backgroud"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp"
+            android:paddingTop="2dp"
+            android:paddingRight="6dp"
+            android:paddingBottom="2dp">
+
+            <FrameLayout
+                android:id="@+id/fl_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+
+                <teleblock.widget.CircleProgressBar
+                    android:id="@+id/circle_progress"
+                    style="@android:style/Widget.ProgressBar.Horizontal"
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center"
+                    app:bga_pb_isCapRounded="true"
+                    app:bga_pb_isHiddenText="true"
+                    app:bga_pb_mode="circle"
+                    app:bga_pb_radius="30dp"
+                    app:bga_pb_reachedColor="#ffffff"
+                    app:bga_pb_reachedHeight="2dp"
+                    app:bga_pb_unReachedColor="#30ffffff"
+                    app:bga_pb_unReachedHeight="2dp"/>
+
+                <ImageView
+                    android:id="@+id/iv_video_status"
+                    android:layout_width="23dp"
+                    android:layout_height="23dp"
+                    android:layout_gravity="center"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_video4_status_download"/>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_video_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    tools:text="3:12"/>
+
+                <TextView
+                    android:id="@+id/tv_video_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp"
+                    tools:text="2.1KB/3MB"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/ic_shadow_bg2"
+            android:gravity="center_vertical|right"
+            android:orientation="horizontal"
+            android:paddingTop="6dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp">
+
+            <TextView
+                android:id="@+id/tv_views"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_views_num"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                tools:text="102"/>
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                tools:text="AM 03:00"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_center_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_video4_item_play"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_text_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_stagger_text_backgroud"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_video_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:text="扎克·施奈德版正义联盟 扎盟"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/icon_frame"
+                android:layout_width="20dp"
+                android:layout_height="20dp"/>
+
+            <TextView
+                android:id="@+id/tv_group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:maxLines="1"
+                android:textColor="#646464"
+                android:textSize="12sp"
+                tools:text="聊天群名称"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- string-array -->
+    <string name="array_my_mix_tables">Simpanan|Unduh|Tembolok</string>
+    <string name="array_channel_loading_tips">Memuat daftar saluran...|Memuat media...|Memperbarui berita saluran...|Memuat saluran yang belum dibaca...</string>
+    <string name="array_theme_tables">HOT|BARU|TEMA LANGSUNG</string>
+    <string name="array_tgclean_type_tables">Gambar|Video|File|Audio|Lainnya</string>
+    <string name="array_intro_tips">Sosial Telegram yang Komprehensif|Mengumpulkan umpan saluran saya|Selesaikan lebih banyak dengan sedikit usaha</string>
+
+    <string name="title_my">Saya</string>
+
+    <!--日期-->
+    <string name="dateformat">MM-dd</string>
+    <string name="dateformat2">MM-dd jj:mm</string>
+    <string name="dateformat3">MM-dd HH:mm</string>
+    <string name="dateformat_am">aa jj:mm</string>
+
+    <string name="wait_for_network">Tidak ada internet....</string>
+    <string name="wifi_net">WIFI</string>
+    <string name="mobile_net">Seluler</string>
+
+    <!--视频模块-->
+    <string name="video_from">Dari:</string>
+    <string name="download_pause">Dijeda</string>
+    <string name="download_fail">Gagal</string>
+    <string name="download_nostart">Belum diunduh</string>
+    <string name="ac_down_cancel">Batalkan</string>
+    <string name="ac_save_album_null_tips">Tidak ada tugas menyimpan</string>
+    <string name="ac_downing_null_tips">Tidak ada tugas pengunduhan</string>
+    <string name="ac_downed_null_tips">Tidak ada video</string>
+    <string name="ac_message_null_tips">Tidak ada pesan</string>
+    <string name="ac_downed_text_checkall">Pilih semua</string>
+    <string name="ac_downed_text_checkno">Batal</string>
+    <string name="ac_downed_text_delete">Hapus</string>
+    <string name="ac_downed_delete_ok">Dihapus</string>
+    <string name="ac_downed_save_to_gallery_ok">Sudah disimpan ke galeri</string>
+    <string name="ac_downed_text_check_num">%d file dipilih个文件</string>
+    <string name="tools_local_video">Video lokal</string>
+    <string name="tools_local_file">File lokal</string>
+    <string name="fg_textview_expand">Terbuka</string>
+    <string name="fg_textview_collapse">Lipat</string>
+    <string name="vw_video_collect">Simpan</string>
+    <string name="vw_video_collected">Disimpan</string>
+    <string name="vw_video_download">Unduh</string>
+    <string name="vw_video_save_album">Simpan ke album</string>
+    <string name="vw_video_guide_text">Semua video terbaru telah ditonton</string>
+    <string name="vw_video_guide_btn_text">Langsung ke video sebelumnya yang belum ditonton</string>
+    <string name="vw_video_guide_play_normal">Lanjutkan pemutaran</string>
+    <string name="vw_video_main_loading">Memuat, harap tunggu...</string>
+    <string name="vw_video_full_tip">Layar Penuh</string>
+    <string name="vw_video_speed_text1">x1.0</string>
+    <string name="vw_video_speed_text1_n">x1.0(normal)</string>
+    <string name="vw_video_speed_text0.75">x0.75</string>
+    <string name="vw_video_speed_text1.25">x1.25</string>
+    <string name="vw_video_speed_text1.5">x1.5</string>
+    <string name="vw_video_speed_text2.0">x2.0</string>
+    <string name="vw_edit_cancel">Batal</string>
+    <string name="vw_local_scan">Lokal</string>
+    <string name="vw_local_cache">Tembolok</string>
+    <string name="vw_save_cache">Simpan ke cache</string>
+    <string name="vw_save_album">Simpan ke album</string>
+    <string name="ac_download_text_save_gallery">Kirim ke galeri</string>
+    <string name="ac_download_text_delete">Batal</string>
+    <string name="ac_download_text_share">Bagikan</string>
+    <string name="view_play_guide_text">Kembali ke jeda terakhir</string>
+
+    <!--设置-->
+    <string name="login_proxy_text">Gunakan Proksi</string>
+    <string name="login_proxy_tips">Untuk negara dan wilayah tidak bisa menggunakan Telegram</string>
+    <string name="act_set_recommend">Rekomendasi</string>
+    <string name="view_home_message_folder">Folder Obrolan</string>
+    <string name="view_home_contact_us">Hubungi Kami</string>
+
+    <string name="view_theme_used_count">sedang menggunakan</string>
+    <string name="view_filter_add_all">Tambahkan dengan satu klik</string>
+    <string name="view_filter_delete_all">Hapus semua forder file lokal</string>
+
+    <!--翻译-->
+    <string name="translate_title">Terjemahkan</string>
+    <string name="translate_setting_title">Setelan Terjemahan</string>
+    <string name="translate_dialog_loading">Menerjemahkan…</string>
+    <string name="translate_dialog_error">Gagal menerjemahkan</string>
+    <string name="language_text">Pilih bahasa</string>
+    <string name="login_language_text_en">Bahasa Inggris</string>
+    <string name="login_language_text_tw">Cina Tradisional (Taiwan)</string>
+    <string name="login_language_text_hk">Cina Tradisional (Hong Kong)</string>
+    <string name="login_language_text_cnf">Cina (Tradisional)</string>
+    <string name="login_language_text_cn">Cina (Sederhana)</string>
+    <string name="translate_dialog_close">Konfirmasi</string>
+    <string name="translate_switch_title">Gelembung ucapan untuk diterjemahkan</string>
+    <string name="translate_switch_info">Tampilkan gelembung terjemahan cepat di sebelah kanan setiap pesan</string>
+    <string name="translate_choose_language">Pilih bahasa</string>
+    <string name="translate_language_auto">Deteksi bahasa</string>
+    <string name="translate_language_af">Afrikaans</string>
+    <string name="translate_language_sq">Albania</string>
+    <string name="translate_language_ar">Arab</string>
+    <string name="translate_language_hy">Armenia</string>
+    <string name="translate_language_az">Azerbaijan</string>
+    <string name="translate_language_be">Belarusia</string>
+    <string name="translate_language_bn">Bengali</string>
+    <string name="translate_language_bg">Bulgaria</string>
+    <string name="translate_language_ca">Katalan</string>
+    <string name="translate_language_zh_cn">Cina (Sederhana)</string>
+    <string name="translate_language_zh_tw">Cina (Tradisional)</string>
+    <string name="translate_language_hr">Kroasia</string>
+    <string name="translate_language_cs">Ceko</string>
+    <string name="translate_language_da">Denmark</string>
+    <string name="translate_language_nl">Belanda</string>
+    <string name="translate_language_en">Bahasa Inggris</string>
+    <string name="translate_language_eo">Esperanto</string>
+    <string name="translate_language_et">Estonia</string>
+    <string name="translate_language_tl">Filipina (Tagalog)</string>
+    <string name="translate_language_fi">Finlandia</string>
+    <string name="translate_language_fr">Prancis</string>
+    <string name="translate_language_fy">Frisia</string>
+    <string name="translate_language_gl">Galicia</string>
+    <string name="translate_language_ka">Georgia</string>
+    <string name="translate_language_de">Jerman</string>
+    <string name="translate_language_el">Yunani</string>
+    <string name="translate_language_gu">Gujarati</string>
+    <string name="translate_language_ht">Kreol Haiti</string>
+    <string name="translate_language_ha">Hausa</string>
+    <string name="translate_language_hi">Hindi</string>
+    <string name="translate_language_hu">Hongaria</string>
+    <string name="translate_language_is">Islandia</string>
+    <string name="translate_language_ig">Igbo</string>
+    <string name="translate_language_id">Bahasa Indonesia</string>
+    <string name="translate_language_ga">Irlandia</string>
+    <string name="translate_language_it">Italia</string>
+    <string name="translate_language_ja">Jepang</string>
+    <string name="translate_language_jw">Jawa</string>
+    <string name="translate_language_kn">Kannada</string>
+    <string name="translate_language_kk">Kazakh</string>
+    <string name="translate_language_km">Khmer</string>
+    <string name="translate_language_ko">Korea</string>
+    <string name="translate_language_ku">Kurdi (Kurmanji)</string>
+    <string name="translate_language_ky">Kirgistan</string>
+    <string name="translate_language_lo">Laos</string>
+    <string name="translate_language_la">Latin</string>
+    <string name="translate_language_lv">Latvia</string>
+    <string name="translate_language_lt">Lituania</string>
+    <string name="translate_language_lb">Luksemburg</string>
+    <string name="translate_language_mk">Makedonia</string>
+    <string name="translate_language_mg">Malagasi</string>
+    <string name="translate_language_ms">Melayu</string>
+    <string name="translate_language_ml">Melayu</string>
+    <string name="translate_language_mt">Bahasa Malta</string>
+    <string name="translate_language_mi">Maori</string>
+    <string name="translate_language_mr">Marathi</string>
+    <string name="translate_language_mn">Bahasa Mongolia</string>
+    <string name="translate_language_my">Myanmar (Burma)</string>
+    <string name="translate_language_ne">Nepal</string>
+    <string name="translate_language_no">Norwegia (Bokmål)</string>
+    <string name="translate_language_ps">Pashto</string>
+    <string name="translate_language_fa">Persia</string>
+    <string name="translate_language_pl">Polandia</string>
+    <string name="translate_language_pt">Portugis</string>
+    <string name="translate_language_ma">Punjabi (Gurmukhi)</string>
+    <string name="translate_language_ro">Rumania</string>
+    <string name="translate_language_ru">Rusia</string>
+    <string name="translate_language_gd">Gaelik Skotlandia</string>
+    <string name="translate_language_sr">Serbia</string>
+    <string name="translate_language_st">Sotho</string>
+    <string name="translate_language_sn">Shona</string>
+    <string name="translate_language_sd">Sindhi</string>
+    <string name="translate_language_si">Sinhala</string>
+    <string name="translate_language_sk">Slovakia</string>
+    <string name="translate_language_sl">Slovenia</string>
+    <string name="translate_language_so">Somalia</string>
+    <string name="translate_language_es">Spanyol</string>
+    <string name="translate_language_su">Bahasa Sunda</string>
+    <string name="translate_language_sw">Swahili</string>
+    <string name="translate_language_sv">Swedia</string>
+    <string name="translate_language_tg">Tajik</string>
+    <string name="translate_language_ta">Tamil</string>
+    <string name="translate_language_te">Telugu</string>
+    <string name="translate_language_th">Thailand</string>
+    <string name="translate_language_tr">Turki</string>
+    <string name="translate_language_uk">Ukraina</string>
+    <string name="translate_language_uz">Uzbekistan</string>
+    <string name="translate_language_vi">Vietnam</string>
+    <string name="translate_language_cy">Bahasa Wales</string>
+    <string name="translate_language_xh">Xhosa</string>
+    <string name="translate_language_yi">Yiddish</string>
+    <string name="translate_language_yo">Yoruba</string>
+    <string name="translate_language_zu">Zulu</string>
+    <string name="translate_language_iw">Ibrani</string>
+
+    <!--无痕-->
+    <string name="stealth_login_title">Aktifkan penyamaran</string>
+    <string name="stealth_login_tips">“Pesan tidak akan ditandai seperti yang Anda lihat.”</string>
+    <string name="stealth_toast_open">Incognito aktif</string>
+    <string name="stealth_toast_close">Penyamaran tidak aktif</string>
+    <string name="stealth_menu_title_on">Nonaktifkan penyamaran</string>
+    <string name="stealth_menu_title_off">Aktifkan penyamaran</string>
+    <string name="stealth_header_item_title_on">Nonaktifkan penyamaran di sini</string>
+    <string name="stealth_header_item_title_off">Aktifkan penyamaran di sini</string>
+
+    <string name="bot_token_login_text">Masuk dengan Token Bot</string>
+    <string name="bot_token_login_title">Login Token Bot</string>
+    <string name="bot_phone_login_text">Masuk dengan nomor telepon</string>
+    <string name="bot_token_login_hint">Silakan masukkan Token Bot Anda</string>
+    <string name="bot_token_login_tips">Pemberitahuan：
+        \nAnda dapat membuat Bot melalui @BotFather.
+        \nMasukkan Token Bot yang dikirimkan @BotFather kepada Anda.
+        \n\nJika Anda login dengan Bot, Anda memiliki batasan berikut ini:
+        \n-- Tidak dapat mengakses Kontak.
+        \n-- Tidak dapat bergabung dalam grup dan saluran (kecuali setelah menambahkan adminnya)
+        \n-- Anda hanya dapat membalas pengguna lain setelah mereka mengirimi Anda "/start".
+        \n-- Tidak dapat melihat apakah pesan dibaca atau tidak.</string>
+    <string name="bot_token_login_invalid">Token tidak valid</string>
+    <string name="ac_video_feed_ad_tips">Perbarui ke versi bebas iklan</string>
+    <string name="ad_banner_text">Hapus Iklan</string>
+
+    <string name="login_phone_view_title">Masuk Telegram dengan nomor telepon</string>
+    <string name="login_phone_view_subtitle">Silahkan pilih kode negara Anda dan masukkan nomor telepon Anda</string>
+    <string name="login_see_phone_title">Tidak ada yang bisa melihat nomor telepon saya</string>
+    <string name="login_see_phone_desc">Sangat disarankan untuk memilih ini untuk perlindungan privasi</string>
+
+    <string name="tv_delete_all">Hapus semua</string>
+    <string name="tv_delete_dialog_title">Konfirmasi Hapus</string>
+    <string name="tv_delete_dialog_content">Anda yakin ingin menghapus semua,operasi tidak dapat dilanjutkan</string>
+    <string name="tv_delete_dialog_positive_button">Tentu</string>
+    <string name="tv_download_file_not_finish">Belum ada file yang diunduh</string>
+
+    <string name="currency_tab_price">Harga</string>
+    <string name="currency_tab_general">Ikhtisar</string>
+    <string name="currency_tab_exchange">Perdagangan</string>
+    <string name="currency_price_1d">1 Hari</string>
+    <string name="currency_price_1w">1 Minggu</string>
+    <string name="currency_price_1m">1 Bulan</string>
+    <string name="currency_price_3m">3 Bulan</string>
+    <string name="currency_price_1y">1 Tahun</string>
+    <string name="currency_price_max">Semua</string>
+    <string name="currency_general_rank">Nilai Pasar</string>
+    <string name="currency_general_website">Situs Web</string>
+    <string name="currency_general_announcement">Pengumuman</string>
+    <string name="currency_general_explorer">Browser</string>
+    <string name="currency_general_source_code">Kode Sumber</string>
+    <string name="currency_general_community">Komunitas</string>
+    <string name="currency_general_tags">Tag</string>
+    <string name="currency_general_market_cap">Nilai Pasar</string>
+    <string name="currency_general_24h_vol">Volume perdagangan (24 jam)</string>
+    <string name="currency_general_circulating_supply">Pasokan yang Beredar</string>
+    <string name="currency_general_total_supply">Total Pasokan</string>
+    <string name="currency_data_source">Sumber Data</string>
+
+    <!--******************************************-->
+    <string name="http_unknown_error">Permintaan gagal karena kesalahan yang tidak diketahui</string>
+    <string name="http_token_error">login gagal, coba lagi</string>
+    <string name="http_data_explain_error">Pengecualian penguraian data, harap tunggu</string>
+    <string name="http_server_out_time">Waktu permintaan server habis, silakan coba lagi nanti</string>
+    <string name="http_network_error">Permintaan gagal, harap periksa pengaturan jaringan</string>
+    <string name="http_response_error">Server merespons secara tidak normal, silakan coba lagi nanti</string>
+    <string name="http_server_error">Kesalahan koneksi server, silakan coba lagi nanti</string>
+    <string name="http_request_cancel">Permintaan terputus, silakan coba lagi</string>
+    <string name="http_response_null_body">Data server mengembalikan pengecualian, silakan coba lagi nanti</string>
+
+    <!--登录-->
+    <string name="ac_login_title">Masukkan nomor telepon Anda untuk mendapatkan kode verifikasi masuk</string>
+    <string name="ac_login_register_tip">Nomor telepon Anda adalah akun login Telegram Anda setelah berhasil masuk. Untuk mengubah nama pengguna, profil, dan pengaturan privasi telegram Anda di sudut kiri atas halaman obrolan.</string>
+    <string name="splash_btn_login">Masuk dengan akun Telegram</string>
+    <string name="splash_btn_register_tip">Tidak ada akun Telegram? </string>
+    <string name="splash_btn_register">Masuk</string>
+
+    <!--首页-->
+    <string name="home_unbind_wallet_tips">Anda belum terhubung ke dompet digital apa pun</string>
+    <string name="home_link_wallet">Hubungkan ke dompet Anda</string>
+    <string name="home_contact">Kontak</string>
+    <string name="home_relatedme">Untuk Saya</string>
+    <string name="home_unknown_sender">Orang Asing</string>
+    <string name="home_commontools">Alat</string>
+    <string name="home_my_wallet">Dompet Saya</string>
+    <string name="home_edit_nft_photo">Edit Foto Profil NFT</string>
+    <string name="home_msg_group">Folder Obrolan</string>
+    <string name="message_center_content">Pusat Info</string>
+    <string name="message_center_myjoin_group">Grup tempat saya bergabung</string>
+    <string name="message_center_archiveortop">Arsipkan dan Sematkan</string>
+
+    <!--首页弹窗菜单-->
+    <string name="homeoption_pop_qrcode">Pindai</string>
+    <string name="homeoption_pop_createmsg">Mulai Pesan Baru</string>
+    <string name="homeoption_pop_addfriend">Kontak Baru</string>
+    <string name="homeoption_pop_creategroup">Grup Baru</string>
+    <string name="homeoption_pop_createchannel">Saluran Baru</string>
+    <string name="homeoption_pop_encryptedchat">Mulai obrolan Rahasia</string>
+    <string name="homeoption_pop_relatedme">Kelola&quot;hubungan saya&quot;</string>
+
+    <!--好工具-->
+    <string name="ac_title_theme">Toko Tema</string>
+    <string name="commontools_system_tool">Alat Sistem</string>
+    <string name="commontools_content_recommend">Rekomendasi</string>
+    <string name="commontools_oneclick_cleanup">Bersihkan sekarang</string>
+    <string name="commontools_local_cache_size_tips">penyimpanan digunakan</string>
+    <string name="commontools_scan_qrcode">Pindai kode QR</string>
+    <string name="commontools_add_friend">Undang Teman</string>
+    <string name="commontools_download_management">Kelola Unduhan</string>
+    <string name="commontools_my_collection">Simpanan Saya</string>
+    <string name="commontools_resource_navigation">Panduan Sumber Daya</string>
+    <string name="commontools_group_recommend">Rekomendasi Grup</string>
+    <string name="commontools_channel_recommend">Rekomendasi Saluran</string>
+    <string name="commontools_official_group_ch">Grup Resmi</string>
+    <string name="commontools_official_group_ex">Grup Resmi</string>
+    <string name="commontools_official_channel_ch">Saluran Resmi</string>
+    <string name="commontools_official_channel_ex">Saluran Resmi</string>
+
+    <!--清理缓存-->
+    <string name="ac_title_storage_clean">Bersihkan Cache</string>
+    <string name="ac_tgclean_title_image">Gambar</string>
+    <string name="ac_tgclean_null_file">Tidak ada file dengan tipe seperti itu</string>
+    <string name="ac_tgclean_views_grid">Tampilan Kotak</string>
+    <string name="ac_tgclean_views_list">Tampilan Daftar</string>
+    <string name="ac_tgclean_loading_text">Memindai…</string>
+    <string name="ac_tgclean_total_show_format"> %d file， total %s</string>
+
+    <!--频道焦点-->
+    <string name="dg_channel_block">Keluar dari Saluran</string>
+    <string name="dg_channel_block_ok">Anda telah meninggalkan Saluran</string>
+    <string name="dg_channel_all_media">Tampilkan semua media</string>
+    <string name="dg_channel_in_chat">Tampilkan di Obrolan</string>
+    <string name="channel_more_message_format">Buka %d pesan</string>
+    <string name="channel_tag_all_text">Semua</string>
+    <string name="channel_recommend_tag_secret">Pribadi🙈</string>
+    <string name="fragment_channel_coutent_title">Postingan Saluran</string>
+    <string name="fragment_channel_coutent_like">Suka</string>
+    <string name="fragment_channel_coutent_comments">Komentar</string>
+    <string name="fragment_channel_coutent_share">Bagikan</string>
+    <string name="fragment_channel_nolike_tips">Tidak dapat mengeklik"suka" di saluran ini!</string>
+
+    <!--他人主页-->
+    <string name="dialog_other_homepage_msg">Pesan</string>
+    <string name="dialog_other_homepage_voice">Panggilan suara</string>
+    <string name="dialog_other_homepage_video">Panggilan video</string>
+    <string name="dialog_other_homepage_commune">Obrolan Rahasia</string>
+    <string name="dialog_other_homepage_addfirend">Kontak Baru</string>
+    <string name="dialog_other_homepage_introduction">Profil</string>
+    <string name="dialog_other_homepage_commongroup">Grup yang Sama</string>
+    <string name="dialog_other_homepage_msgnum">Grup ini telah mengirim %d pesan</string>
+
+    <!--个人主页-->
+    <string name="user_personal_message">Pesan</string>
+    <string name="user_personal_voice">Suara</string>
+    <string name="user_personal_video">Video</string>
+    <string name="user_personal_secret_chat">Obrolan Singkat</string>
+    <string name="user_personal_add_friend">Tambahkan Teman</string>
+    <string name="user_personal_edit_friend">Edit</string>
+    <string name="user_personal_main_page">Beranda</string>
+    <string name="user_personal_introduction">Profil</string>
+    <string name="user_personal_common_group">Grup yang sama</string>
+    <string name="user_personal_msg_num">mengirim %d pesan di grup ini ></string>
+    <string name="user_personal_last_msg_date">Terakhir dikirim adalah\t</string>
+    <string name="user_personal_online_time">Online terakhir adalah</string>
+
+    <!-- 好友列表-->
+    <string name="view_title_text">Daftar teman</string>
+
+    <!--sticker收藏-->
+    <string name="sticker_my_collect">Simpanan Saya</string>
+
+    <!--清除消息-->
+    <string name="dialog_clean_all">¿Marcar todo como leído?</string>
+    <string name="dialog_clean_tv_cancel">Cancelar</string>
+    <string name="dialog_clean_tv_ok">Claro</string>
+
+    <!--闪屏页-->
+    <string name="splash_tips">Devoted to the best crypto social.</string>
+
+    <!--设置页面-->
+    <string name="setting_linkwallet_title">Hubungkan Dompet Anda</string>
+    <string name="setting_wallet_unbind_title">Dompet Saya</string>
+    <string name="setting_wallet_uninstall_toast">Hanya MataMask yang tersedia sekarang, harap siapkan dompet sebelum menghubungkannya</string>
+
+    <!--绑定钱包页面-->
+    <string name="act_bindwallet_linkwallet">Hubungkan Dompet Anda</string>
+    <string name="act_bindwallet_select_linkwallet">Pilih dompet yang ingin Anda hubungkan</string>
+    <string name="act_bindwallet_cancel">Batal</string>
+
+    <!--与我相关设置-->
+    <string name="act_relatedme_setting_title">Setelan untuk Saya</string>
+    <string name="act_relatedme_setting_addtoping_list">Tambahkan ke Daftar Teratas</string>
+    <string name="act_relatedme_setting_meetcriteria_group">Grup Sesuai Permintaan（%d）</string>
+    <string name="act_relatedme_setting_archive_list">Tambahkan ke Arsip</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list">Grup dalam jumlah anggota berikut</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list_tips">Grup yang memiliki kurang dari %d Anggota</string>
+    <string name="act_relatedme_setting_filter_title">Filter</string>
+    <string name="act_relatedme_setting_blacklist">Daftar Hitam</string>
+    <string name="act_relatedme_setting_whitelist">Daftar Putih</string>
+
+    <!--黑白名单页面-->
+    <string name="act_permissions_chat_addwhitelist">Tambahkan ke Daftar Putih</string>
+    <string name="act_permissions_chat_addblacklist">Tambahkan ke Daftar Hitam</string>
+    <string name="act_permissions_chat_whitelist_num">Daftar Putih %d</string>
+    <string name="act_permissions_chat_blacklist_num">Daftar Hitam %d</string>
+    <string name="act_permissions_chat_remove">Hapus</string>
+    <string name="act_permissions_chat_channel">%d Pengikut</string>
+    <string name="act_permissions_chat_group">%d Anggota</string>
+    <string name="act_permissions_chat_confirm_addwhitelist">Konfirmasi ke Daftar Putih</string>
+    <string name="act_permissions_chat_confirm_addblacklist">Konfirmasi ke Daftar Hitam</string>
+    <string name="act_permissions_chat_selectoruser">Pilih Pengguna</string>
+    <string name="act_permissions_black_null_tips1">Tidak Ada Daftar Hitam</string>
+    <string name="act_permissions_black_null_tips2">Pengguna dalam daftar hitam tidak akan memengaruhi hasil filter</string>
+    <string name="act_permissions_white_null_tips1">Tidak Ada Daftar Putih</string>
+    <string name="act_permissions_white_null_tips2">Pengguna dalam daftar putih tidak akan memengaruhi hasil filter</string>
+
+    <!--社群推荐-->
+    <string name="view_community_recommendtab_title">Grup yang Disarankan</string>
+    <string name="view_community_recommendtab_search">Telusuri Grup dan Saluran</string>
+    <string name="view_community_recommendtab_recommend">Saran untuk Anda</string>
+    <string name="view_community_recommendtab_showall_recommend">Tampilkan Semua</string>
+    <string name="view_community_recommendtab_hottopic">Topik Populer</string>
+    <string name="view_community_recommendtab_morerecommend">Grup yang Disarankan Lainnya</string>
+    <string name="view_community_recommendtab_findandjoin">Telusuri dan Gabung</string>
+    <string name="view_community_recommendtab_group">Grup</string>
+    <string name="view_community_recommendtab_channel">Saluran</string>
+    <string name="view_community_recommendtab_boot">Bot</string>
+    <string name="channel_subscription_num">%d Pengikut</string>
+    <string name="group_subscription_num">%d Anggota</string>
+    <string name="online_num">• %d Daring</string>
+    <string name="view_community_recommendtab_addchannel">Bergabung di Saluran</string>
+    <string name="view_community_recommendtab_addgroup">Bergabung dalam Grup</string>
+    <string name="view_community_recommend_invate">Maaf, grup/saluran ini tidak lagi tersedia atau menjadi pribadi, silakan klik konfirmasi untuk menghapusnya.</string>
+    <string name="view_community_recommend_confirm">Konfirmasi</string>
+
+    <!--群搜索-->
+    <string name="act_recommend_search_text">Hasil Penelusuran αlphagram</string>
+    <string name="act_recommend_tg_search_text">Hasil Penelusuran Telegram</string>
+    <string name="act_recommend_tg_search_hint">Masukkan nama grup</string>
+    <string name="act_recommend_tg_search_more">Tampilkan Lebih Banyak</string>
+
+    <!--消息中心清空陌生人-->
+    <string name="act_delete_other_dialog_title">Apakah Anda yakin akan menghapus obrolan ini?</string>
+    <string name="act_delete_other_dialog_left_text">Batal</string>
+    <string name="act_delete_other_dialog_right_text">Tentu</string>
+
+    <!--NFT资产列表-->
+    <string name="nft_assets_title">Pilih Foto Profil NFT Anda</string>
+    <string name="nft_assets_empty_text">Belum NFT</string>
+</resources>

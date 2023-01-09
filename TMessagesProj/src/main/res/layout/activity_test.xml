@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:corner_radius_top_left="15dp"
+    app:corner_radius_top_right="15dp">
+
+   <ImageView
+       android:id="@+id/iv_bitmap"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"></ImageView>
+
+</com.ruffian.library.widget.RLinearLayout>

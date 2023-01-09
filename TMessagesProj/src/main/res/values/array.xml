@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <array name="gradient_intro">
+        <item>#FFFFFF</item>
+        <item>#EDEDED</item>
+    </array>
+
+    <array name="gradient_ad_banner">
+        <item>#AD7037</item>
+        <item>#E1B168</item>
+    </array>
+
+    <array name="gradient_linkwallet_bg">
+        <item>#03BDFF</item>
+        <item>#8836DF</item>
+    </array>
+
+    <array name="gradient_user_wallet_card_bg">
+        <item>#3954D5</item>
+        <item>#8836DF</item>
+    </array>
+
+    <array name="common_country">
+        <item>中國:86:CN</item>
+        <item>香港:852:HK</item>
+        <item>馬來西亞:60:MY</item>
+        <item>臺灣:886:TW</item>
+        <item>柬埔寨:855:KH</item>
+        <item>美國:1:US</item>
+        <item>菲律賓:63:PH</item>
+        <item>新加坡:65:SG</item>
+        <item>泰國:66:TH</item>
+        <item>俄羅斯:7:RU</item>
+        <item>印度尼西亞:62:ID</item>
+        <item>越南:84:VN</item>
+        <item>韓國:82:KR</item>
+        <item>日本:81:JP</item>
+        <item>緬甸:95:MM</item>
+    </array>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/fl_addtopping_switch"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+    <View
+        android:background="#E9EBEA"
+        android:layout_marginStart="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.38dp"/>
+
+    <FrameLayout
+        android:id="@+id/fl_archive_switch"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+    <View
+        android:background="#E9EBEA"
+        android:layout_marginStart="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.38dp"/>
+
+    <FrameLayout
+        android:id="@+id/fl_peoplenumber_screen_switch"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" />
+
+    <FrameLayout
+        android:background="@color/white"
+        android:id="@+id/fl_group_popuonum_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/tv_filter_title"
+        android:textColor="@color/theme_color"
+        tools:text="@string/act_relatedme_setting_filter_title"
+        android:textSize="15sp"
+        android:paddingStart="21dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"/>
+
+    <View
+        android:background="#E9EBEA"
+        android:layout_marginStart="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.38dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_click_whitelist"
+        android:paddingStart="21dp"
+        android:paddingEnd="16dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+        <TextView
+            android:id="@+id/tv_whitelist_title"
+            android:textColor="@color/black"
+            tools:text="@string/act_relatedme_setting_whitelist"
+            android:textSize="15sp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_whitelist_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ff02abff"
+            android:textSize="15sp"
+            tools:text="0" />
+    </RelativeLayout>
+
+    <View
+        android:background="#E9EBEA"
+        android:layout_marginStart="19dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.38dp"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_click_blacklist"
+        android:paddingStart="21dp"
+        android:paddingEnd="16dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+        <TextView
+            android:id="@+id/tv_blacklist_title"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            tools:text="@string/act_relatedme_setting_blacklist"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_blacklist_num"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0"
+            android:textColor="#ff02abff"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</LinearLayout>

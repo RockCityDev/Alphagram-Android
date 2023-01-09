@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="1h"
+                    android:textColor="#6B6B6B"
+                    android:textSize="12sp" />
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_1h_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:includeFontPadding="false"
+                    android:textColor="#38D103"
+                    android:textSize="13sp"
+                    app:icon_normal_left="@mipmap/coin_change_increase"
+                    tools:text="4.43%" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="24h"
+                    android:textColor="#6B6B6B"
+                    android:textSize="12sp" />
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_24h_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:includeFontPadding="false"
+                    android:textColor="#38D103"
+                    android:textSize="13sp"
+                    app:icon_normal_left="@mipmap/coin_change_increase"
+                    tools:text="4.43%" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="7d"
+                    android:textColor="#6B6B6B"
+                    android:textSize="12sp" />
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_7d_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:includeFontPadding="false"
+                    android:textColor="#38D103"
+                    android:textSize="13sp"
+                    app:icon_normal_left="@mipmap/coin_change_increase"
+                    tools:text="4.43%" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="14d"
+                    android:textColor="#6B6B6B"
+                    android:textSize="12sp" />
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_14d_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:includeFontPadding="false"
+                    android:textColor="#38D103"
+                    android:textSize="13sp"
+                    app:icon_normal_left="@mipmap/coin_change_increase"
+                    tools:text="4.43%" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="30d"
+                    android:textColor="#6B6B6B"
+                    android:textSize="12sp" />
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_30d_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:includeFontPadding="false"
+                    android:textColor="#38D103"
+                    android:textSize="13sp"
+                    app:icon_normal_left="@mipmap/coin_change_increase"
+                    tools:text="4.43%" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:text="1y"
+                    android:textColor="#6B6B6B"
+                    android:textSize="12sp" />
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_1y_change"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:includeFontPadding="false"
+                    android:textColor="#38D103"
+                    android:textSize="13sp"
+                    app:icon_normal_left="@mipmap/coin_change_increase"
+                    tools:text="4.43%" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <com.ruffian.library.widget.RRadioButton
+            android:id="@+id/rb_1d"
+            android:layout_width="35dp"
+            android:layout_height="22dp"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            tools:text="1天"
+            android:textSize="12sp"
+            app:background_checked="#39AFEA"
+            app:background_normal="#F8F8F8"
+            app:corner_radius="4dp"
+            app:text_color_checked="@color/white"
+            app:text_color_normal="#979797" />
+
+        <com.ruffian.library.widget.RRadioButton
+            android:id="@+id/rb_1w"
+            android:layout_width="35dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="12dp"
+            android:button="@null"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            tools:text="1周"
+            android:textSize="12sp"
+            app:background_checked="#39AFEA"
+            app:background_normal="#F8F8F8"
+            app:corner_radius="4dp"
+            app:text_color_checked="@color/white"
+            app:text_color_normal="#979797" />
+
+        <com.ruffian.library.widget.RRadioButton
+            android:id="@+id/rb_1m"
+            android:layout_width="35dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="12dp"
+            android:button="@null"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            tools:text="1月"
+            android:textSize="12sp"
+            app:background_checked="#39AFEA"
+            app:background_normal="#F8F8F8"
+            app:corner_radius="4dp"
+            app:text_color_checked="@color/white"
+            app:text_color_normal="#979797" />
+
+        <com.ruffian.library.widget.RRadioButton
+            android:id="@+id/rb_3m"
+            android:layout_width="35dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="12dp"
+            android:button="@null"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            tools:text="3月"
+            android:textSize="12sp"
+            app:background_checked="#39AFEA"
+            app:background_normal="#F8F8F8"
+            app:corner_radius="4dp"
+            app:text_color_checked="@color/white"
+            app:text_color_normal="#979797" />
+
+        <com.ruffian.library.widget.RRadioButton
+            android:id="@+id/rb_1y"
+            android:layout_width="35dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="12dp"
+            android:button="@null"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            tools:text="1年"
+            android:textSize="12sp"
+            app:background_checked="#39AFEA"
+            app:background_normal="#F8F8F8"
+            app:corner_radius="4dp"
+            app:text_color_checked="@color/white"
+            app:text_color_normal="#979797" />
+
+        <com.ruffian.library.widget.RRadioButton
+            android:id="@+id/rb_max"
+            android:layout_width="35dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="12dp"
+            android:button="@null"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            tools:text="全部"
+            android:textSize="12sp"
+            app:background_checked="#39AFEA"
+            app:background_normal="#F8F8F8"
+            app:corner_radius="4dp"
+            app:text_color_checked="@color/white"
+            app:text_color_normal="#979797" />
+    </RadioGroup>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

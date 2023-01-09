@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tv_title"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    tools:text="ThunderCore"
+    tools:text_color_normal="#4F4F4F"
+    app:icon_width_left="16dp"
+    app:icon_height_left="16dp"
+    android:drawablePadding="4dp"
+    android:textStyle="bold"
+    android:textSize="16sp"
+    xmlns:tools="http://schemas.android.com/tools">
+</com.ruffian.library.widget.RTextView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">αlphagram</string>
+    <string name="app_name_beta">αlphagram Dev</string>
+    <string name="title_telegram">αlphagram</string>
+    <string name="ac_intro_btn_text">Open αlphagram</string>
+    <string name="view_contact_about_us">αlphagram Setting</string>
+</resources>

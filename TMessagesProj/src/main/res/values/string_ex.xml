@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- string-array -->
+    <string name="array_my_mix_tables">My Save|Download|Cache</string>
+    <string name="array_channel_loading_tips">Loading the channel list...|Loading the media...|Updating the channel news...|Loading the unread channels...</string>
+    <string name="array_theme_tables">HOT|NEW|LIVE THEME</string>
+    <string name="array_tgclean_type_tables">Pictures|Videos|Files|Audios|Others</string>
+    <string name="array_intro_tips">Comprehensive Telegram social|Gathering my channels’ feeds|Get more done with less effort</string>
+    <string name="array_delete_msg_tabs">Deleted chats|Deleted group message</string>
+
+    <string name="title_my">My</string>
+
+    <!--日期-->
+    <string name="dateformat">MM-dd</string>
+    <string name="dateformat2">MM-dd hh:mm</string>
+    <string name="dateformat3">MM-dd HH:mm</string>
+    <string name="dateformat_am">aa hh:mm</string>
+
+    <string name="wait_for_network">No internet....</string>
+    <string name="wifi_net">WIFI</string>
+    <string name="mobile_net">Cellular</string>
+
+    <!--视频模块-->
+    <string name="video_from">From:</string>
+    <string name="download_pause">Paused</string>
+    <string name="download_fail">Failed</string>
+    <string name="download_nostart">Undownloaded</string>
+    <string name="ac_down_cancel">Cancel</string>
+    <string name="ac_save_album_null_tips">No saving task</string>
+    <string name="ac_downing_null_tips">No downloading task</string>
+    <string name="ac_downed_null_tips">No video</string>
+    <string name="ac_message_null_tips">No message</string>
+    <string name="ac_downed_text_checkall">Select all</string>
+    <string name="ac_downed_text_checkno">Cancel</string>
+    <string name="ac_downed_text_delete">Delete</string>
+    <string name="ac_downed_delete_ok">Deleted</string>
+    <string name="ac_downed_save_to_gallery_ok">Saved to gallery already</string>
+    <string name="ac_downed_text_check_num">%d files are selected</string>
+    <string name="tools_local_video">Local video</string>
+    <string name="tools_local_file">Local files</string>
+    <string name="fg_textview_expand">Unfold</string>
+    <string name="fg_textview_collapse">Fold</string>
+    <string name="vw_video_collect">Save</string>
+    <string name="vw_video_collected">Saved</string>
+    <string name="vw_video_download">Download</string>
+    <string name="vw_video_save_album">Save to album</string>
+    <string name="vw_video_guide_text">All the latest videos are watched</string>
+    <string name="vw_video_guide_btn_text">Jump to the unwatched previous videos</string>
+    <string name="vw_video_guide_play_normal">Resume the play</string>
+    <string name="vw_video_main_loading">Loading, please wait...</string>
+    <string name="vw_video_full_tip">Fullscreen</string>
+    <string name="vw_video_speed_text1">x1.0</string>
+    <string name="vw_video_speed_text1_n">x1.0(normal)</string>
+    <string name="vw_video_speed_text0.75">x0.75</string>
+    <string name="vw_video_speed_text1.25">x1.25</string>
+    <string name="vw_video_speed_text1.5">x1.5</string>
+    <string name="vw_video_speed_text2.0">x2.0</string>
+    <string name="vw_edit_cancel">Cancel</string>
+    <string name="vw_local_scan">Local</string>
+    <string name="vw_local_cache">Cache</string>
+    <string name="vw_save_cache">Save to cache</string>
+    <string name="vw_save_album">Save to album</string>
+    <string name="ac_download_text_save_gallery">Send to gallery</string>
+    <string name="ac_download_text_delete">Cancel</string>
+    <string name="ac_download_text_share">Share</string>
+    <string name="view_play_guide_text">Back to the last pause</string>
+
+    <!--设置-->
+    <string name="login_proxy_text">Use Proxy</string>
+    <string name="login_proxy_tips">For countries and regions can\'t use Telegram</string>
+    <string name="act_set_recommend">Recommendation</string>
+    <string name="view_home_message_folder">Chat Folders</string>
+    <string name="view_home_contact_us">Contact Us</string>
+
+    <string name="view_filter_add_all">Add with one click</string>
+    <string name="view_filter_delete_all">Delete all the local file forders</string>
+
+    <!--翻译-->
+    <string name="translate_title">Translate</string>
+    <string name="translate_setting_title">Translate Settings</string>
+    <string name="translate_dialog_loading">Translating…</string>
+    <string name="translate_dialog_error">Failed to translate</string>
+    <string name="language_text">Select a language</string>
+    <string name="login_language_text_en">English</string>
+    <string name="login_language_text_bain">Bahasa Indonesia</string>
+    <string name="login_language_text_baml">Bahasa Melayu</string>
+    <string name="login_language_text_por">Português</string>
+    <string name="login_language_text_esp">Español</string>
+    <string name="login_language_text_tw">Traditional Taiwan</string>
+    <string name="login_language_text_hk">Traditional Hong Kong</string>
+    <string name="login_language_text_cnf">Chinese (Traditional)</string>
+    <string name="login_language_text_cn">Chinese (Simplified)</string>
+    <string name="translate_dialog_close">Confirm</string>
+    <string name="translate_switch_title">Speech bubble for translating</string>
+    <string name="translate_switch_info">Show the fast translation bubble on the right of every message</string>
+    <string name="translate_choose_language">Select a language</string>
+    <string name="translate_language_auto">Detect language</string>
+    <string name="translate_language_af">Afrikaans</string>
+    <string name="translate_language_sq">Albanian</string>
+    <string name="translate_language_ar">Arabic</string>
+    <string name="translate_language_hy">Armenian</string>
+    <string name="translate_language_az">Azerbaijani</string>
+    <string name="translate_language_be">Belarusian</string>
+    <string name="translate_language_bn">Bengali</string>
+    <string name="translate_language_bg">Bulgarian</string>
+    <string name="translate_language_ca">Catalan</string>
+    <string name="translate_language_zh_cn">Chinese (Simplified)</string>
+    <string name="translate_language_zh_tw">Chinese (Traditional)</string>
+    <string name="translate_language_hr">Croatian</string>
+    <string name="translate_language_cs">Czech</string>
+    <string name="translate_language_da">Danish</string>
+    <string name="translate_language_nl">Dutch</string>
+    <string name="translate_language_en">English</string>
+    <string name="translate_language_eo">Esperanto</string>
+    <string name="translate_language_et">Estonian</string>
+    <string name="translate_language_tl">Filipino (Tagalog)</string>
+    <string name="translate_language_fi">Finnish</string>
+    <string name="translate_language_fr">French</string>
+    <string name="translate_language_fy">Frisian</string>
+    <string name="translate_language_gl">Galician</string>
+    <string name="translate_language_ka">Georgian</string>
+    <string name="translate_language_de">German</string>
+    <string name="translate_language_el">Greek</string>
+    <string name="translate_language_gu">Gujarati</string>
+    <string name="translate_language_ht">Haitian Creole</string>
+    <string name="translate_language_ha">Hausa</string>
+    <string name="translate_language_hi">Hindi</string>
+    <string name="translate_language_hu">Hungarian</string>
+    <string name="translate_language_is">Icelandic</string>
+    <string name="translate_language_ig">Igbo</string>
+    <string name="translate_language_id">Indonesian</string>
+    <string name="translate_language_ga">Irish</string>
+    <string name="translate_language_it">Italian</string>
+    <string name="translate_language_ja">Japanese</string>
+    <string name="translate_language_jw">Javanese</string>
+    <string name="translate_language_kn">Kannada</string>
+    <string name="translate_language_kk">Kazakh</string>
+    <string name="translate_language_km">Khmer</string>
+    <string name="translate_language_ko">Korean</string>
+    <string name="translate_language_ku">Kurdish (Kurmanji)</string>
+    <string name="translate_language_ky">Kyrgyz</string>
+    <string name="translate_language_lo">Lao</string>
+    <string name="translate_language_la">Latin</string>
+    <string name="translate_language_lv">Latvian</string>
+    <string name="translate_language_lt">Lithuanian</string>
+    <string name="translate_language_lb">Luxembourgish</string>
+    <string name="translate_language_mk">Macedonian</string>
+    <string name="translate_language_mg">Malagasy</string>
+    <string name="translate_language_ms">Malay</string>
+    <string name="translate_language_ml">Malayalam</string>
+    <string name="translate_language_mt">Maltese</string>
+    <string name="translate_language_mi">Maori</string>
+    <string name="translate_language_mr">Marathi</string>
+    <string name="translate_language_mn">Mongolian</string>
+    <string name="translate_language_my">Myanmar (Burmese)</string>
+    <string name="translate_language_ne">Nepali</string>
+    <string name="translate_language_no">Norwegian (Bokmål)</string>
+    <string name="translate_language_ps">Pashto</string>
+    <string name="translate_language_fa">Persian</string>
+    <string name="translate_language_pl">Polish</string>
+    <string name="translate_language_pt">Portuguese</string>
+    <string name="translate_language_ma">Punjabi (Gurmukhi)</string>
+    <string name="translate_language_ro">Romanian</string>
+    <string name="translate_language_ru">Russian</string>
+    <string name="translate_language_gd">Scottish Gaelic</string>
+    <string name="translate_language_sr">Serbian</string>
+    <string name="translate_language_st">Sotho</string>
+    <string name="translate_language_sn">Shona</string>
+    <string name="translate_language_sd">Sindhi</string>
+    <string name="translate_language_si">Sinhala</string>
+    <string name="translate_language_sk">Slovak</string>
+    <string name="translate_language_sl">Slovenian</string>
+    <string name="translate_language_so">Somali</string>
+    <string name="translate_language_es">Spanish</string>
+    <string name="translate_language_su">Sundanese</string>
+    <string name="translate_language_sw">Swahili</string>
+    <string name="translate_language_sv">Swedish</string>
+    <string name="translate_language_tg">Tajik</string>
+    <string name="translate_language_ta">Tamil</string>
+    <string name="translate_language_te">Telugu</string>
+    <string name="translate_language_th">Thai</string>
+    <string name="translate_language_tr">Turkish</string>
+    <string name="translate_language_uk">Ukrainian</string>
+    <string name="translate_language_uz">Uzbek</string>
+    <string name="translate_language_vi">Vietnamese</string>
+    <string name="translate_language_cy">Welsh</string>
+    <string name="translate_language_xh">Xhosa</string>
+    <string name="translate_language_yi">Yiddish</string>
+    <string name="translate_language_yo">Yoruba</string>
+    <string name="translate_language_zu">Zulu</string>
+    <string name="translate_language_iw">Hebrew</string>
+
+    <!--无痕-->
+    <string name="stealth_login_title">Enable incognito</string>
+    <string name="stealth_login_tips">“The messages won\'t be marked as seen by you.”</string>
+    <string name="stealth_toast_open">Incognito is on</string>
+    <string name="stealth_toast_close">Incognito is off</string>
+    <string name="stealth_menu_title_on">Disable incognito</string>
+    <string name="stealth_menu_title_off">Enable incognito</string>
+    <string name="stealth_header_item_title_on">Disable incognito here</string>
+    <string name="stealth_header_item_title_off">Enable incognito here</string>
+
+    <string name="bot_token_login_text">Login with Bot Token</string>
+    <string name="bot_token_login_title">Bot Token Login</string>
+    <string name="bot_phone_login_text">Login with phone number</string>
+    <string name="bot_token_login_hint">Please enter your Bot Token</string>
+    <string name="bot_token_login_tips">Notice：
+        \nYou can create a Bot via @BotFather.
+        \nEnter the Bot Token @BotFather sent you.
+        \n\nIf you login with Bot, you have the limits including the following:
+        \n-- Can\'t access to the Contacts.
+        \n-- Can\'t join in groups and channels(except after add their admins)
+        \n-- You can only reply other users after they send you "/start".
+        \n-- Can\'t see if the messages are read or not.</string>
+    <string name="bot_token_login_invalid">Invalid token</string>
+    <string name="ac_video_feed_ad_tips">Update to Ad-free version</string>
+    <string name="ad_banner_text">Remove Ad</string>
+
+    <string name="login_phone_view_title">Log in Telegram with phone number</string>
+    <string name="login_phone_view_subtitle">Please select your country code and enter your phone number</string>
+    <string name="login_see_phone_title">Nobody can see my phone number</string>
+    <string name="login_see_phone_desc">Strongly suggest to select this for privacy protection</string>
+
+    <string name="tv_delete_all">Delete all</string>
+    <string name="tv_delete_dialog_title">Delete Confirmation</string>
+    <string name="tv_delete_dialog_content">Are you sure you want to delete all,the operation cannot be resumed</string>
+    <string name="tv_delete_dialog_positive_button">Sure</string>
+    <string name="tv_download_file_not_finish">No file is downloaded yet</string>
+
+    <string name="currency_tab_price">Price</string>
+    <string name="currency_tab_general">Overview</string>
+    <string name="currency_tab_exchange">Trade</string>
+    <string name="currency_price_1d">1 Day</string>
+    <string name="currency_price_1w">1 Week</string>
+    <string name="currency_price_1m">1 Month</string>
+    <string name="currency_price_3m">3 Months</string>
+    <string name="currency_price_1y">1 Year</string>
+    <string name="currency_price_max">All</string>
+    <string name="currency_general_rank">Market Value</string>
+    <string name="currency_general_website">Website</string>
+    <string name="currency_general_announcement">Announcement</string>
+    <string name="currency_general_explorer">Browser</string>
+    <string name="currency_general_source_code">Source Code</string>
+    <string name="currency_general_community">Community</string>
+    <string name="currency_general_tags">Tag</string>
+    <string name="currency_general_market_cap">Market Value</string>
+    <string name="currency_general_24h_vol">Trading volume (24h)</string>
+    <string name="currency_general_circulating_supply">Circulating Supply</string>
+    <string name="currency_general_total_supply">Total Supply</string>
+    <string name="currency_data_source">Data Source</string>
+
+    <!--******************************************-->
+    <string name="http_unknown_error">Request failed for unkown error</string>
+    <string name="http_token_error">login failed, please try again</string>
+    <string name="http_data_explain_error">Data parsing exception, please wait</string>
+    <string name="http_server_out_time">Server request timed out, please try again later</string>
+    <string name="http_network_error">Request failed, please check network settings</string>
+    <string name="http_response_error">The server responded abnormally, please try again later</string>
+    <string name="http_server_error">Server connection error, please try again later</string>
+    <string name="http_request_cancel">Request was interrupted, please try again</string>
+    <string name="http_response_null_body">Server data returned exception, please try again later</string>
+
+    <!--登录-->
+    <string name="ac_login_title">Enter your phone number to get the sign in verification code</string>
+    <string name="ac_login_register_tip">Your phone number is your Telegram login account after sign in successfully.To change your telegram user name,profile and privacy settings in the upper left corner of the chat page.</string>
+    <string name="splash_btn_login">Login with Telegram account</string>
+    <string name="splash_btn_register_tip">No Telegram account? </string>
+    <string name="splash_btn_register">Log in</string>
+
+    <!--首页-->
+    <string name="home_unbind_wallet_tips">You haven\'t connected to any digital wallet</string>
+    <string name="home_link_wallet">Connect to your wallet</string>
+    <string name="home_contact">Contacts</string>
+    <string name="home_relatedme">For Me</string>
+    <string name="home_unknown_sender">Strangers</string>
+    <string name="home_commontools">Tools</string>
+    <string name="home_my_wallet">My Wallet</string>
+    <string name="home_edit_nft_photo">Edit NFT Profile Photo</string>
+    <string name="home_msg_group">Chat Folders</string>
+    <string name="message_center_content">Info Center</string>
+    <string name="message_center_myjoin_group">Groups I joined in</string>
+    <string name="message_center_archiveortop">Archive and Pinned</string>
+
+    <!--首页弹窗菜单-->
+    <string name="homeoption_pop_qrcode">Scan</string>
+    <string name="homeoption_pop_createmsg">Start A New Message</string>
+    <string name="homeoption_pop_addfriend">New Contact</string>
+    <string name="homeoption_pop_creategroup">New Group</string>
+    <string name="homeoption_pop_createchannel">New Channel</string>
+    <string name="homeoption_pop_encryptedchat">Start Secret chat</string>
+    <string name="homeoption_pop_relatedme">Manage&quot;my related&quot;</string>
+
+    <!--好工具-->
+    <string name="commontools_system_tool">System Tools</string>
+    <string name="commontools_content_recommend">Recommendation</string>
+    <string name="commontools_oneclick_cleanup">Clean up now</string>
+    <string name="commontools_local_cache_size_tips">storage is used</string>
+    <string name="commontools_scan_qrcode">Scan QR-code</string>
+    <string name="commontools_add_friend">Invite Friends</string>
+    <string name="commontools_download_management">Manage Download</string>
+    <string name="commontools_my_collection">My Save</string>
+    <string name="commontools_resource_navigation">Resource Guide</string>
+    <string name="commontools_group_recommend">Group Recommendation</string>
+    <string name="commontools_channel_recommend">Channel Recommendation</string>
+    <string name="commontools_official_group_ch">Official Group</string>
+    <string name="commontools_official_group_ex">Official Group</string>
+    <string name="commontools_official_channel_ch">Official Channel</string>
+    <string name="commontools_official_channel_ex">Official Channel</string>
+
+    <!--清理缓存-->
+    <string name="ac_tgclean_title_image">Pictures</string>
+    <string name="ac_tgclean_null_file">No file in such type</string>
+    <string name="ac_tgclean_views_grid">Grid View</string>
+    <string name="ac_tgclean_views_list">List View</string>
+    <string name="ac_tgclean_loading_text">Scanning…</string>
+    <string name="ac_tgclean_total_show_format"> %d files，in total %s</string>
+
+    <!--频道焦点-->
+    <string name="dg_channel_block">Leave the Channel</string>
+    <string name="dg_channel_block_ok">You have left the Channel</string>
+    <string name="dg_channel_all_media">Show all the media</string>
+    <string name="dg_channel_in_chat">Show in the Chat</string>
+    <string name="channel_more_message_format">Unfold %d messages</string>
+    <string name="channel_tag_all_text">All</string>
+    <string name="channel_recommend_tag_secret">Private🙈</string>
+    <string name="fragment_channel_coutent_title">Channel Posts</string>
+    <string name="fragment_channel_coutent_like">Like</string>
+    <string name="fragment_channel_coutent_comments">Comment</string>
+    <string name="fragment_channel_coutent_share">Share</string>
+    <string name="fragment_channel_nolike_tips">Can\'t click"like" in this channel!</string>
+
+
+    <!--他人主页-->
+    <string name="dialog_other_homepage_msg">Messages</string>
+    <string name="dialog_other_homepage_voice">Voice call</string>
+    <string name="dialog_other_homepage_video">Video call</string>
+    <string name="dialog_other_homepage_commune">Secrect Chat</string>
+    <string name="dialog_other_homepage_addfirend">New Contact</string>
+    <string name="dialog_other_homepage_introduction">Profile</string>
+    <string name="dialog_other_homepage_commongroup">Groups in Common</string>
+    <string name="dialog_other_homepage_msgnum">This group has sent %d messages</string>
+
+    <!--个人主页-->
+    <string name="user_personal_message">Message</string>
+    <string name="user_personal_voice">Voice</string>
+    <string name="user_personal_video">Video</string>
+    <string name="user_personal_secret_chat">Secret Chat</string>
+    <string name="user_personal_add_friend">Add Friends</string>
+    <string name="user_personal_edit_friend">Edit</string>
+    <string name="user_personal_main_page">Home</string>
+    <string name="user_personal_introduction">Profile</string>
+    <string name="user_personal_common_group">Groups in common</string>
+    <string name="user_personal_msg_num">sent %d messages in this group ></string>
+    <string name="user_personal_last_msg_date">Last sent was</string>
+    <string name="user_personal_online_time">Last on-line was</string>
+
+    <!-- 好友列表-->
+    <string name="view_title_text">Contacts</string>
+
+    <!--sticker收藏-->
+    <string name="sticker_my_collect">My Save</string>
+    <string name="ac_title_video_wallpaper">Chose live wallpaper</string>
+    <string name="ac_title_video_wallpaper_my">My wallpaper</string>
+    <string name="ac_title_video_wallpaper_suggest">Recommended</string>
+    <string name="ac_title_video_wallpaper_apply_chat">Apply on chat</string>
+    <string name="ac_title_video_wallpaper_apply_list">Apply on list</string>
+    <string name="ac_title_video_wallpaper_apply_all">Apply on all</string>
+    <string name="ac_video_wallpaper_apply_ok">Apply successfully</string>
+    <string name="ac_video_wallpaper_size_lagger">Videos must be smaller than 10M</string>
+    <string name="ac_video_wallpaper_preview_error">Video theme preview error</string>
+    <string name="view_load_complete">Click to load more</string>
+    <string name="view_load_end">No more data</string>
+    <string name="view_load_failed">Failed to load more</string>
+    <string name="view_loading">Loading...</string>
+
+    <!--清除消息-->
+    <string name="dialog_clean_all">Mark all as read?</string>
+    <string name="dialog_clean_tv_cancel">Cancel</string>
+    <string name="dialog_clean_tv_ok">Sure</string>
+
+    <!--闪屏页-->
+    <string name="splash_tips">Devoted to the best crypto social.</string>
+
+    <!--消息分组新-->
+    <string name="FilterContactsNew">Contacts</string>
+    <string name="FilterNonContactsNew">Non Contacts</string>
+    <string name="FilterGroupsNew">Groups</string>
+    <string name="FilterChannelsNew">Channels</string>
+    <string name="FilterBotsNew">Bots</string>
+    <string name="FilterUnreadNew">Unread</string>
+    <string name="FiltersNew">Folders</string>
+    <string name="FilterRecommendedNew">Recommended Folders</string>
+    <string name="CreateNewFilterNew">Create New Folder</string>
+
+    <!--theme-->
+    <string name="view_theme">Theme store</string>
+    <string name="ac_title_theme">Theme store</string>
+    <string name="view_theme_used_count">people are using</string>
+    <string name="view_theme_used_ok">Theme applied</string>
+
+    <!--设置页面-->
+    <string name="setting_linkwallet_title">Connect Wallet</string>
+    <string name="setting_change_wallet">Change Wallet</string>
+    <string name="setting_wallet_unbind_title">My Wallet</string>
+    <string name="setting_wallet_uninstall_toast">Only MataMask is available now, please set up a wallet before connect it</string>
+
+    <!--绑定钱包页面-->
+    <string name="act_bindwallet_linkwallet">Connect Wallet</string>
+    <string name="act_bindwallet_select_linkwallet">Choose the wallet you want to connect</string>
+    <string name="act_bindwallet_cancel">Cancel</string>
+
+    <!--与我相关设置-->
+    <string name="act_relatedme_setting_title">Settings for Me</string>
+    <string name="act_relatedme_setting_addtoping_list">Add to Top List</string>
+    <string name="act_relatedme_setting_meetcriteria_group">Groups as Requested（%d）</string>
+    <string name="act_relatedme_setting_archive_list">Add to Archive</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list">Groups within the following members amount</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list_tips">Groups having less than %d Members</string>
+    <string name="act_relatedme_setting_filter_title">Filter</string>
+    <string name="act_relatedme_setting_blacklist">Blacklist</string>
+    <string name="act_relatedme_setting_whitelist">Whitelist</string>
+
+    <!--黑白名单页面-->
+    <string name="act_permissions_chat_addwhitelist">Add to Whitelist</string>
+    <string name="act_permissions_chat_addblacklist">Add to Blacklist</string>
+    <string name="act_permissions_chat_whitelist_num">Whitelist %d</string>
+    <string name="act_permissions_chat_blacklist_num">Blacklist %d</string>
+    <string name="act_permissions_chat_remove">Remove</string>
+    <string name="act_permissions_chat_channel">%d Followers</string>
+    <string name="act_permissions_chat_group">%d Members</string>
+    <string name="act_permissions_chat_confirm_addwhitelist">Confirm to Whitelist</string>
+    <string name="act_permissions_chat_confirm_addblacklist">Confirm to Blacklist</string>
+    <string name="act_permissions_chat_selectoruser">Choose Users</string>
+    <string name="act_permissions_black_null_tips1">No Blacklist</string>
+    <string name="act_permissions_black_null_tips2">Users in blacklist won\'t effect the filter results</string>
+    <string name="act_permissions_white_null_tips1">No Whitelist</string>
+    <string name="act_permissions_white_null_tips2">Users in whitelist won\'t effect the filter results</string>
+
+    <!--社群推荐-->
+    <string name="view_community_recommendtab_title">Suggested Groups</string>
+    <string name="view_community_recommendtab_search">Search for Groups and Channels</string>
+    <string name="view_community_recommendtab_recommend">Suggestions for You</string>
+    <string name="view_community_recommendtab_showall_recommend">Show All</string>
+    <string name="view_community_recommendtab_hottopic">Hot Topic</string>
+    <string name="view_community_recommendtab_morerecommend">More Suggested Groups</string>
+    <string name="view_community_recommendtab_findandjoin">Search and Join in</string>
+    <string name="view_community_recommendtab_group">Groups</string>
+    <string name="view_community_recommendtab_channel">Channels</string>
+    <string name="view_community_recommendtab_boot">Bots</string>
+    <string name="channel_subscription_num">%d Followers</string>
+    <string name="group_subscription_num">%d Members</string>
+    <string name="online_num">•   %d  Online</string>
+    <string name="view_community_recommendtab_addchannel">Join in the Channel</string>
+    <string name="view_community_recommendtab_addgroup">Join in the Group</string>
+    <string name="view_community_recommend_invate">Sorry, this group/channel is no longer available or became private, please click confirm to remove it.</string>
+    <string name="view_community_recommend_confirm">Confirm</string>
+
+    <!-- 群搜索-->
+    <string name="act_recommend_search_text">αlphagram Search Results</string>
+    <string name="act_recommend_tg_search_text">Telegram Search Results</string>
+    <string name="act_recommend_tg_search_hint">Enter the group name</string>
+    <string name="act_recommend_tg_search_more">Show More</string>
+
+    <!-- 消息中心清空陌生人-->
+    <string name="act_delete_other_dialog_title">Are you sure to clean up these chats?</string>
+    <string name="act_delete_other_dialog_left_text">Cancel</string>
+    <string name="act_delete_other_dialog_right_text">Sure</string>
+
+    <!-- NFT资产列表-->
+    <string name="nft_assets_title">Choose NFT</string>
+    <string name="nft_assets_empty_text">No NFT Yet</string>
+    <string name="wallet_suggest_text">Suggestions</string>
+
+    <!--新建群组-->
+    <string name="create_group_describe">Group Description</string>
+    <string name="create_group_add_describe">Add Description</string>
+    <string name="create_group_add_tag">Add Tags</string>
+    <string name="create_group_add_tag_tips">Add tags to help others with common interests find the groups</string>
+    <string name="create_group_whohaveadd_tips">Who is allowed to join in</string>
+    <string name="create_group_addgroup_limit">Join in with limits</string>
+    <string name="create_group_join_group">No limits</string>
+    <string name="create_group_conditionjoin_group">Join in with conditions</string>
+    <string name="create_group_paytojoin_group">Pay to join in</string>
+    <string name="create_group_unlimited_tips">Anyone can join in</string>
+    <string name="create_group_condition_tips">Please connect a wallet and have a certain amount of assets.</string>
+    <string name="create_group_paylimit_tips">Please connect a wallet and pay to join the group.</string>
+    <string name="create_group_conditionjoin_group1">Join in with conditions</string>
+    <string name="create_group_input_contractaddress">Enter Contract Address</string>
+    <string name="create_group_input_tokenid">Enter Token ID</string>
+    <string name="create_group_input_tokennum_min">Minimum Token</string>
+    <string name="create_group_paynum">Amount</string>
+    <string name="create_group_input_paynum">Amount of payment</string>
+    <string name="create_group_mywallet">Wallet to receive</string>
+    <string name="create_group_link_wallet">Connect a wallet</string>
+    <string name="create_group_addtag">Add Tags</string>
+    <string name="create_group_edittag">Edit Tags</string>
+    <string name="create_group_edittag_hint"># Custom input</string>
+    <string name="create_group_addtag_tips">Up to 8 tags for 1 group</string>
+    <string name="create_group_selector_hottag">Select hot tags</string>
+
+    <!--vip群组-->
+    <string name="vip_group_title">Coin Groups</string>
+    <string name="vip_group_properties">Total Assets</string>
+    <string name="vip_group_link_wallet">Connect Wallet</string>
+    <string name="vip_group_link_detail">Assets Detail</string>
+    <string name="vip_group_joined">Joined</string>
+    <string name="vip_group_created">Created</string>
+    <string name="vip_group_wating">Verifying, please try again later</string>
+    <string name="vip_group_join_null">Joined no Group/Chanel</string>
+    <string name="vip_group_crate_null">Created no Group/Chanel</string>
+    <string name="vip_group_tag_all">All</string>
+    <string name="group_pay_join_tag_title">Group Tags</string>
+    <string name="group_pay_join_amount_title">Entry price</string>
+    <string name="group_pay_join_pay_join">Pay to join in</string>
+    <string name="group_pay_confirm_title">Confirm</string>
+    <string name="group_pay_confirm_permit_title">Permit to join in</string>
+    <string name="group_pay_confirm_pay_member_count">%d have paid</string>
+    <string name="group_pay_confirm_status_title">Status</string>
+    <string name="group_pay_confirm_pay_off">Wait to pay</string>
+    <string name="group_pay_confirm_pay_fail">failed to pay</string>
+    <string name="group_pay_confirm_pay_continue">Continue to pay</string>
+    <string name="group_pay_confirm_pay_on">Paid? Contact the Client Service</string>
+    <string name="group_pay_confirm_pay_success">Succeeded</string>
+    <string name="group_pay_confirm_pay_confirm">Confirm to pay</string>
+    <string name="group_pay_confirm_paying">Paying...</string>
+    <string name="group_pay_confirm_pay_cancel">Cancel</string>
+    <string name="group_validate_join_tag_title">Group tags</string>
+    <string name="group_validate_join_condition_join_title">Join in with conditions</string>
+    <string name="group_validate_join_condition_join">Hold ≥ %s can join in</string>
+    <string name="group_validate_join_join_success">Verified,joining in</string>
+    <string name="group_validate_join_validating">Verifying...</string>
+    <string name="group_validate_join_validate_join">Verify to join in</string>
+    <string name="group_validate_join_validate_cancel">Cancel</string>
+    <string name="group_validate_join_validate_not_satisfied">The conditions of joining the group are not met, please try again</string>
+    <string name="group_validate_join_validate_fail">Fail to be authorized, please try again</string>
+    <string name="uplink_verification_title">Verifying by blockchain...</string>
+    <string name="uplink_verification_content">Join in the group automatically after verified\n in about 30s</string>
+    <string name="uplink_verification_know">I understand</string>
+
+    <!--群，频道详情-->
+    <string name="chat_details_tag">Tags</string>
+    <string name="chat_details_describe">Group Description</string>
+    <string name="chat_details_add_describe">Add Description</string>
+    <string name="chat_details_edit_tag">Edit Description</string>
+    <string name="chat_details_limit_permission">Edit Permission</string>
+
+    <!--钱包主页-->
+    <string name="wallet_home_token_empty_text">No token</string>
+    <string name="wallet_home_transaction_empty_text">No transaction</string>
+
+    <!--聊天页面-转账-->
+    <string name="chat_transfer_meunbind_wallet">No connected wallet</string>
+    <string name="chat_transfer_otherunbind_wallet">The other party has no connected wallet</string>
+    <string name="chat_transfer_meubbind_tips">You need to connect a wallet before transferring</string>
+    <string name="chat_transfer_otherubbind_tips">The other party has no connected wallet, please invite them to connect one before transferring</string>
+    <string name="chat_transfer_bind_wallet">Connect a wallet</string>
+    <string name="chat_transfer_invite_bind_wallet">Invite</string>
+    <string name="chat_transfer_towhotransfer">Trasfer to %s</string>
+    <string name="chat_transfer_toyoutransfer">Transfer to you</string>
+    <string name="chat_transfer_input_price_tips">Enter the amount</string>
+    <string name="chat_transfer_wallet_balance">Balance：%s</string>
+    <string name="chat_transfer_nextstep">Next</string>
+    <string name="chat_transfer_balance">Balance：%s</string>
+    <string name="chat_transfer_confirm">Confirm</string>
+    <string name="chat_transfer_back">Back</string>
+
+    <!--gas费用对话框-->
+    <string name="gas_tips_dialog_title">What is gas fee?</string>
+    <string name="gas_tips_dialog_content">It\'s the money paid to blockchain miners for processing the transaction that is embedded in the Ethereum。αlphagram doesn\'t make profit from gas fee.</string>
+    <string name="gas_tips_dialog_bottom_tips">Gas fee is set by the network and fluctuate based on traffic and transaction complexity.</string>
+
+    <!--转账详情对话框-->
+    <string name="transfer_detatils_dialog_title">Transaction Detail</string>
+    <string name="transfer_detatils_dialog_status">Status</string>
+    <string name="transfer_detatils_dialog_status1">Confirmed</string>
+    <string name="transfer_detatils_dialog_num">Amount</string>
+    <string name="transfer_detatils_dialog_gasfee">Estimated Gas Fee</string>
+    <string name="transfer_detatils_dialog_totalnum">Total Amount</string>
+    <string name="transfer_detatils_dialog_goto_etherscan">View on %s</string>
+
+    <!--转账页面-->
+    <string name="transfer_activity_title">Transfer</string>
+    <string name="transfer_activity_sended">Send to：</string>
+    <string name="transfer_activity_search_hint">Search for ID, Public Key (0x) or ENS</string>
+    <string name="transfer_activity_recenttransactions">Recent Transactions</string>
+    <string name="transfer_activity_myfriend">My Friends</string>
+    <string name="transfer_activity_transfer_nextstep">Next</string>
+    <string name="transfer_activity_nobind_friend">No wallet-connected friend</string>
+    <string name="transfer_activity_tips">Transaction history and valid friends are here</string>
+
+    <!-- 闪屏页 -->
+    <string name="ac_splash_btn_login">log in with Telegram account</string>
+    <string name="ac_splash_btn_register_tip">No Telegram account? </string>
+    <string name="ac_splash_btn_register">Sign in</string>
+    <string name="view_title_message">Channels</string>
+    <string name="view_lancher_title">αlphagram</string>
+    <string name="view_lancher_desc">The best TG Social・Secure・Private</string>
+
+    <!-- 清除缓存-->
+    <string name="ac_title_storage_clean">Clear the cache</string>
+    <string name="dg_storage_scan_tips">Scanning…</string>
+    <string name="dg_storage_total">Cache has been used</string>
+    <string name="dg_storage_scan_clean">Clear all</string>
+    <string name="dg_storage_scan_close">Close</string>
+    <string name="dg_storage_more_fun_theme">Theme store</string>
+    <string name="dg_storage_more_fun_wallpaper">Live wallpaper</string>
+    <string name="dg_storage_more_fun_message">Chat Folders</string>
+    <string name="dg_storage_more_fun_qrcode">Scan QR code</string>
+    <string name="dg_storage_more_fun_collect">Favorites</string>
+    <string name="dg_storage_more_fun_resource">Telegram guide</string>
+    <string name="dg_storage_more_fun_download">downloads</string>
+    <string name="dg_storage_more_fun_delete_msg">Deleted messages</string>
+    <string name="view_home_official_group">Official group</string>
+
+
+    <!-- 被删除的消息-->
+    <string name="ac_delete_msg_group_title">Deleted message groups</string>
+    <string name="ac_delete_msg_list_title">Deleted message list</string>
+    <string name="delete_msg_pop_title">Important Notice: </string>
+    <string name="delete_msg_pop_content">In “Deleted chats” you can find the chat history related to you which was deleted secretly by the other party.</string>
+    <string name="delete_msg_pop_know">I understand</string>
+    <string name="delete_msg_dialog_title">Confirm before delete it</string>
+    <string name="delete_msg_dialog_content">Are you sure to remove all the deleted chats?\n You can\'t undo this</string>
+    <string name="delete_msg_dialog_group_content">Are you sure to remove all the deleted group messages?\n You can\'t undo this</string>
+    <string name="delete_msg_dialog_confirm">Sure</string>
+    <string name="delete_msg_list_text">Sure</string>
+    <string name="delete_msg_group_all">Remove those messages permanently</string>
+    <string name="delete_msg_by_time">Remove those messages permanently in 72hrs</string>
+
+    <!--  stickerGif列表-->
+    <string name="ac_sticker_gif_title">StickerGif</string>
+    <string name="sticker_tab_gif">GIFs</string>
+    <string name="sticker_tab_sticker">Stickers</string>
+    <string name="sticker_tab_collect">Collects</string>
+    <string name="sticker_dialog_popular">Popular GIF</string>
+    <string name="sticker_dialog_collect">My Collections</string>
+
+    <!--钱包主页-->
+    <string name="wallet_home_act_contract_address_title">Contract Address</string>
+    <string name="wallet_home_act_token_id_title">Token ID</string>
+    <string name="wallet_home_act_blockchain_title">Blockchain</string>
+    <string name="wallet_home_act_token_standard_title">Token Standards</string>
+    <string name="wallet_home_act_bar_tokenid">Token ID</string>
+    <string name="wallet_home_act_bar_nft">NFT</string>
+    <string name="wallet_home_act_bar_transactionhistory">Transaction History</string>
+    <string name="wallet_home_copy_address">The wallet address is copied</string>
+    <string name="wallet_home_tip_input_address">Please enter the wallet address</string>
+    <string name="wallet_home_tip_install">Please install the wallet before connecting</string>
+    <string name="wallet_home_switch_address">Please switch to the connected address</string>
+
+    <!--钱包绑定弹窗-->
+    <string name="dialog_wallet_binding_title">Authorizing...</string>
+    <string name="dialog_wallet_binding_content">Please use your signature in the opened %s </string>
+    <string name="dialog_wallet_binding_cancel">Cancel</string>
+
+    <!--钱包主页操作对话框-->
+    <string name="dialog_wallet_opera_title">Connected with MetaMask</string>
+    <string name="dialog_wallet_opera_disconnect">Disconnect</string>
+    <string name="dialog_wallet_opera_change">Change</string>
+    <string name="dialog_wallet_opera_copyaddress">Copy Address</string>
+    <string name="dialog_wallet_opera_viewexplorer">View on Explorer</string>
+
+
+    <string name="home_sponsor_us">Reward Us😁🙏🧧</string>
+    <string name="commontools_official_vipgroup">Groups</string>
+    <string name="commontools_official_transfertransaction">Transactions</string>
+
+
+    <string name="setting_add_wallet">New Wallet Address</string>
+    <string name="setting_wallet_open_nft">Enable NFT Profile Photo</string>
+
+    <string name="vip_group_numberofholdings">Hold ≥ %s %s</string>
+    <string name="vip_group_groupmember">%s Members</string>
+    <string name="vip_group_join">Join in</string>
+
+
+    <string name="chat_transfer_input_price_tips1">You don\'t have enough balance</string>
+    <string name="chat_transfer_error_bind_address_title">Can\'t authorize to transfer</string>
+    <string name="chat_transfer_error_bind_address_tips">This wallet address has not been authorized to transfer, please switch to the connected wallet address</string>
+    <string name="chat_transfer_error_bind_address_btn">Change Wallet Address</string>
+
+
+    <!--选择燃料费-->
+    <string name="dialog_selector_gassfee_title">Choose a Gas Fee</string>
+
+    <!--转账-选择链对话框-->
+    <string name="dialog_transfer_selector_chaintype_title">Choose a Chain Type</string>
+    <!--转账-选择币种对话框-->
+    <string name="dialog_transfer_selector_cointype_title">Choose a Coin Type</string>
+
+    <!--打赏-->
+    <string name="sponsorus_tips">Reward Developers</string>
+    <string name="sponsorus_customquantity">Customized Coin Type and Amount</string>
+    <string name="sponsorus_sure">Confirm</string>
+    <string name="sponsorus_walletbalance">Balance：%s</string>
+
+    <!--toast提示-->
+    <string name="toast_tips_scqtx">Upload Group Profile Photo</string>
+    <string name="toast_tips_qszbq">Set Tags</string>
+    <string name="toast_tips_qxzdsje">Choose Reward Amount</string>
+    <string name="toast_tips_dscg">Succeeded</string>
+    <string name="toast_tips_qxz_chain_type">Choose a Chain Type</string>
+    <string name="toast_tips_qxz_token_type">Choose a Token Type</string>
+    <string name="toast_tips_qsr_min_tokennum">Key in minimum Token amount</string>
+    <string name="toast_tips_qx_min_token_must">Minimum Token amount must be bigger than 0</string>
+    <string name="toast_tips_qxz_cointype">Choose a Coin Type</string>
+    <string name="toast_tips_qx_bindwallet">Please connect your wallet first</string>
+    <string name="toast_tips_qsr_paynum">Key in payment amount</string>
+    <string name="toast_tips_qqh_bindaddress">Please change to a connected address</string>
+
+    <!--单独转账入口-->
+    <string name="ac_wallet_tips">Invalid Ethereum wallet address</string>
+    <string name="ac_wallet_content">Please key in the correct Ethereum wallet address. Cross-chain transfers are not supported for now.</string>
+    <string name="ac_wallet_btn">I understand</string>
+
+    <string name="dg_storage_more_fun_transfer">Transfer</string>
+    <string name="chat_transfer_tips">Please make sure the address is correct, to avoid assets loss</string>
+    <string name="dg_transfer_step_tow_title">Confirm</string>
+    <string name="dg_transfer_invter_text">Hi, %s! Download the αlphagram app and set your crypto wallet to enjoy a seamless transaction feature in chat!\nClick me to read the tutorial:https://reurl.cc/NR5XZn</string>
+
+    <string name="btn_null_function_tips">Coming soon</string>
+    <string name="wallet_home_input">Enter the Wallet Address:0X...</string>
+    <string name="wallet_home_btn">Check</string>
+    <string name="create_group_type">Private Group Type</string>
+    <string name="create_group_tips_unlimit">Anyone can join in</string>
+    <string name="create_group_tips_conditions">Users are required to connect their wallet and have a certain amount of assets to join the group</string>
+    <string name="create_group_tips_pay">Users are required to connect their wallet and pay a certain amount of assets to join the group</string>
+    <string name="create_group_conditions_described">Conditions</string>
+    <string name="create_group_pay_described">Payment</string>
+    <string name="create_group_address_title">Wallet</string>
+    <string name="create_group_chain_type">Blockchain / Net</string>
+    <string name="create_group_token_type">Asset Standards</string>
+    <string name="create_group_coin_type">Coin Type</string>
+    <string name="create_group_input_tokenaddress">Enter Token Address</string>
+    <string name="toast_tips_please_input_tokenaddress">Please enter token address</string>
+    <string name="group_details_invitation_title">Group3 invitation link</string>
+    <string name="group_details_invitation_tips">Users will join the group via this link and verification</string>
+    <string name="dialog_create_group_successful_addconding">Conditions of Joining Group</string>
+    <string name="dialog_create_group_successful_addpaynum">Price of Joining Group</string>
+    <string name="dialog_create_group_successful_condition_join">Hold ≥ %s</string>
+    <string name="group_details_share_successful">Shared successfully</string>
+    <string name="wallet_failure_tips">Invalid wallet connection, please reconnect it</string>
+    <string name="group_share_content">Group %s sent you an invitation, welcome to join in</string>
+
+    <string name="currency_fragment_wallet_unbind">Wallet is not connected</string>
+    <string name="currency_fragment_empty_data_title">No group yet</string>
+    <string name="currency_fragment_empty_data_tips">No suggested group for this coin</string>
+    <string name="dialog_user_personal_transfer_to_he">Tranfer to him/her</string>
+    <string name="dialog_user_personal_wallet">Wallet</string>
+    <string name="dialog_user_personal_look_wallet">View wallet profile</string>
+    <string name="other_user_wallet_info_wallet_address">Wallet Address</string>
+    <string name="other_user_wallet_info_network">Current Network</string>
+    <string name="other_user_wallet_info_details">Wallet Details</string>
+
+    <!--删除机器人-->
+    <string name="delete_bot_title">Notice</string>
+    <string name="delete_bot_content">If the assist bot is removed, the new member verification will be invalid, this group will become free to join in.</string>
+    <string name="delete_bot_confirm">Confirm</string>
+    <string name="delete_bot_cancel">Cancel</string>
+
+    <string name="groug_create_speech_welcome">Hello world！This is %s</string>
+
+</resources>

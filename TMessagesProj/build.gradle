@@ -1,0 +1,309 @@
+import org.gradle.nativeplatform.platform.internal.DefaultNativePlatform
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'kotlin-android'
+
+static def getDate() {
+    def date = new Date()
+    def formattedDate = date.format('yyyyMMddHHmm')
+    return formattedDate
+}
+
+def ADS_APPLICATION_ID = 'ca-app-pub-3749632185254636~7755837292'//正式Google广告
+def DEV_ADS_APPLICATION_ID = 'ca-app-pub-5580211019129351~1364026942'//测试Google广告
+
+def defVersionName = "1.4.1.001"
+def defVersionCode = 141001
+
+def isWindows = String.valueOf(DefaultNativePlatform.currentOperatingSystem.toFamilyName() == OperatingSystemFamily.WINDOWS)
+
+repositories {
+    mavenCentral()
+    google()
+}
+
+configurations {
+    compile.exclude module: 'support-v4'
+}
+
+configurations.all {
+    exclude group: 'com.google.firebase', module: 'firebase-core'
+    exclude group: 'androidx.recyclerview', module: 'recyclerview'
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.6.0'
+    implementation 'androidx.palette:palette:1.0.0'
+    implementation 'androidx.exifinterface:exifinterface:1.3.3'
+    implementation 'androidx.dynamicanimation:dynamicanimation:1.0.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation "androidx.sharetarget:sharetarget:1.2.0"
+
+    compileOnly 'org.checkerframework:checker-qual:2.5.2'
+    compileOnly 'org.checkerframework:checker-compat-qual:2.5.0'
+
+    // firebase版本统一管理
+    implementation platform('com.google.firebase:firebase-bom:30.3.2')
+    implementation 'com.google.firebase:firebase-messaging'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-config'
+    implementation 'com.google.firebase:firebase-datatransport'
+    implementation 'com.google.firebase:firebase-appindexing'
+
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.android.gms:play-services-auth:20.4.0'
+    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+    implementation 'com.google.android.gms:play-services-wearable:18.0.0'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.google.android.gms:play-services-wallet:19.1.0'
+    implementation 'com.googlecode.mp4parser:isoparser:1.0.6'
+    implementation 'com.stripe:stripe-android:2.0.2'
+    implementation 'com.google.mlkit:language-id:16.1.1'
+    implementation 'com.android.billingclient:billing:5.1.0'
+
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+
+    /*********************************** 新增的依赖 ***********************************/
+    // RecyclerView适配器：https://github.com/CymChad/BaseRecyclerViewAdapterHelper
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.6'
+    // 下拉刷新框架：https://github.com/scwang90/SmartRefreshLayout
+    implementation 'com.scwang.smart:refresh-layout-kernel:2.0.3'   // 核心必须依赖
+    implementation 'com.scwang.smart:refresh-header-material:2.0.3' // 谷歌刷新头
+    // 网络请求框架：https://github.com/getActivity/EasyHttp
+    implementation 'com.github.getActivity:EasyHttp:11.0'
+    // OkHttp 框架：https://github.com/square/okhttp
+    implementation 'com.squareup.okhttp3:okhttp:3.12.13'
+    // Json 解析框架：https://github.com/google/gson
+    implementation 'com.google.code.gson:gson:2.9.0'
+    // Gson 解析容错：https://github.com/getActivity/GsonFactory
+    implementation 'com.github.getActivity:GsonFactory:6.0'
+    // 安卓工具类库：https://github.com/Blankj/AndroidUtilCode
+    implementation 'com.blankj:utilcodex:1.31.0'
+    // 检测程序崩溃框架：https://github.com/Ereza/CustomActivityOnCrash
+    implementation 'cat.ereza:customactivityoncrash:2.4.0'
+    // 图片加载框架：https://github.com/bumptech/glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.github.bumptech.glide:okhttp3-integration:4.12.0'
+    // 事件发布/订阅框架：https://github.com/greenrobot/EventBus
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    // Flurry统计：https://developer.yahoo.com/flurry/docs/integrateflurry/android/
+    implementation 'com.flurry.android:analytics:13.3.0'
+    // 获取设备标识：https://github.com/gzu-liyujiang/Android_CN_OAID
+    implementation 'com.github.gzu-liyujiang:Android_CN_OAID:4.2.4'
+    // 自定义原生控件属性：https://github.com/RuffianZhong/RWidgetHelper
+    implementation 'com.github.RuffianZhong:RWidgetHelper:androidx.v0.0.10'
+    // 日志打印框架：https://github.com/JakeWharton/timber
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+    // PopupWindow弹窗库：https://github.com/razerdp/BasePopup
+    implementation 'io.github.razerdp:BasePopup:3.1.4'
+    // TabLayout库：https://github.com/li504799868/FlycoTabLayoutZ
+    implementation 'com.lzp:FlycoTabLayoutZ:1.3.3'
+    // 免混淆库：https://github.com/Blankj/FreeProGuard/
+    implementation "com.blankj:free-proguard:1.0.2"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    // 腾讯存储框架 https://github.com/Tencent/MMKV
+    implementation 'com.tencent:mmkv:1.2.13'
+    //json解析框架 https://github.com/square/moshi
+    implementation 'com.squareup.moshi:moshi-kotlin:1.13.0'
+    // 图表/图形库：https://github.com/PhilJay/MPAndroidChart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    // 网络请求框架：https://github.com/square/retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-jackson:2.9.0'
+    // 文件选择器：https://github.com/javakam/FileOperator
+    implementation 'com.github.javakam:file.core:3.5.0@aar'      //核心库必选(Core library required)
+    implementation 'com.github.javakam:file.selector:3.5.0@aar'  //文件选择器(File selector)
+    // Lombok库：https://github.com/projectlombok/lombok
+    annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    implementation 'org.projectlombok:lombok:1.18.12'
+    implementation 'com.google.android:flexbox:2.0.1'
+    //vb封装库：https://github.com/DylanCaiCoding/ViewBindingKTX
+    implementation 'com.github.DylanCaiCoding.ViewBindingKTX:viewbinding-brvah:2.1.0'
+    // ViewPager指示器框架：https://github.com/hackware1993/MagicIndicator
+    implementation 'com.github.hackware1993:MagicIndicator:1.7.0'
+    // 视频播放器：https://github.com/CarGuo/GSYVideoPlayer
+    implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-java:v8.2.0-release-jitpack'
+    implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-arm64:v8.2.0-release-jitpack'
+    implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-armv7a:v8.2.0-release-jitpack'
+    implementation 'com.google.android.material:material:1.6.1'
+    // 动画解析库：https://github.com/airbnb/lottie-android
+    implementation 'com.airbnb.android:lottie:3.7.0'
+    // 可展开/折叠的TextView：https://github.com/Blogcat/Android-ExpandableTextView
+    implementation 'at.blogc:expandabletextview:1.0.5'
+    // Google移动广告：https://developers.google.com/admob/android/quick-start
+    implementation 'com.google.android.gms:play-services-ads:20.5.0'
+    implementation 'com.google.android.ads:mediation-test-suite:2.0.0'
+    // 应用内评价：https://developer.android.com/guide/playcore/in-app-review?hl=zh-cn
+    implementation 'com.google.android.play:core:1.10.2'
+    // okhttp的辅助类：https://github.com/hongyangAndroid/okhttputils
+    implementation 'com.zhy:okhttputils:2.6.2'
+    implementation project(path: ':wallet-connect')
+    implementation 'org.web3j:core:4.8.8-android'
+    implementation 'com.caverock:androidsvg-aar:1.4'
+    // 图片选择器：https://github.com/LuckSiege/PictureSelector
+    implementation 'io.github.lucksiege:pictureselector:v3.10.5'
+    implementation 'io.github.lucksiege:ucrop:v3.10.4'
+    // TokenPocket钱包：https://github.com/TP-Lab/Mobile-SDK/tree/master/Android%20SDK
+    implementation files('libs/wallet-sdk-release.aar')
+    // https://code.google.com/archive/p/android-json-rpc/downloads
+    implementation files('libs/android-json-rpc-0.3.4.jar')
+
+}
+
+android {
+    compileSdkVersion 32
+    ndkVersion "21.4.7075529"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 31
+
+        //bundle输出名
+        archivesBaseName = "v${defVersionName}_" + getDate()
+        proguardFiles 'proguard-rules.pro', 'proguard-other.pro'
+        buildConfigField "boolean", "BUILD_HOST_IS_WINDOWS", isWindows
+        manifestPlaceholders = [
+                ADS_APPLICATION_ID: ADS_APPLICATION_ID
+        ]
+
+//        externalNativeBuild {
+//            cmake {
+//                version '3.10.2'
+//                arguments '-DANDROID_STL=c++_static', '-DANDROID_PLATFORM=android-16', "-j=16"
+//            }
+//        }
+    }
+
+    sourceSets.main.jniLibs.srcDirs = ['libs']
+//    sourceSets.main.jniLibs.srcDirs = ['jni']
+//    externalNativeBuild {
+//        cmake {
+//            path 'jni/CMakeLists.txt'
+//        }
+//    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    flavorDimensions "minApi"
+
+    lintOptions {
+        disable 'MissingTranslation'
+        disable 'ExtraTranslation'
+        disable 'BlockedPrivateApi'
+        disable 'InvalidPackage'
+        disable "ResourceType"
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    dexOptions {
+        jumboMode = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+
+        coreLibraryDesugaringEnabled true
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("config/123456.jks")
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable false
+            signingConfig signingConfigs.release
+            applicationIdSuffix ".dev"
+            minifyEnabled false
+            shrinkResources false
+            multiDexEnabled true
+            ndk {
+                abiFilters 'armeabi-v7a'
+            }
+        }
+
+        //测试环境打包用
+        debugBuild.initWith(debug)
+        debugBuild {
+            jniDebuggable false
+            minifyEnabled true
+        }
+
+        release {
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources false
+            multiDexEnabled true
+            ndk {
+                abiFilters "armeabi-v7a", "arm64-v8a"
+            }
+        }
+
+        // 复制所有属性
+        preview.initWith(release)
+        preview {
+            applicationIdSuffix ".dev"
+        }
+    }
+
+    sourceSets.debug {
+        manifest.srcFile 'config/debug/AndroidManifest.xml'
+    }
+
+    sourceSets.debugBuild {
+        manifest.srcFile 'config/debug/AndroidManifest.xml'
+    }
+
+    sourceSets.release {
+        manifest.srcFile 'config/release/AndroidManifest.xml'
+    }
+    sourceSets.preview {
+        manifest.srcFile 'config/release/AndroidManifest.xml'
+    }
+
+    productFlavors {
+        // Alphagram
+        alphagram {
+            versionName defVersionName
+            versionCode defVersionCode
+            applicationId = "app.alphagram.messenger"
+
+            buildConfigField "int", "REGION_AREA", "1"
+            buildConfigField "int", "APP_ID", "4"
+            buildConfigField "String", "APP_HASH", '"014b35b6184100b085b0d0572f9b5103"'
+            buildConfigField "String", "FLURRY_API_KEY", '"RV3PR5CS9JV37WTQR4N8643"'
+            manifestPlaceholders = [
+                    APP_CHANNEL       : "alphagram",
+                    ADS_APPLICATION_ID: "ca-app-pub-5580211019129351~1364026942"
+            ]
+        }
+    }
+
+    // Apk 输出文件名配置
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = variant.productFlavors[0].name + '_v' + variant.versionName + '_' + variant.buildType.name
+            outputFileName += '_' + getDate() + '.apk'
+        }
+    }
+}
+
+

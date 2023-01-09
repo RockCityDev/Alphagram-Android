@@ -1,0 +1,37 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion 31
+
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.1.0"
+    }
+
+    buildTypes {
+        debugBuild {
+        }
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.6.21"
+
+    implementation "com.github.komputing:khex:1.1.2"
+
+    compileOnly "org.bouncycastle:bcprov-jdk15to18:1.68"
+
+    implementation 'com.squareup.moshi:moshi-kotlin:1.13.0'
+    // TODO: it would be better to use the generated adapter by moshi
+    // but for that we should move the implementations in different modules
+    //kapt "com.squareup.moshi:moshi-kotlin-codegen:$versions.moshi"
+
+    implementation "com.squareup.okhttp3:okhttp:3.11.0"
+
+    implementation "org.java-websocket:Java-WebSocket:1.4.0"
+}

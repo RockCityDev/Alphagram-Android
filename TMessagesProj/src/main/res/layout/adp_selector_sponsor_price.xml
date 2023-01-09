@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F7F8F9"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="🍭"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0.001"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        tools:textColor="#1a1a1d"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_doller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="$1.3618"
+        tools:textColor="#828283"
+        android:textSize="12sp" />
+</LinearLayout>

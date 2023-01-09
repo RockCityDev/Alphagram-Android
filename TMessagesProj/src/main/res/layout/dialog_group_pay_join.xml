@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.ruffian.library.widget.RView
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        app:background_normal="@color/white"
+        app:corner_radius="4dp" />
+
+    <com.ruffian.library.widget.RLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="1"
+        android:minHeight="400dp"
+        android:orientation="vertical"
+        app:background_normal="@color/white"
+        app:corner_radius_top_left="30dp"
+        app:corner_radius_top_right="30dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.ruffian.library.widget.RView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                app:corner_radius_top_left="20dp"
+                app:corner_radius_top_right="20dp"
+                app:background_normal="@array/gradient_linkwallet_bg"
+                app:gradient_orientation="TL_BR"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.ruffian.library.widget.RFrameLayout
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="32dp"
+                android:padding="4dp"
+                app:border_color_normal="@color/white"
+                app:border_width_normal="4dp"
+                app:corner_radius="50dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/iv_group_avatar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearance="@style/circleImageStyle" />
+            </com.ruffian.library.widget.RFrameLayout>
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_close_dialog"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="15dp"
+                app:background_normal="#4DFFFFFF"
+                app:corner_radius="20dp"
+                app:icon_src_normal="@drawable/icon_close_tg_rpofile_white"
+                app:icon_with_text="true"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <teleblock.widget.font.MediumTextView
+                    android:id="@+id/tv_group_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="16dp"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    tools:text="BAYC HOULDER GROUP" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_member_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:textColor="#56565C"
+                        android:textSize="12sp"
+                        tools:text="1943成员" />
+
+                    <TextView
+                        android:id="@+id/tv_online_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:textColor="#2DC307"
+                        android:textSize="12sp"
+                        tools:text="12 在线" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_group_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="12dp"
+                    android:includeFontPadding="false"
+                    android:textColor="#56565C"
+                    android:textSize="14sp"
+                    tools:text="We have been working on CarnivoreZ for the last few month, and we have so much in store for you all to see over the foreseeable future!" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="#F6F6F6" />
+
+                <teleblock.widget.font.MediumTextView
+                    android:id="@+id/tv_tag_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="12dp"
+                    android:includeFontPadding="false"
+                    android:text="社群标签"
+                    android:textColor="#2F2F33"
+                    android:textSize="13sp" />
+
+                <com.google.android.flexbox.FlexboxLayout
+                    android:id="@+id/fl_tag"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="8dp"
+                    app:flexWrap="wrap"/>
+
+                <teleblock.widget.font.MediumTextView
+                    android:id="@+id/tv_amount_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="12dp"
+                    android:includeFontPadding="false"
+                    android:text="入群价格"
+                    android:textColor="#2F2F33"
+                    android:textSize="13sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="8dp"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:id="@+id/tv_pay_amount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:textColor="#02ABFF"
+                        android:textSize="15sp"
+                        tools:text="0.0729 ETH " />
+
+                    <TextView
+                        android:id="@+id/tv_amount_usd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:includeFontPadding="false"
+                        android:textColor="#ABABAF"
+                        android:textSize="12sp"
+                        tools:text="0.0729 ETH " />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_pay_join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="30dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingVertical="15dp"
+            android:text="付费入群"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:background_normal="@array/gradient_linkwallet_bg"
+            app:corner_radius="42dp"
+            app:gradient_orientation="LEFT_RIGHT" />
+    </com.ruffian.library.widget.RLinearLayout>
+
+
+</LinearLayout>

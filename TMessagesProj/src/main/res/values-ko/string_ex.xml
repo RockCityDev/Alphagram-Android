@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- string-array -->
+    <string name="array_my_mix_tables">나의 위시리스트|나의 다운로드|로컬 캐시</string>
+    <string name="array_channel_loading_tips">채널 목록 읽는 중...|데이터베이스 로드 중...|채널 메시지 업데이트 중...|읽지 않은 채널을 가져오는 중...</string>
+    <string name="array_theme_tables">HOT|NEW|동적 테마</string>
+    <string name="array_tgclean_type_tables">이미지|동영상|文件|오디오|기타</string>
+    <string name="array_intro_tips">종합 TG 소셜，직접적인 정보그룹화|인텔리전스 콘텐츠에 집중，남겨진 프로젝트 정보 없음|좋은 도구 온라인，효율성 업업업</string>
+
+    <string name="title_my">나의</string>
+
+    <!--日期-->
+    <string name="dateformat">MM월dd일</string>
+    <string name="dateformat2">MM-dd hh:mm</string>
+    <string name="dateformat3">MM-dd HH:mm</string>
+    <string name="dateformat_am">aa hh:mm</string>
+
+    <string name="wait_for_network">지금은 인터넷이 없는 것 같습니다.....</string>
+    <string name="wifi_net">WIFI네트워크</string>
+    <string name="mobile_net">모바일 네트워크</string>
+
+    <!--视频模块-->
+    <string name="video_from">출처：</string>
+    <string name="download_pause">일시중지됨</string>
+    <string name="download_fail">실패</string>
+    <string name="download_nostart">다운로드되지 않음</string>
+    <string name="ac_down_cancel">취소</string>
+    <string name="ac_save_album_null_tips">카메라 롤에 저장된 작업 없음</string>
+    <string name="ac_downing_null_tips">다운로드 중인 작업 없음</string>
+    <string name="ac_downed_null_tips">동영상이 없음</string>
+    <string name="ac_message_null_tips">소식이 없음</string>
+    <string name="ac_downed_text_checkall">모두 선택</string>
+    <string name="ac_downed_text_checkno">모두 선택 취소</string>
+    <string name="ac_downed_text_delete">삭제</string>
+    <string name="ac_downed_delete_ok">삭제성공</string>
+    <string name="ac_downed_save_to_gallery_ok">사진 앨범에 저장됨</string>
+    <string name="ac_downed_text_check_num">%d개의 파일이 선택됨</string>
+    <string name="tools_local_video">로컬 비디오</string>
+    <string name="tools_local_file">로컬 파일</string>
+    <string name="fg_textview_expand">확장</string>
+    <string name="fg_textview_collapse">접다</string>
+    <string name="vw_video_collect">즐겨찾기</string>
+    <string name="vw_video_collected">즐겨찾기 넣었다</string>
+    <string name="vw_video_download">다운로드</string>
+    <string name="vw_video_save_album">사진 앨범에 저장</string>
+    <string name="vw_video_guide_text">최신 동영상을 모두 시청했습니다.</string>
+    <string name="vw_video_guide_btn_text">읽지 않은 이전 동영상으로 건너뛰기</string>
+    <string name="vw_video_guide_play_normal">순차적으로 계속 재생</string>
+    <string name="vw_video_main_loading">동영상을 로드하는 동안 잠시 기다려 주세요...</string>
+    <string name="vw_video_full_tip">전체 화면 보기</string>
+    <string name="vw_video_speed_text1">1.0배</string>
+    <string name="vw_video_speed_text1_n">1.0배(정상)</string>
+    <string name="vw_video_speed_text0.75">0.75배</string>
+    <string name="vw_video_speed_text1.25">1.25배</string>
+    <string name="vw_video_speed_text1.5">1.5배</string>
+    <string name="vw_video_speed_text2.0">2.0배</string>
+    <string name="vw_edit_cancel">취소</string>
+    <string name="vw_local_scan">로컬</string>
+    <string name="vw_local_cache">캐시</string>
+    <string name="vw_save_cache">캐시에 저장</string>
+    <string name="vw_save_album">앨범에 저장</string>
+    <string name="ac_download_text_save_gallery">사진 앨범으로 전송</string>
+    <string name="ac_download_text_delete">삭제</string>
+    <string name="ac_download_text_share">공유</string>
+    <string name="view_play_guide_text">마지막 플레이로 이동</string>
+
+    <!--设置-->
+    <string name="login_proxy_text">프록시 사용</string>
+    <string name="login_proxy_tips">Telegram을 사용할 수 없는 국가 및 지역의 경우</string>
+    <string name="act_set_recommend">추천</string>
+    <string name="view_home_message_folder">메시지 그룹화</string>
+    <string name="view_home_contact_us">문의하기</string>
+
+    <string name="view_filter_add_all">모두 추가</string>
+    <string name="view_filter_delete_all">모든 로컬 폴더 삭제</string>
+
+    <!--翻译-->
+    <string name="translate_title">번역</string>
+    <string name="translate_setting_title">번역 설정</string>
+    <string name="translate_dialog_loading">번역중…</string>
+    <string name="translate_dialog_error">번역실패</string>
+    <string name="language_text">언어를 선택하세요</string>
+    <string name="login_language_text_en">English</string>
+    <string name="login_language_text_tw">중국어 번체(대만)</string>
+    <string name="login_language_text_hk">중국어 번체(홍콩)</string>
+    <string name="login_language_text_cnf">중국어 번체</string>
+    <string name="login_language_text_cn">중국어 간체</string>
+    <string name="translate_dialog_close">확인</string>
+    <string name="translate_switch_title">말풍선 번역 버튼</string>
+    <string name="translate_switch_info">각 메시지의 오른쪽에 빠른 번역 버튼이 표시됩니다.</string>
+    <string name="translate_choose_language">언어를 선택하세요</string>
+    <string name="translate_language_auto">자동 검색</string>
+    <string name="translate_language_af">네덜란드어（남아프리카）</string>
+    <string name="translate_language_sq">알바니아어</string>
+    <string name="translate_language_ar">아랍어</string>
+    <string name="translate_language_hy">아르메니아어</string>
+    <string name="translate_language_az">아제르바이잔</string>
+    <string name="translate_language_be">벨라루스어</string>
+    <string name="translate_language_bn">벵갈리</string>
+    <string name="translate_language_bg">불가리아어</string>
+    <string name="translate_language_ca">카탈루냐</string>
+    <string name="translate_language_zh_cn">중국어 간체</string>
+    <string name="translate_language_zh_tw">중국어 번체</string>
+    <string name="translate_language_hr">크로아티아어</string>
+    <string name="translate_language_cs">체코</string>
+    <string name="translate_language_da">덴마크</string>
+    <string name="translate_language_nl">네덜란드어</string>
+    <string name="translate_language_en">영어</string>
+    <string name="translate_language_eo">에스페란토</string>
+    <string name="translate_language_et">에스토니아어</string>
+    <string name="translate_language_tl">필리핀어</string>
+    <string name="translate_language_fi">핀란드어</string>
+    <string name="translate_language_fr">프랑스어</string>
+    <string name="translate_language_fy">프리지아어</string>
+    <string name="translate_language_gl">갈리시안</string>
+    <string name="translate_language_ka">조지아어</string>
+    <string name="translate_language_de">독일어</string>
+    <string name="translate_language_el">그리스 어</string>
+    <string name="translate_language_gu">구자라트어</string>
+    <string name="translate_language_ht">아이티어</string>
+    <string name="translate_language_ha">하우사어</string>
+    <string name="translate_language_hi">힌디 어</string>
+    <string name="translate_language_hu">헝가리어</string>
+    <string name="translate_language_is">아이슬란드어</string>
+    <string name="translate_language_ig">이그보어</string>
+    <string name="translate_language_id">인도네시아어</string>
+    <string name="translate_language_ga">아일랜드어</string>
+    <string name="translate_language_it">이탈리아어</string>
+    <string name="translate_language_ja">일본어</string>
+    <string name="translate_language_jw">자바어</string>
+    <string name="translate_language_kn">칸나다어</string>
+    <string name="translate_language_kk">카자흐어</string>
+    <string name="translate_language_km">캄보디아어</string>
+    <string name="translate_language_ko">한국어</string>
+    <string name="translate_language_ku">쿠르드어</string>
+    <string name="translate_language_ky">키르기즈</string>
+    <string name="translate_language_lo">라오어</string>
+    <string name="translate_language_la">라틴어</string>
+    <string name="translate_language_lv">라트비아어</string>
+    <string name="translate_language_lt">리투아니아어</string>
+    <string name="translate_language_lb">룩셈부르크어</string>
+    <string name="translate_language_mk">마케도니아 어</string>
+    <string name="translate_language_mg">마다가스카르어</string>
+    <string name="translate_language_ms">말레이어</string>
+    <string name="translate_language_ml">말라얄람어</string>
+    <string name="translate_language_mt">몰타 어</string>
+    <string name="translate_language_mi">마오리어</string>
+    <string name="translate_language_mr">마라티어</string>
+    <string name="translate_language_mn">몽고 어</string>
+    <string name="translate_language_my">버마어</string>
+    <string name="translate_language_ne">네팔어</string>
+    <string name="translate_language_no">노르웨이어</string>
+    <string name="translate_language_ps">파슈토어</string>
+    <string name="translate_language_fa">페르시아어</string>
+    <string name="translate_language_pl">폴란드어</string>
+    <string name="translate_language_pt">포르투갈 어</string>
+    <string name="translate_language_ma">펀잡어</string>
+    <string name="translate_language_ro">루마니아어</string>
+    <string name="translate_language_ru">러시아어</string>
+    <string name="translate_language_gd">스코틀랜드 게일어</string>
+    <string name="translate_language_sr">세르비아어</string>
+    <string name="translate_language_st">세소토어</string>
+    <string name="translate_language_sn">쇼나어</string>
+    <string name="translate_language_sd">신디어</string>
+    <string name="translate_language_si">싱할라어</string>
+    <string name="translate_language_sk">슬로바키아어</string>
+    <string name="translate_language_sl">슬로베니아어</string>
+    <string name="translate_language_so">소말리아어</string>
+    <string name="translate_language_es">스페인어</string>
+    <string name="translate_language_su">수단어</string>
+    <string name="translate_language_sw">스와힐리어</string>
+    <string name="translate_language_sv">스웨덴어</string>
+    <string name="translate_language_tg">타지크어</string>
+    <string name="translate_language_ta">타밀어</string>
+    <string name="translate_language_te">텔루구어</string>
+    <string name="translate_language_th">태국어</string>
+    <string name="translate_language_tr">터키어</string>
+    <string name="translate_language_uk">우크라이나어</string>
+    <string name="translate_language_uz">우즈벡</string>
+    <string name="translate_language_vi">베트남어</string>
+    <string name="translate_language_cy">웨일스어</string>
+    <string name="translate_language_xh">코사어</string>
+    <string name="translate_language_yi">이디시어</string>
+    <string name="translate_language_yo">요루바어</string>
+    <string name="translate_language_zu">줄루어</string>
+    <string name="translate_language_iw">히브리어</string>
+
+    <!--无痕-->
+    <string name="stealth_login_title">시크릿 모드 사용</string>
+    <string name="stealth_login_tips">“상대방이 읽은 메시지를 볼 수 없습니다.”</string>
+    <string name="stealth_toast_open">시크릿 모드 사용 중</string>
+    <string name="stealth_toast_close">시크릿 모드 사용 안함</string>
+    <string name="stealth_menu_title_on">시크릿 모드 사용</string>
+    <string name="stealth_menu_title_off">시크릿 모드 사용 안함</string>
+    <string name="stealth_header_item_title_on">ta한테 시크릿 모드 사용</string>
+    <string name="stealth_header_item_title_off">ta한테 시크릿 모드 사용 안함</string>
+
+    <string name="bot_token_login_text"> Bot Token 통해서 등록</string>
+    <string name="bot_token_login_title">Bot Token 등록</string>
+    <string name="bot_phone_login_text">핸드펀번호로 등록</string>
+    <string name="bot_token_login_hint"> Bot Token을 입력하세요</string>
+    <string name="bot_token_login_tips">힌트：
+        \n@BotFather를 통해 로봇을 만들 수 있습니다 Bot.
+        \n여기에 @BotFather가 보낸 봇 토큰을 입력하세요..
+        \n\n Bot로 등록하면，Bot의 모든 제한을 얻을수 있읍니다，다음을 포함：
+        \n-- 연락처에 액세스할 수 없습니다.
+        \n-- 그룹 및 채널에 가입할 수 없습니다(관리자가 추가돼면 재외).
+        \n-- 다른 사용자에게만 메세지를 보넬수 있읍니다， “/start”를 보넨 조건하에.
+        \n-- 메시지를 읽었는지 확인할 수 없읍니다.</string>
+    <string name="bot_token_login_invalid">잘못된 액세스 토큰</string>
+    <string name="ac_video_feed_ad_tips">Google Pure로 업그레이드</string>
+    <string name="ad_banner_text">광고</string>
+
+    <string name="login_phone_view_title">핸드폰번호로 Telegram을 등록한다</string>
+    <string name="login_phone_view_subtitle">국가 코드를 선택하고 휴대폰 번호를 입력하세요</string>
+    <string name="login_see_phone_title">다른 사람이 내 휴대폰 번호를 볼 수 없도록 허용</string>
+    <string name="login_see_phone_desc">개인정보 보호를 위해 반드시 확인을 권합니다.</string>
+
+    <string name="tv_delete_all">전부삭제</string>
+    <string name="tv_delete_dialog_title">삭제전 확인</string>
+    <string name="tv_delete_dialog_content">전부네용삭제를 확인합니다，작업을 복구할 수 없음</string>
+    <string name="tv_delete_dialog_positive_button">삭제확인</string>
+    <string name="tv_download_file_not_finish">다운로드한 파일 없음</string>
+
+    <string name="currency_tab_price">가격</string>
+    <string name="currency_tab_general">개요</string>
+    <string name="currency_tab_exchange">거래</string>
+    <string name="currency_price_1d">1일</string>
+    <string name="currency_price_1w">1주</string>
+    <string name="currency_price_1m">1월</string>
+    <string name="currency_price_3m">3월</string>
+    <string name="currency_price_1y">1년</string>
+    <string name="currency_price_max">전부</string>
+    <string name="currency_general_rank">시가</string>
+    <string name="currency_general_website">웹사이트</string>
+    <string name="currency_general_announcement">공고</string>
+    <string name="currency_general_explorer">브라우저</string>
+    <string name="currency_general_source_code">소스 코드</string>
+    <string name="currency_general_community">커뮤니티</string>
+    <string name="currency_general_tags">라벨</string>
+    <string name="currency_general_market_cap">시가</string>
+    <string name="currency_general_24h_vol">거래량（24h）</string>
+    <string name="currency_general_circulating_supply">총 유통량</string>
+    <string name="currency_general_total_supply">총 공급량</string>
+    <string name="currency_data_source">데이터 소스</string>
+
+    <!--******************************************-->
+    <string name="http_unknown_error">요청 오류，미지 오류</string>
+    <string name="http_token_error">잘못된 로그인，다시 로그인하십시오</string>
+    <string name="http_data_explain_error">데이터 파싱 예외，잠시만 기다리세요.</string>
+    <string name="http_server_out_time">서버 요청 시간 초과，다시 시도 해주십시오</string>
+    <string name="http_network_error">요청 실패，네트워크 설정을 확인하십시오</string>
+    <string name="http_response_error">서버가 비정상적으로 응답함，다시 시도 해주십시오</string>
+    <string name="http_server_error">서버 연결 예외，다시 시도 해주십시오</string>
+    <string name="http_request_cancel">요청이 중단됨，다시 시도 해주십시오</string>
+    <string name="http_response_null_body">서버 데이터 반환 예외，다시 시도 해주십시오</string>
+
+    <!--登录-->
+    <string name="ac_login_title">휴대폰 번호 입력，등록 확인 코드 받기</string>
+    <string name="ac_login_register_tip">등록 성공 후，전화번호는 telegram 로그인 계정입니다，채팅 페이지의 왼쪽 상단에서 Telegram 사용자 이름을 수정하십시오，아바타 및 개인 정보 보안 설정。</string>
+    <string name="splash_btn_login">Telegram 계정등록</string>
+    <string name="splash_btn_register_tip">Telegram계정없음? </string>
+    <string name="splash_btn_register">레지스터</string>
+
+    <!--首页-->
+    <string name="home_unbind_wallet_tips">당신은 어떤 디지털 지갑도 연결하지 않았습니다</string>
+    <string name="home_link_wallet">링크 지갑</string>
+    <string name="home_contact">연락처</string>
+    <string name="home_unknown_sender">모르는 사람</string>
+    <string name="home_commontools">실용적인 도구</string>
+    <string name="home_relatedme">나와 관련된</string>
+    <string name="home_my_wallet">나의 디지털 지갑</string>
+    <string name="home_edit_nft_photo">NFT 아바타 편집</string>
+    <string name="home_msg_group">정보 그룹화</string>
+    <string name="message_center_content">메시지 센터</string>
+    <string name="message_center_myjoin_group">내가 속한 그룹</string>
+    <string name="message_center_archiveortop">보관 및 고정</string>
+
+    <!--首页弹窗菜单-->
+    <string name="homeoption_pop_qrcode">스캔</string>
+    <string name="homeoption_pop_createmsg">새 메시지 만들기</string>
+    <string name="homeoption_pop_addfriend">친구 추가</string>
+    <string name="homeoption_pop_creategroup">새 그룹 추가</string>
+    <string name="homeoption_pop_createchannel">새 채널 추가</string>
+    <string name="homeoption_pop_encryptedchat">시크릿 채팅 시작</string>
+    <string name="homeoption_pop_relatedme">관리&quot;나와 관련된&quot;</string>
+
+    <!--好工具-->
+    <string name="commontools_system_tool">시스템 도구</string>
+    <string name="commontools_content_recommend">콘텐츠 추천</string>
+    <string name="commontools_oneclick_cleanup">정리</string>
+    <string name="commontools_local_cache_size_tips">저장공간이 현재 점유 중입니다.</string>
+    <string name="commontools_scan_qrcode">스캔 QR cord</string>
+    <string name="commontools_add_friend">친구 초대</string>
+    <string name="commontools_download_management">다운로드 관리</string>
+    <string name="commontools_my_collection">나의 컬렉션</string>
+    <string name="commontools_resource_navigation">리소스 탐색</string>
+    <string name="commontools_group_recommend">그룹 추천</string>
+    <string name="commontools_channel_recommend">채널 추천</string>
+    <string name="commontools_official_group_ch">공식 중국어 그룹</string>
+    <string name="commontools_official_group_ex">공식 영어 그룹</string>
+    <string name="commontools_official_channel_ch">공식 중국어 채널</string>
+    <string name="commontools_official_channel_ex">공식 영어 그룹</string>
+
+    <!--频道焦点-->
+    <string name="dg_channel_block">팔로우 채널취소</string>
+    <string name="dg_channel_block_ok">팔로우 채널 취소하셨읍니다</string>
+    <string name="dg_channel_all_media">모든 미디어 표시</string>
+    <string name="dg_channel_in_chat">채팅에 표시</string>
+    <string name="channel_more_message_format">접힌 메시지 %d개 펼치기</string>
+    <string name="channel_tag_all_text">전부</string>
+    <string name="channel_recommend_tag_secret">시크릿🙈</string>
+    <string name="fragment_channel_coutent_title">채널 포커스</string>
+    <string name="fragment_channel_coutent_like">좋아요</string>
+    <string name="fragment_channel_coutent_comments">댓글</string>
+    <string name="fragment_channel_coutent_share">전송</string>
+    <string name="fragment_channel_nolike_tips">현재 채널은 좋아요를 지원하지 않습니다！</string>
+
+    <!--个人主页-->
+    <string name="user_personal_message">消息</string>
+    <string name="user_personal_voice">음성</string>
+    <string name="user_personal_video">비디오</string>
+    <string name="user_personal_secret_chat">시크릿</string>
+    <string name="user_personal_add_friend">친구 추가</string>
+    <string name="user_personal_edit_friend">편집</string>
+    <string name="user_personal_main_page">홈페이지</string>
+    <string name="user_personal_introduction">프로필</string>
+    <string name="user_personal_common_group">공통 그룹</string>
+    <string name="user_personal_msg_num">이 그룹에서 총 %d개의 메시지가 전송되었습니다. ></string>
+    <string name="user_personal_last_msg_date">에 보낸 마지막 메시지</string>
+    <string name="user_personal_online_time">마지막 온라인 시간</string>
+
+    <!-- 好友列表-->
+    <string name="view_title_text">친구목록</string>
+
+    <!--sticker收藏-->
+    <string name="sticker_my_collect">나의 컬렉션</string>
+
+    <!--清除消息-->
+    <string name="dialog_clean_all">읽지 않은 알림을 모두 지우시겠습니까?</string>
+    <string name="dialog_clean_tv_cancel">취소</string>
+    <string name="dialog_clean_tv_ok">지우기 확인</string>
+
+    <!--闪屏页-->
+    <string name="splash_tips">Devoted to the best crypto social.</string>
+
+    <!--消息分组新-->
+    <string name="FilterContactsNew">연락자</string>
+    <string name="FilterNonContactsNew">연락자아님</string>
+    <string name="FilterGroupsNew">그룹</string>
+    <string name="FilterChannelsNew">채넉</string>
+    <string name="FilterBotsNew">로봇</string>
+    <string name="FilterUnreadNew">읽지않음</string>
+    <string name="FiltersNew">그룹 나누기</string>
+    <string name="FilterRecommendedNew">그룹 추천</string>
+    <string name="CreateNewFilterNew">새 그룹</string>
+
+    <!--theme-->
+    <string name="view_theme">테마 시장</string>
+    <string name="ac_title_theme">테마 시장</string>
+    <string name="view_theme_used_count">사용중</string>
+
+    <!--设置页面-->
+    <string name="setting_linkwallet_title">지갑 링크</string>
+    <string name="setting_change_wallet">지갑 다시 링크</string>
+    <string name="setting_wallet_unbind_title">내 디지털 지갑</string>
+    <string name="setting_wallet_uninstall_toast">현재 MataMask 지갑만 제공되며, 지갑 생성 후 클릭하여 연결해주세요.</string>
+
+    <!--绑定钱包页面-->
+    <string name="act_bindwallet_linkwallet">지갑 링크</string>
+    <string name="act_bindwallet_select_linkwallet">연결할 디지털 지갑을 선택하세요.</string>
+    <string name="act_bindwallet_cancel">취소</string>
+
+    <!--与我相关设置-->
+    <string name="act_relatedme_setting_title">나와 관련된 설정</string>
+    <string name="act_relatedme_setting_addtoping_list">상위 목록에 가입</string>
+    <string name="act_relatedme_setting_meetcriteria_group">기준에 맞는 그룹（%d）</string>
+    <string name="act_relatedme_setting_archive_list">모든 보관 목록에 추가</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list">구성원 수보다 적은 그룹</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list_tips">구성원이 %d 미만인 그룹</string>
+    <string name="act_relatedme_setting_filter_title">필터</string>
+    <string name="act_relatedme_setting_blacklist">블랙리스트</string>
+    <string name="act_relatedme_setting_whitelist">화이트리스트</string>
+
+    <!--黑白名单页面-->
+    <string name="act_permissions_chat_addwhitelist">화이트리스트에 가입</string>
+    <string name="act_permissions_chat_addblacklist">블랙리스트에 가입</string>
+    <string name="act_permissions_chat_whitelist_num">화이트리스트%d</string>
+    <string name="act_permissions_chat_blacklist_num">블랙리스트%d</string>
+    <string name="act_permissions_chat_remove">제거</string>
+    <string name="act_permissions_chat_channel">팔로워 %d명</string>
+    <string name="act_permissions_chat_group">구성원 %d명</string>
+    <string name="act_permissions_chat_confirm_addwhitelist">화이트리스트 가입 확인</string>
+    <string name="act_permissions_chat_confirm_addblacklist">차단 확인</string>
+    <string name="act_permissions_chat_selectoruser">사용자 선택</string>
+    <string name="act_permissions_black_null_tips1">블랙리스트에 포함되지 않음</string>
+    <string name="act_permissions_black_null_tips2">블랙리스트에 오른 사용자는 그룹 필터링의 영향을 받지 않습니다.</string>
+    <string name="act_permissions_white_null_tips1">화이트리스트에 포함되지 않음</string>
+    <string name="act_permissions_white_null_tips2">화이트리스트에 있는 사용자는 그룹 필터링의 영향을 받지 않습니다.</string>
+
+    <!--社群推荐-->
+    <string name="view_community_recommendtab_title">커뮤니티 추천</string>
+    <string name="view_community_recommendtab_search">그룹 및 채널 검색</string>
+    <string name="view_community_recommendtab_recommend">독점 추천</string>
+    <string name="view_community_recommendtab_showall_recommend">전부표시</string>
+    <string name="view_community_recommendtab_hottopic">화제</string>
+    <string name="view_community_recommendtab_morerecommend">더 많은 커뮤니티 추천</string>
+    <string name="view_community_recommendtab_findandjoin">탐색 및 가입</string>
+    <string name="view_community_recommendtab_group">그룹</string>
+    <string name="view_community_recommendtab_channel">채널</string>
+    <string name="view_community_recommendtab_boot">로봇</string>
+    <string name="channel_subscription_num">%d 구독</string>
+    <string name="group_subscription_num">구성원 %d명</string>
+    <string name="online_num">•   %d  명 온라인</string>
+    <string name="view_community_recommendtab_addchannel">채널에 가입</string>
+    <string name="view_community_recommendtab_addgroup">그룹에 가입</string>
+    <string name="view_community_recommend_invate">안타깝게도 이 그룹/채널은 더 이상 존재하지 않거나 비공개로 전환되었습니다. 확인을 클릭하면 이 옵션이 제거됩니다.</string>
+    <string name="view_community_recommend_confirm">확인</string>
+
+    <!-- 群搜索-->
+    <string name="act_recommend_search_text">    αlphagram    의 검색</string>
+    <string name="act_recommend_tg_search_text">    Telegram    의 검색</string>
+    <string name="act_recommend_tg_search_hint">검색할 그룹을 입력하세요</string>
+    <string name="act_recommend_tg_search_more">자세히보기</string>
+
+    <!-- 消息中心清空陌生人-->
+    <string name="act_delete_other_dialog_title">이 채팅 메시지를 지우시겠습니까?</string>
+    <string name="act_delete_other_dialog_left_text">취소</string>
+    <string name="act_delete_other_dialog_right_text">확인</string>
+
+    <!-- NFT资产列表-->
+    <string name="nft_assets_title">NFT선택</string>
+    <string name="nft_assets_empty_text">NFT없음</string>
+    <string name="wallet_suggest_text">추천</string>
+
+    <!--新建群组-->
+    <string name="create_group_describe">그룹 설명</string>
+    <string name="create_group_add_describe">그룹 설명 추가</string>
+    <string name="create_group_join_group">무제한</string>
+    <string name="create_group_paytojoin_group">비용을 지불하고 그룹에 가입</string>
+    <string name="create_group_conditionjoin_group">조건부 입학</string>
+    <string name="create_group_input_tokennum_min">최소 토큰 수</string>
+    <string name="create_group_paynum">수량</string>
+    <string name="create_group_input_paynum">지불할 금액</string>
+    <string name="create_group_link_wallet">지갑링크</string>
+
+    <!--vip群组-->
+    <string name="vip_group_title">코인컴뮤니티</string>
+    <string name="vip_group_properties">총 지갑 자산</string>
+    <string name="vip_group_link_wallet">지갑링크</string>
+    <string name="vip_group_link_detail">자산 세부 정보 보기</string>
+    <string name="vip_group_joined">가입완성</string>
+    <string name="vip_group_created">생선완료</string>
+    <string name="vip_group_wating">확인 대기 중，다시 시도 해주십시오</string>
+    <string name="vip_group_join_null">어떤 그룹/채널에도 가입하지 않았습니다.</string>
+    <string name="vip_group_crate_null">생성된 그룹/채널 없음</string>
+    <string name="vip_group_tag_all">전부</string>
+    <string name="group_pay_join_tag_title">커뮤니티 태그</string>
+    <string name="group_pay_join_amount_title">입장료</string>
+    <string name="group_pay_join_pay_join">비용을 지불하고 그룹에 가입</string>
+    <string name="group_pay_confirm_title">결제 주문 확인</string>
+    <string name="group_pay_confirm_permit_title">그룹가입 허용</string>
+    <string name="group_pay_confirm_pay_member_count">%d명이 지불했습니다.</string>
+    <string name="group_pay_confirm_status_title">상태</string>
+    <string name="group_pay_confirm_pay_off">지불을 기다리는 중</string>
+    <string name="group_pay_confirm_pay_fail">지불 실패</string>
+    <string name="group_pay_confirm_pay_continue">계속 지불하다</string>
+    <string name="group_pay_confirm_pay_on">지불성공？고객 서비스에 문의</string>
+    <string name="group_pay_confirm_pay_success">지불성공</string>
+    <string name="group_pay_confirm_pay_confirm">지불확인</string>
+    <string name="group_pay_confirm_paying">지불중...</string>
+    <string name="group_pay_confirm_pay_cancel">취소</string>
+    <string name="group_validate_join_tag_title">커뮤니티 태그</string>
+    <string name="group_validate_join_condition_join_title">입장 조건</string>
+    <string name="group_validate_join_condition_join">≥ %s 보유자는 그룹에 가입할 수 있습니다.</string>
+    <string name="group_validate_join_join_success">확인 성공, 가입중</string>
+    <string name="group_validate_join_validating">확인중...</string>
+    <string name="group_validate_join_validate_join">그룹 확인</string>
+    <string name="group_validate_join_validate_cancel">취소</string>
+    <string name="group_validate_join_validate_not_satisfied">입장 요건이 충족되지 않았습니다. 다시 시도해 주세요.</string>
+    <string name="group_validate_join_validate_fail">승인에 실패했습니다. 다시 시도해 주세요.</string>
+    <string name="uplink_verification_title">온체인 검증중...</string>
+    <string name="uplink_verification_content">완료 후 자동으로 그룹에 들어갑니다.\n약 30초가 소요됩니다.</string>
+    <string name="uplink_verification_know">알겠음</string>
+
+    <!--群，频道详情-->
+    <string name="chat_details_tag">태그</string>
+    <string name="chat_details_describe">그룹 설명</string>
+    <string name="chat_details_add_describe">그룹 설명 추가</string>
+
+    <!--钱包主页-->
+    <string name="wallet_home_token_empty_text">아직 토큰이 없음</string>
+    <string name="wallet_home_transaction_empty_text">아직 거래가 없음</string>
+
+    <!--聊天页面-转账-->
+    <string name="chat_transfer_meunbind_wallet">지갑을 링크하지 않았습니다.</string>
+    <string name="chat_transfer_otherunbind_wallet">상대 지갑을 링크하지 않았습니다.</string>
+    <string name="chat_transfer_meubbind_tips">다른 사람에게 돈을 이체하려면 먼저 디지털 지갑을 링크해야 합니다.</string>
+    <string name="chat_transfer_otherubbind_tips">상대방이 지갑을 링크하지 않았으므로 상대방을 초대하여 디지털 지갑을 링크하고 송금할 수 있습니다.</string>
+    <string name="chat_transfer_bind_wallet">디지털 지갑 링크</string>
+    <string name="chat_transfer_invite_bind_wallet">상대방을 초대하여 지갑을 링크합니다.</string>
+    <string name="chat_transfer_towhotransfer">%s에 송금</string>
+    <string name="chat_transfer_toyoutransfer">당신에게 송금</string>
+    <string name="chat_transfer_input_price_tips">거래 수량 입력</string>
+    <string name="chat_transfer_wallet_balance">누적：%s</string>
+    <string name="chat_transfer_nextstep">다음</string>
+    <string name="chat_transfer_balance">누적：%s</string>
+    <string name="chat_transfer_confirm">송금확인</string>
+    <string name="chat_transfer_back">뒤로가기</string>
+
+    <!--gas费用对话框-->
+    <string name="gas_tips_dialog_title">가스비란?</string>
+    <string name="gas_tips_dialog_content">이더리움 네트워크에서 트랜잭션을 처리하는 크립토팩토리에 가스비가 지급됩니다.。αlphagram 가스비를 받지않읍니다。</string>
+    <string name="gas_tips_dialog_bottom_tips">가스비는 네트워크에 의해 설정되며 네트워크 트래픽 및 트랜잭션 복잡성에 따라 변동됩니다.。</string>
+
+    <!--转账详情对话框-->
+    <string name="transfer_detatils_dialog_title">이체내역</string>
+    <string name="transfer_detatils_dialog_status">상태</string>
+    <string name="transfer_detatils_dialog_status1">확인완료</string>
+    <string name="transfer_detatils_dialog_num">수량</string>
+    <string name="transfer_detatils_dialog_gasfee">예상가스비</string>
+    <string name="transfer_detatils_dialog_totalnum">총액</string>
+    <string name="transfer_detatils_dialog_goto_etherscan">  %s 에서 채크</string>
+
+    <!--转账页面-->
+    <string name="transfer_activity_title">송금</string>
+    <string name="transfer_activity_sended">에 전송</string>
+    <string name="transfer_activity_search_hint">검색 ID, 공개 키(0x) 또는 ENS</string>
+    <string name="transfer_activity_recenttransactions">최근 거례</string>
+    <string name="transfer_activity_myfriend">내 친구</string>
+    <string name="transfer_activity_transfer_nextstep">다음</string>
+    <string name="transfer_activity_nobind_friend">지갑을 링크하는 친구는 없다</string>
+    <string name="transfer_activity_tips">거래 내역과 거래를 지원하는 친구가 여기에 표시됩니다.</string>
+
+
+    <!-- 闪屏页 -->
+    <string name="ac_splash_btn_login">log in with Telegram account</string>
+    <string name="ac_splash_btn_register_tip">No Telegram account? </string>
+    <string name="ac_splash_btn_register">Sign in</string>
+    <string name="view_title_message">Channels</string>
+    <string name="view_lancher_title">αlphagram</string>
+    <string name="view_lancher_desc">The best TG Social・Secure・Private</string>
+
+    <!-- 清除缓存-->
+    <string name="ac_tgclean_title_image">이미지</string>
+    <string name="ac_tgclean_null_file">이 유형의 파일 없음</string>
+    <string name="ac_tgclean_views_grid">그리드뷰</string>
+    <string name="ac_tgclean_views_list">목록뷰</string>
+    <string name="ac_tgclean_loading_text">스캔중…</string>
+    <string name="ac_tgclean_total_show_format">현재 총 %s인 %d개의 파일이 있습니다.</string>
+    <string name="ac_title_storage_clean">캐시 지우기</string>
+    <string name="dg_storage_scan_tips">스캔중…</string>
+    <string name="dg_storage_total">로컬 캐시 사용중</string>
+    <string name="dg_storage_scan_clean">원클릭 클리닝</string>
+    <string name="dg_storage_scan_close">닫음</string>
+    <string name="dg_storage_more_fun_theme">테마마켓</string>
+    <string name="dg_storage_more_fun_wallpaper">다이내믹 테마</string>
+    <string name="dg_storage_more_fun_message">메시지 그룹화</string>
+    <string name="dg_storage_more_fun_collect">나의 컬렉션</string>
+    <string name="dg_storage_more_fun_resource">리소스 탐색</string>
+    <string name="dg_storage_more_fun_download">다운로드 관리</string>
+    <string name="dg_storage_more_fun_delete_msg">삭제된 메세지</string>
+    <string name="view_home_official_group">공식 그룹(Q&amp;A)</string>
+
+    <!-- 被삭제的消息-->
+    <string name="ac_delete_msg_group_title">삭제의 메시지로 그룹화</string>
+    <string name="ac_delete_msg_list_title">삭제 메시지 목록</string>
+    <string name="delete_msg_pop_title">중요한 알림：</string>
+    <string name="delete_msg_pop_content">상대방이 삭제하거나 나와 관련된 대화 내용을 무단으로 삭제한 경우 "삭제된 메시지" 목록에서 확인할 수 있습니다.。 </string>
+    <string name="delete_msg_pop_know">알겠음</string>
+    <string name="delete_msg_dialog_title">삭제전 확인</string>
+    <string name="delete_msg_dialog_content">이 그룹이 삭제된 메시지를 지우시겠습니까? \n작업을 회복할 수 없습니다.</string>
+    <string name="delete_msg_dialog_group_content">삭제로 인해 종료 그룹이 차단되었다는 메시지를 지우시겠습니까? \n작업을 회복할 수 없습니다.</string>
+    <string name="delete_msg_dialog_confirm">삭제확인</string>
+    <string name="delete_msg_list_text">이 메시지 그룹 지우기</string>
+    <string name="delete_msg_group_all">이 메시지를 영구적으로 삭제</string>
+    <string name="delete_msg_by_time">72시간 후 자동 삭제</string>
+
+    <!--  stickerGif列表-->
+    <string name="ac_sticker_gif_title">StickerGif</string>
+    <string name="sticker_tab_gif">GIFs</string>
+    <string name="sticker_tab_sticker">Stickers</string>
+    <string name="sticker_tab_collect">Collects</string>
+    <string name="sticker_dialog_popular">Popular GIF</string>
+    <string name="sticker_dialog_collect">My Collections</string>
+
+    <!--钱包主页-->
+    <string name="wallet_home_act_contract_address_title">계약 주소</string>
+    <string name="wallet_home_act_token_id_title">토큰 ID</string>
+    <string name="wallet_home_act_blockchain_title">블록체인</string>
+    <string name="wallet_home_act_token_standard_title">토큰 표준</string>
+    <string name="wallet_home_act_bar_tokenid">토큰</string>
+    <string name="wallet_home_act_bar_nft">NFT</string>
+    <string name="wallet_home_act_bar_transactionhistory">거래 내역</string>
+    <string name="wallet_home_copy_address">지갑 주소가 복사되었습니다.</string>
+    <string name="wallet_home_tip_input_address">지갑주소를 입력해주세요</string>
+    <string name="wallet_home_tip_install">연결하기 전에 지갑을 설치하세요</string>
+    <string name="wallet_home_switch_address">링크된 주소로 변경해주세요</string>
+
+    <!--钱包主页操作对话框-->
+    <string name="dialog_wallet_opera_title">%s 체인과 연결됨</string>
+    <string name="dialog_wallet_opera_change">다시 연결</string>
+    <string name="dialog_wallet_opera_copyaddress">주소 복사</string>
+    <string name="dialog_wallet_opera_viewexplorer">브라우저에서 보기</string>
+
+    <!--钱包绑定弹窗-->
+    <string name="dialog_wallet_binding_title">승인 링크...</string>
+    <string name="dialog_wallet_binding_content">열려 있는 %s에서 로그인을 승인하십시오.</string>
+    <string name="dialog_wallet_binding_cancel">취소</string>
+
+    <string name="home_sponsor_us">팁😁🙏🧧</string>
+
+    <string name="commontools_official_vipgroup">코인커뮤니티</string>
+    <string name="commontools_official_transfertransaction">이체 거래</string>
+
+
+    <string name="setting_add_wallet">지갑 주소 추가</string>
+    <string name="setting_wallet_open_nft">NFT 아바타 디스플레이 사용</string>
+
+    <string name="vip_group_numberofholdings">≥ %s %s 보유</string>
+    <string name="vip_group_groupmember">%s 명회원</string>
+    <string name="vip_group_join">가입</string>
+
+
+    <string name="chat_transfer_input_price_tips1">지갑 잔액이 부족합니다.</string>
+    <string name="chat_transfer_error_bind_address_title">이전을 승인할 수 없습니다.</string>
+    <string name="chat_transfer_error_bind_address_tips">이 지갑 주소는 승인 없이는 이체할 수 없습니다. 링크된 지갑 주소로 전환하십시오.</string>
+    <string name="chat_transfer_error_bind_address_btn">지갑 주소 전환</string>
+
+
+    <!--选择燃料费-->
+    <string name="dialog_selector_gassfee_title">가스비 기어 선택</string>
+
+    <!--转账-选择链对话框-->
+    <string name="dialog_transfer_selector_chaintype_title">체인 유형 선택</string>
+    <!--转账-选择币种对话框-->
+    <string name="dialog_transfer_selector_cointype_title">토큰 선택</string>
+
+    <!--打赏-->
+    <string name="sponsorus_tips">개발자에게 팁</string>
+    <string name="sponsorus_customquantity">맞춤 통화 및 수량</string>
+    <string name="sponsorus_sure">팁확인</string>
+    <string name="sponsorus_walletbalance">지갑 잔액：%s</string>
+
+    <!--toast提示-->
+    <string name="toast_tips_scqtx">그룹 아바타를 업로드하세요.</string>
+    <string name="toast_tips_qxzdsje">팁 금액을 선택하세요</string>
+    <string name="toast_tips_dscg">팁성공</string>
+    <string name="toast_tips_qsr_min_tokennum">최소 토큰 수를 입력하세요.</string>
+    <string name="toast_tips_qx_min_token_must">최소 토큰 수는 0보다 커야 합니다.</string>
+    <string name="toast_tips_qx_bindwallet">지갑을 먼저 링크주세요</string>
+    <string name="toast_tips_qsr_paynum">결제할 금액을 입력해주세요</string>
+    <string name="toast_tips_qqh_bindaddress">링크된 주소로 변경해주세요</string>
+
+    <!--单独转账入口-->
+    <string name="ac_wallet_tips">잘못된 Ethereum 지갑 주소</string>
+    <string name="ac_wallet_content">Ethereum지원하는 지갑 주소를 올바르게 입력하세요. 현재 크로스체인 전송은 지원되지 않습니다.</string>
+    <string name="ac_wallet_btn">알겠음</string>
+
+    <string name="dg_storage_more_fun_transfer">이체</string>
+    <string name="chat_transfer_tips">자산 손실을 방지하기 위해 송금 주소가 정확한지 확인하십시오.</string>
+    <string name="dg_transfer_step_tow_title">송금확인</string>
+    <string name="dg_transfer_invter_text">αlphagram app 다운받아 암호화폐 지갑을 연동하고 더 빠르고 편리한 가상화폐 송금을 경험해보세요! \n지갑 설정 튜토리얼을 링크하려면 클릭하세요: https://reurl.cc/pMqmg4</string>
+
+    <string name="btn_null_function_tips">곧 출시될 예정이니 계속 지켜봐 주세요</string>
+    <string name="wallet_home_input">지갑 주소 입력：0X...</string>
+    <string name="wallet_home_btn">문의</string>
+    <string name="create_group_type">비공개 그룹 유형</string>
+    <string name="create_group_tips_unlimit">누구나 이 비공개 그룹에 가입할 수 있습니다.</string>
+    <string name="create_group_tips_conditions">사용자는 개인 그룹에 가입하기 위해 지갑에 연결하고 자산 요구 사항을 충족해야 합니다.</string>
+    <string name="create_group_tips_pay">사용자는 개인 그룹에 가입하기 위해 지갑에 연결하고 특정 자산을 지불해야 합니다.</string>
+    <string name="create_group_conditions_described">밸런스설명</string>
+    <string name="create_group_pay_described">지불설명</string>
+    <string name="create_group_address_title">디지털 지갑</string>
+    <string name="create_group_chain_type">블록체인 / 네트워크</string>
+    <string name="create_group_token_type">자산 기준</string>
+    <string name="create_group_coin_type">화폐 종류</string>
+    <string name="create_group_input_tokenaddress">계약 주소 입력</string>
+    <string name="toast_tips_please_input_tokenaddress">계약 주소를 입력하세요.</string>
+    <string name="group_details_invitation_title">Group3 초대 링크</string>
+    <string name="group_details_invitation_tips">사용자는 이 링크를 통해 확인 후 비공개 그룹에 가입할 수 있습니다. </string>
+    <string name="dialog_create_group_successful_addconding">그룹가입조건</string>
+    <string name="dialog_create_group_successful_addpaynum">그룹입장료</string>
+    <string name="dialog_create_group_successful_condition_join"> ≥ %s가짐</string>
+    <string name="group_details_share_successful">공유 성공</string>
+    <string name="wallet_failure_tips">링크가 잘못되었습니다. 지갑을 다시 링크하십시오.</string>
+    <string name="group_share_content">%s 그룹이 초대장을 보냈습니다. 토론에 참여해 주시길 바람니다.</string>
+
+    <string name="currency_fragment_wallet_unbind">지갑이 연결되지 않음</string>
+    <string name="currency_fragment_empty_data_title">아직 그룹 없음</string>
+    <string name="currency_fragment_empty_data_tips">이 토큰과 관련된 그룹이 추천이 없습니다</string>
+    <string name="dialog_user_personal_transfer_to_he">그에게 송금</string>
+    <string name="dialog_user_personal_wallet">지갑</string>
+    <string name="dialog_user_personal_look_wallet">지갑 ID 보기</string>
+    <string name="other_user_wallet_info_wallet_address">지갑주소</string>
+    <string name="other_user_wallet_info_network">현재 메인 네트워크</string>
+    <string name="other_user_wallet_info_details">지갑 세부정보</string>
+
+    <!--삭제로봇-->
+    <string name="delete_bot_title">경고</string>
+    <string name="delete_bot_content">그룹 어시스턴트 로봇이 제거되면 그룹에 새로 가입하는 멤버의 인증이 무효가 되며 그룹은 무료 그룹이 됩니다.</string>
+    <string name="delete_bot_confirm">삭제 확인</string>
+    <string name="delete_bot_cancel">취소</string>
+
+    <string name="groug_create_speech_welcome">Hello world！여기 %s</string>
+</resources>

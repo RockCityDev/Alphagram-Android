@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="95px">
+
+    <LinearLayout
+        android:id="@+id/view_register_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_register_bg"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_tip_bb"></ImageView>
+
+        <TextView
+            android:id="@+id/tv_register_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:textColor="#757575"
+            android:textSize="16sp"
+            android:text="@string/ac_login_register_tip"></TextView>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_see_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <FrameLayout
+        android:id="@+id/fl_stealth_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/fl_proxy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 语言设置界面-->
+    <LinearLayout
+        android:id="@+id/ll_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:visibility="invisible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <!-- 语言选择-->
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#2E96DF"
+            android:textSize="14sp"
+            android:text="@string/language_text" />
+
+        <TextView
+            android:id="@+id/tv_lang_tw"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/language_drawable2"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible"
+            android:text="@string/login_language_text_tw" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:id="@+id/tv_lang_hk"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/language_drawable2"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible"
+            android:text="@string/login_language_text_hk" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:id="@+id/tv_lang_cn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/language_drawable2"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible"
+            android:text="@string/login_language_text_cn" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#eeeeee" />
+
+        <TextView
+            android:id="@+id/tv_lang_en"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/language_drawable2"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible"
+            android:text="@string/login_language_text_en" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#eeeeee"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_lang_bain"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/language_drawable2"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:text="@string/login_language_text_bain"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#eeeeee"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_lang_baml"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/language_drawable2"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:text="@string/login_language_text_baml"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#eeeeee"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_lang_por"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/language_drawable2"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:text="@string/login_language_text_por"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#eeeeee"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_lang_esp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:drawableRight="@drawable/language_drawable2"
+            android:gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:text="@string/login_language_text_esp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#eeeeee"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>

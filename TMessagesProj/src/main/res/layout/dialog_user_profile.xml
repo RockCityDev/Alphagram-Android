@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.ruffian.library.widget.RView
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        app:background_normal="@color/white"
+        app:corner_radius="4dp" />
+
+    <com.ruffian.library.widget.RFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="400dp"
+        android:layout_marginTop="6dp"
+        app:corner_radius_top_left="30dp"
+        app:corner_radius_top_right="30dp">
+
+        <teleblock.ui.view.UserPersonalView
+            android:id="@+id/user_personal_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible" />
+
+        <teleblock.ui.view.UserWalletView
+            android:id="@+id/user_wallet_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+    </com.ruffian.library.widget.RFrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#21000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <com.flyco.tablayout.SegmentTabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginHorizontal="34dp"
+            app:tl_bar_color="#EEEEEE"
+            app:tl_bar_stroke_color="#EEEEEE"
+            app:tl_bar_stroke_width="2dp"
+            app:tl_indicator_anim_enable="true"
+            app:tl_indicator_color="#FFFFFF"
+            app:tl_indicator_corner_radius="18dp"
+            app:tl_indicator_margin_bottom="2dp"
+            app:tl_indicator_margin_left="2dp"
+            app:tl_indicator_margin_right="2dp"
+            app:tl_indicator_margin_top="2dp"
+            app:tl_textSelectColor="#000000"
+            app:tl_textSize="13sp"
+            app:tl_textUnSelectColor="#000000" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_channel_top_layout" />
+
+    <FrameLayout
+        android:id="@+id/media_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:minHeight="150dp"
+        android:paddingTop="3dp" />
+
+    <include
+        android:id="@+id/function_layout"
+        layout="@layout/view_function_layout" />
+
+    <include layout="@layout/view_more_message_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f0f0f0" />
+</LinearLayout>

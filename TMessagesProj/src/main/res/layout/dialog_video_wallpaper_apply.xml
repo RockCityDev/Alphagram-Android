@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50000000"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_channel_more_dialog_selector"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_apply_chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="22dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="@string/ac_title_video_wallpaper_apply_chat"
+            android:textColor="#151C29"
+            android:textSize="16sp"
+            android:visibility="visible"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#20000000"></View>
+
+        <TextView
+            android:id="@+id/tv_apply_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="22dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="@string/ac_title_video_wallpaper_apply_list"
+            android:textColor="#151C29"
+            android:textSize="16sp"
+            android:visibility="visible"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#20000000"></View>
+
+
+        <TextView
+            android:id="@+id/tv_apply_all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="22dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="@string/ac_title_video_wallpaper_apply_all"
+            android:textColor="#151C29"
+            android:textSize="16sp"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

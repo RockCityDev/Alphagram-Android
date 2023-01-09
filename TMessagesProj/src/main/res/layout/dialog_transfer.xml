@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <!--titleBar-->
+        <LinearLayout
+            android:id="@+id/rl_top_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:paddingHorizontal="12dp">
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_chaintype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="8dp"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:visibility="visible"
+                    app:icon_height="24dp"
+                    app:icon_normal_right="@drawable/arrow_gray_up_icon"
+                    app:icon_width="24dp"
+                    app:text_color_normal="#56565C"
+                    tools:icon_normal_left="@drawable/user_chain_logo_18"
+                    tools:text="ThunderCore" />
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_step_two_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:drawablePadding="20dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:visibility="gone"
+                    app:icon_normal_left="@drawable/calls_back_black"
+                    app:text_color_normal="#1A1A1D"
+                    tools:text="ThunderCore" />
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_close_dialog"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    app:background_normal="#4DFFFFFF"
+                    app:icon_src_normal="@drawable/line_close"
+                    app:icon_with_text="true" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="#FFE6E6E6"></View>
+        </LinearLayout>
+
+        <!--步骤1view-->
+        <RelativeLayout
+            android:id="@+id/ll_step_one"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="visible"
+            tools:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rl_top_view">
+
+            <teleblock.widget.TelegramUserAvatar
+                android:id="@+id/fl_avatar"
+                android:layout_width="78dp"
+                android:layout_height="78dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="24dp"
+                tools:background="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fl_avatar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="6dp"
+                android:textColor="#2f2f33"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="@string/chat_transfer_towhotransfer" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_coin_type"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_below="@+id/tv_nickname"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="24dp"
+                android:drawablePadding="4dp"
+                android:gravity="center"
+                android:paddingHorizontal="18dp"
+                android:textStyle="bold"
+                app:border_color_normal="#DCDDE0"
+                app:border_width_normal="1dp"
+                app:corner_radius="8dp"
+                app:icon_height_left="24dp"
+                app:icon_normal_right="@drawable/arrow_gray_up_icon"
+                app:icon_width_left="24dp"
+                app:text_color_normal="#828283"
+                tools:icon_normal_left="@drawable/user_chain_logo_18"
+                tools:text="MATIC" />
+
+            <LinearLayout
+                android:id="@+id/ll_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_coin_type"
+                android:layout_marginTop="32dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_input_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:textSize="14sp"
+                    tools:text="@string/chat_transfer_input_price_tips"
+                    tools:textColor="#56565c" />
+
+                <EditText
+                    android:id="@+id/et_input_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:hint="0.00"
+                    android:inputType="numberDecimal"
+                    android:textColor="#1A1A1D"
+                    android:textColorHint="#E7E8EB"
+                    android:textSize="40sp"
+                    android:imeOptions="actionNext"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="39dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#DCDDE0" />
+
+                <TextView
+                    android:id="@+id/tv_wallet_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#828283"
+                    android:textSize="14sp"
+                    tools:text="钱包余额：0.082 ETH  $ 129.57" />
+            </LinearLayout>
+
+            <com.ruffian.library.widget.RLinearLayout
+                android:id="@+id/ll_nextstep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="30dp"
+                android:alpha="0.5"
+                android:gravity="center"
+                android:paddingVertical="15dp"
+                android:visibility="visible"
+                app:background_normal="@array/gradient_linkwallet_bg"
+                app:corner_radius="42dp"
+                app:gradient_orientation="LEFT_RIGHT">
+
+                <ProgressBar
+                    android:id="@+id/pb_loading"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:indeterminateTint="@color/white" />
+
+                <TextView
+                    android:id="@+id/tv_loading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    tools:text="@string/Loading" />
+            </com.ruffian.library.widget.RLinearLayout>
+        </RelativeLayout>
+
+        <!--步骤2view-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_setp_two"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:visibility="gone"
+            tools:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rl_top_view">
+
+            <androidx.core.widget.NestedScrollView
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/tv_tips"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <teleblock.widget.TelegramUserAvatar
+                        android:id="@+id/fl_avatar2"
+                        android:layout_width="78dp"
+                        android:layout_height="78dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="24dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:background="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_nickname2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="6dp"
+                        android:textColor="#2f2f33"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/fl_avatar2"
+                        tools:text="@string/chat_transfer_towhotransfer" />
+
+                    <com.ruffian.library.widget.RView
+                        android:id="@+id/v_from_to_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="128dp"
+                        android:layout_marginHorizontal="20dp"
+                        android:layout_marginTop="24dp"
+                        app:border_color_normal="#DCDDE0"
+                        app:border_width_normal="1dp"
+                        app:corner_radius="8dp"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_nickname2" />
+
+                    <View
+                        android:id="@+id/v_from_to_line"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:background="#DCDDE0"
+                        app:layout_constraintBottom_toBottomOf="@+id/v_from_to_bg"
+                        app:layout_constraintLeft_toLeftOf="@+id/v_from_to_bg"
+                        app:layout_constraintRight_toRightOf="@+id/v_from_to_bg"
+                        app:layout_constraintTop_toTopOf="@+id/v_from_to_bg" />
+
+                    <TextView
+                        android:id="@+id/tv_from_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="From:"
+                        android:textColor="#1a1a1d"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/v_from_to_line"
+                        app:layout_constraintLeft_toLeftOf="@+id/v_from_to_bg"
+                        app:layout_constraintTop_toTopOf="@+id/v_from_to_bg" />
+
+                    <TextView
+                        android:id="@+id/tv_to_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="To:"
+                        android:textColor="#1a1a1d"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/v_from_to_bg"
+                        app:layout_constraintLeft_toLeftOf="@+id/tv_from_title"
+                        app:layout_constraintTop_toTopOf="@+id/v_from_to_line" />
+
+                    <teleblock.widget.TelegramUserAvatar
+                        android:id="@+id/fl_from_avatar"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginEnd="16dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/tv_from_title"
+                        app:layout_constraintRight_toRightOf="@+id/v_from_to_bg"
+                        app:layout_constraintTop_toTopOf="@+id/tv_from_title"
+                        tools:background="@color/black" />
+
+                    <teleblock.widget.TelegramUserAvatar
+                        android:id="@+id/fl_to_avatar"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/tv_to_title"
+                        app:layout_constraintRight_toRightOf="@+id/fl_from_avatar"
+                        app:layout_constraintTop_toTopOf="@+id/tv_to_title"
+                        tools:background="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_from_account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:textColor="#56565c"
+                        android:textSize="15sp"
+                        app:layout_constraintRight_toLeftOf="@+id/fl_from_avatar"
+                        app:layout_constraintTop_toTopOf="@+id/fl_from_avatar"
+                        tools:text="0xA7E2...998f" />
+
+                    <TextView
+                        android:id="@+id/tv_from_balance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ababaf"
+                        android:textSize="12sp"
+                        app:layout_constraintRight_toRightOf="@+id/tv_from_account"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_from_account"
+                        tools:text="余额:0.3ETH" />
+
+                    <TextView
+                        android:id="@+id/tv_to_account"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:textColor="#56565c"
+                        android:textSize="15sp"
+                        app:layout_constraintBottom_toBottomOf="@+id/fl_to_avatar"
+                        app:layout_constraintRight_toLeftOf="@+id/fl_to_avatar"
+                        app:layout_constraintTop_toTopOf="@+id/fl_to_avatar"
+                        tools:text="ohoho.eth" />
+
+                    <TextView
+                        android:id="@+id/tv_account_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:text="Amount"
+                        android:textColor="#1a1a1d"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="@+id/v_from_to_bg"
+                        app:layout_constraintTop_toBottomOf="@+id/v_from_to_bg" />
+
+                    <TextView
+                        android:id="@+id/tv_transferfee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ff1a1a1d"
+                        android:textSize="16sp"
+                        app:layout_constraintBaseline_toBaselineOf="@+id/tv_account_title"
+                        app:layout_constraintRight_toRightOf="@+id/v_from_to_bg"
+                        tools:text="0.03 ETH" />
+
+                    <TextView
+                        android:id="@+id/tv_transferfee_dollar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="#ababaf"
+                        android:textSize="14sp"
+                        app:layout_constraintRight_toRightOf="@+id/tv_transferfee"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_transferfee"
+                        tools:text="$174.234" />
+
+
+                    <com.ruffian.library.widget.RTextView
+                        android:id="@+id/tv_gas_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:gravity="center"
+                        android:text="Gas Fee"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:icon_height="24dp"
+                        app:icon_normal_right="@drawable/filed_gas_faq_icon"
+                        app:icon_width="24dp"
+                        app:layout_constraintBottom_toBottomOf="@+id/tv_gas_dollar"
+                        app:layout_constraintLeft_toLeftOf="@+id/tv_account_title"
+                        app:layout_constraintTop_toTopOf="@+id/tv_gas"
+                        app:text_color_normal="#1a1a1d" />
+
+                    <TextView
+                        android:id="@+id/tv_gas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:textColor="@color/theme_color"
+                        android:textSize="16sp"
+                        app:layout_constraintRight_toRightOf="@+id/tv_transferfee"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_transferfee_dollar"
+                        tools:text="0.00796602 ETH" />
+
+                    <TextView
+                        android:id="@+id/tv_gas_dollar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="#ababaf"
+                        android:textSize="14sp"
+                        app:layout_constraintRight_toRightOf="@+id/tv_gas"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_gas"
+                        tools:text="$1.34" />
+
+                    <androidx.constraintlayout.widget.Group
+                        android:id="@+id/group_gasfee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:constraint_referenced_ids="tv_gas_title, tv_gas, tv_gas_dollar" />
+
+                    <View
+                        android:id="@+id/v_line"
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="16dp"
+                        android:background="#DCDDE0"
+                        app:layout_constraintLeft_toLeftOf="@+id/v_from_to_line"
+                        app:layout_constraintRight_toRightOf="@+id/v_from_to_line"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_gas_dollar" />
+
+                    <TextView
+                        android:id="@+id/tv_total_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Total:"
+                        android:textColor="#1a1a1d"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="@+id/v_line"
+                        app:layout_constraintTop_toBottomOf="@+id/v_line" />
+
+                    <TextView
+                        android:id="@+id/tv_total_title_tips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amount+Gas"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        app:layout_constraintLeft_toLeftOf="@+id/tv_total_title"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_total_title" />
+
+                    <com.ruffian.library.widget.RTextView
+                        android:id="@+id/tv_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="4dp"
+                        android:gravity="center"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:icon_height_left="20dp"
+                        app:icon_width_left="20dp"
+                        app:layout_constraintRight_toRightOf="@+id/v_line"
+                        app:layout_constraintTop_toTopOf="@+id/tv_total_title"
+                        app:text_color_normal="#02ABFF"
+                        tools:icon_normal_left="@drawable/user_chain_logo_18"
+                        tools:text="0.0379" />
+
+                    <TextView
+                        android:id="@+id/tv_total_doller"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ababaf"
+                        android:textSize="14sp"
+                        app:layout_constraintRight_toRightOf="@+id/tv_total"
+                        app:layout_constraintTop_toBottomOf="@+id/tv_total"
+                        tools:text="$175.5743" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/tv_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:paddingHorizontal="20dp"
+                android:textColor="#ff4550"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_btn_transfer_confirm"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:text="@string/chat_transfer_tips" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_btn_transfer_confirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:paddingVertical="15dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:background_normal="@array/gradient_linkwallet_bg"
+                app:corner_radius="42dp"
+                app:gradient_orientation="LEFT_RIGHT"
+                app:layout_constraintBottom_toTopOf="@+id/tv_btn_back"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_btn_back"
+                app:layout_constraintRight_toRightOf="@+id/tv_btn_back"
+                tools:text="@string/chat_transfer_confirm" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_btn_back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:paddingVertical="15dp"
+                android:textColor="@color/theme_color"
+                android:textSize="16sp"
+                android:visibility="gone"
+                app:border_color_normal="@color/theme_color"
+                app:border_width_normal="1dp"
+                app:corner_radius="42dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:text="@string/chat_transfer_back" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

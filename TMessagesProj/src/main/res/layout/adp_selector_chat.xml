@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:background_normal="#F7F8F9"
+    android:paddingEnd="5dp"
+    app:corner_radius="36dp"
+    android:layout_marginBottom="14dp"
+    android:orientation="horizontal"
+    android:layout_marginStart="12dp"
+    android:layout_height="36dp">
+
+    <com.ruffian.library.widget.RFrameLayout
+        android:id="@+id/fl_avatar"
+        app:corner_radius="36dp"
+        app:background_normal="#efefef"
+        android:layout_width="36dp"
+        android:layout_height="36dp"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:maxWidth="50dp"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        app:layout_constraintLeft_toRightOf="@+id/fl_avatar"
+        android:layout_height="match_parent"
+        tools:text="NguNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenNguyenyen"
+        android:lines="1"
+        android:ellipsize="end"
+        android:textColor="#444444"
+        android:textSize="13sp" />
+
+</com.ruffian.library.widget.RLinearLayout>

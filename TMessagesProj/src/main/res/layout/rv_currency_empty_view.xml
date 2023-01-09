@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_marginTop="14dp"
+        android:layout_marginHorizontal="12dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/group_list_empty_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingHorizontal="18dp"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <teleblock.widget.DividerLineView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1.5px"/>
+
+        <TextView
+            android:id="@+id/tv_empty_title"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            tools:text="@string/currency_fragment_empty_data_title"
+            android:textColor="#56565c"
+            android:textSize="15sp" />
+
+        <teleblock.widget.DividerLineView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1.5px"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_empty_tips"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/currency_fragment_empty_data_tips"
+        android:textColor="#83868b"
+        android:textSize="12sp" />
+</com.ruffian.library.widget.RLinearLayout>

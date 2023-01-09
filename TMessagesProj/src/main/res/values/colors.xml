@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider">#dcdcdc</color>
+    <color name="widget_name">#212121</color>
+    <color name="widget_badge">#ffffff</color>
+    <color name="widget_time">#96999C</color>
+    <color name="widget_text">#8B8D8F</color>
+    <color name="widget_divider">#d9d9d9</color>
+    <color name="widget_action_text">#8B8D8F</color>
+    <color name="widget_edit_text">#999999</color>
+    <color name="background">#e5e5e5</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="color_F0F5FF">#F0F5FF</color>
+    <color name="color_202020">#202020</color>
+    <color name="color_4769F9">#4769F9</color>
+    <color name="color_83868b">#83868b</color>
+    <color name="color_F7F8F9">#F7F8F9</color>
+    <color name="color_F1F1F1">#f1f1f1</color>
+    <color name="color_FF5F5F">#FF5F5F</color>
+    <color name="color_4394F3">#4394F3</color>
+    <color name="color_BFBFC2">#BFBFC2</color>
+    <color name="color_1a1a1d">#1a1a1d</color>
+    <color name="color_56565c">#56565c</color>
+    <color name="tg_main_color">#66A9E0</color>
+    <color name="half_black">#808080</color>
+
+    <color name="grey">#cccccc</color>
+    <color name="color_b7b7b7">#b7b7b7</color>
+
+    <color name="color_1f000000">#1f000000</color>
+    <color name="color_80000000">#80000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="color_FFD233">#FFD233</color>
+    <color name="color_03BDFF">#03BDFF</color>
+    <color name="color_01D6BC">#01D6BC</color>
+    <color name="color_AB61D9">#AB61D9</color>
+
+    <color name="theme_color">#03BDFF</color>
+
+    <color name="color_E7F2FE">#E7F2FE</color>
+</resources>

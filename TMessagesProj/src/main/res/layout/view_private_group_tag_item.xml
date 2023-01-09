@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/tv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:paddingHorizontal="9dp"
+        android:paddingVertical="4dp"
+        tools:text="立即加入"
+        android:textSize="12sp"
+        android:lines="1"
+        android:maxWidth="80dp"
+        android:ellipsize="end"
+        app:border_color_normal="#E7E8EB"
+        app:border_width_normal="1dp"
+        app:corner_radius="30dp"
+        app:text_color_normal="#414147" />
+</FrameLayout>

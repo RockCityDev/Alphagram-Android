@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "424543423424",
+    "project_id": "alphagram-7db2f",
+    "storage_bucket": "alphagram-7db2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424545509062:android:29b4a95dfed7e36dfe81c7",
+        "android_client_info": {
+          "package_name": "app.alphagram.messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424545509062-09aa4jbqikd79q0flaosbntjtap5ct85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGZECdlZhxxFqNzeSy0easN8eqzf5ThU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424545509062-09aa4jbqikd79q0flaosbntjtap5ct85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424545509062:android:29b4a95dfed7e36dfe81c7",
+        "android_client_info": {
+          "package_name": "app.alphagram.messenger.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424545509062-09aa4jbqikd79q0flaosbntjtap5ct85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGZECdlZhxxFqNzeSy0easN8eqzf5ThU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424545509062-09aa4jbqikd79q0flaosbntjtap5ct85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:id="@+id/more_message_layout"
+    android:background="@drawable/ic_more_message_bg"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <FrameLayout
+        android:id="@+id/more_head_frame"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:id="@+id/tv_more_message"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:drawableEnd="@drawable/ic_message_more"
+        android:drawablePadding="3dp"
+        android:gravity="center"
+        android:textColor="#4E9AD4"
+        android:textSize="16sp"
+        tools:text="展开4条折叠消息"/>
+</LinearLayout>

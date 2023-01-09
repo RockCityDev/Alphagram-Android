@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.ruffian.library.widget.RFrameLayout
+        android:id="@+id/icon_frame"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:background_normal="@color/theme_color"
+        app:corner_radius="52dp">
+
+        <ImageView
+            android:id="@+id/iv_func"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            tools:src="@drawable/ic_func_delete_msg"></ImageView>
+    </com.ruffian.library.widget.RFrameLayout>
+
+
+    <TextView
+        android:id="@+id/tv_func"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textColor="#656565"
+        tools:text="主题市场"></TextView>
+</LinearLayout>

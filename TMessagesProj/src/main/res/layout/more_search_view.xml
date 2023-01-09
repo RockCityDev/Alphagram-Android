@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/tv_more"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textColor="#868686"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:drawablePadding="2dp"
+        app:icon_normal_right="@drawable/icon_arrow_more__recommend_normal"
+        tools:text="@string/act_recommend_tg_search_more"/>
+</FrameLayout>

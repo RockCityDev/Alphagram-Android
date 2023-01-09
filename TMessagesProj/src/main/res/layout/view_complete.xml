@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="46dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:icon_src_normal="@drawable/complete_icon"
+    app:icon_with_text="true"
+    app:corner_radius="30dp"
+    app:icon_width="24dp"
+    app:icon_height="24dp"
+    tools:background_normal="@color/theme_color"
+    android:layout_height="30dp">
+</com.ruffian.library.widget.RTextView>

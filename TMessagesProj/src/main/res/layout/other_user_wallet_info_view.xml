@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@color/black"
+    android:paddingVertical="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/tv_copy_wallet_address"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        tools:text="0x5c74…B75F"
+        android:gravity="center"
+        app:icon_width_right="20dp"
+        app:icon_height_right="20dp"
+        android:drawablePadding="6dp"
+        android:layout_marginStart="23dp"
+        tools:icon_normal_right="@drawable/icon_copy_address_wallet_white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textColor="#333333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_wallet_address_title"
+        android:layout_marginTop="3dp"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_copy_wallet_address"
+        app:layout_constraintTop_toBottomOf="@+id/tv_copy_wallet_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/other_user_wallet_info_wallet_address"
+        tools:textColor="#818289"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_chain_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_wallet_address_title"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_copy_wallet_address"
+        tools:text="Ethereum"
+        tools:textColor="#333333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_network_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_chain_name"
+        app:layout_constraintLeft_toLeftOf="@+id/tv_chain_name"
+        tools:text="@string/other_user_wallet_info_network"
+        android:layout_marginTop="3dp"
+        tools:textColor="#818289"
+        android:textSize="12sp" />
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/tv_wallet_details"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_wallet_address_title"
+        app:layout_constraintTop_toTopOf="@+id/tv_copy_wallet_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/other_user_wallet_info_details"
+        tools:text_color_normal="@color/theme_color"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:drawablePadding="6dp"
+        app:icon_height_right="16dp"
+        app:icon_width_right="16dp"
+        tools:icon_normal_right="@drawable/arrow_newchat"
+        android:textSize="13sp" />
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/tv_transfer_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/dialog_user_personal_transfer_to_he"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:drawablePadding="6dp"
+        app:icon_width_left="26dp"
+        app:icon_height_left="26dp"
+        app:icon_height_right="16dp"
+        app:icon_width_right="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_network_title"
+        app:layout_constraintTop_toTopOf="@+id/tv_chain_name"
+        app:layout_constraintRight_toRightOf="@+id/tv_wallet_details"
+        tools:icon_normal_right="@drawable/arrow_newchat"
+        tools:icon_normal_left="@drawable/tab_transfer_icon"
+        tools:text_color_normal="@color/theme_color"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- string-array -->
+    <string name="array_my_mix_tables">Mi Guardar|Descargar|Caché</string>
+    <string name="array_channel_loading_tips">Cargando la lista de canales...|Cargando los medios...|Actualizando las noticias del canal...|Cargando los canales no leídos...</string>
+    <string name="array_theme_tables">CALIENTE|NUEVO|TEMA EN VIVO</string>
+    <string name="array_tgclean_type_tables">Imágenes|Videos|Archivos|Audios|Otros</string>
+    <string name="array_intro_tips">Comprehensive Telegram social|Recopilación de feeds de mis canales|Haga más cosas con menos esfuerzo</string>
+
+    <string name="title_my">Mi</string>
+
+    <!--日期-->
+    <string name="dateformat">MM-dd</string>
+    <string name="dateformat2">MM-dd hh:mm</string>
+    <string name="dateformat3">MM-dd HH:mm</string>
+    <string name="dateformat_am">aa hh:mm</string>
+
+    <string name="wait_for_network">Sin internet....</string>
+    <string name="wifi_net">WIFI</string>
+    <string name="mobile_net">Celular</string>
+
+    <!--视频模块-->
+    <string name="video_from">De:</string>
+    <string name="download_pause">En pausa</string>
+    <string name="download_fail">Error</string>
+    <string name="download_nostart">No descargado</string>
+    <string name="ac_down_cancel">Cancelar</string>
+    <string name="ac_save_album_null_tips">Ninguna tarea de guardado</string>
+    <string name="ac_downing_null_tips">Sin tarea de descarga</string>
+    <string name="ac_downed_null_tips">Sin video</string>
+    <string name="ac_message_null_tips">Sin mensaje</string>
+    <string name="ac_downed_text_checkall">Seleccionar todo</string>
+    <string name="ac_downed_text_checkno">Cancelar</string>
+    <string name="ac_downed_text_delete">Eliminar</string>
+    <string name="ac_downed_delete_ok">Eliminado</string>
+    <string name="ac_downed_save_to_gallery_ok">Ya guardado en la galería</string>
+    <string name="ac_downed_text_check_num">Se seleccionaron %d archivos个文件</string>
+    <string name="tools_local_video">Vídeo local</string>
+    <string name="tools_local_file">Archivos locales</string>
+    <string name="fg_textview_expand">Desplegar</string>
+    <string name="fg_textview_collapse">Doblar</string>
+    <string name="vw_video_collect">Guardar</string>
+    <string name="vw_video_collected">Guardado</string>
+    <string name="vw_video_download">Descargar</string>
+    <string name="vw_video_save_album">Guardar en álbum</string>
+    <string name="vw_video_guide_text">Se miran todos los videos más recientes</string>
+    <string name="vw_video_guide_btn_text">Saltar a los videos anteriores no vistos</string>
+    <string name="vw_video_guide_play_normal">Reanudar la reproducción</string>
+    <string name="vw_video_main_loading">Cargando, por favor espere...</string>
+    <string name="vw_video_full_tip">Pantalla completa</string>
+    <string name="vw_video_speed_text1">x1.0</string>
+    <string name="vw_video_speed_text1_n">x1.0(normal)</string>
+    <string name="vw_video_speed_text0.75">x0.75</string>
+    <string name="vw_video_speed_text1.25">x1.25</string>
+    <string name="vw_video_speed_text1.5">x1.5</string>
+    <string name="vw_video_speed_text2.0">x2.0</string>
+    <string name="vw_edit_cancel">Cancelar</string>
+    <string name="vw_local_scan">Local</string>
+    <string name="vw_local_cache">Caché</string>
+    <string name="vw_save_cache">Guardar en caché</string>
+    <string name="vw_save_album">Guardar en álbum</string>
+    <string name="ac_download_text_save_gallery">Enviar a galería</string>
+    <string name="ac_download_text_delete">Cancelar</string>
+    <string name="ac_download_text_share">Compartir</string>
+    <string name="view_play_guide_text">Volver a la última pausa</string>
+
+    <!--设置-->
+    <string name="login_proxy_text">Usar proxy</string>
+    <string name="login_proxy_tips">Para países y regiones que no pueden usar Telegram</string>
+    <string name="act_set_recommend">Recomendación</string>
+    <string name="view_home_message_folder">Carpetas de chat</string>
+    <string name="view_home_contact_us">Contáctenos</string>
+
+    <string name="view_theme_used_count">están usando</string>
+    <string name="view_filter_add_all">Añadir con un clic</string>
+    <string name="view_filter_delete_all">Eliminar todos los forders de archivos locales</string>
+
+    <!--翻译-->
+    <string name="translate_title">Traducir</string>
+    <string name="translate_setting_title">Configuración de traducción</string>
+    <string name="translate_dialog_loading">Traduciendo…</string>
+    <string name="translate_dialog_error">Error al traducir</string>
+    <string name="language_text">Seleccione un idioma</string>
+    <string name="login_language_text_en">Inglés</string>
+    <string name="login_language_text_tw">Chino tradicional (Taiwán)</string>
+    <string name="login_language_text_hk">Chino tradicional (Hong Kong)</string>
+    <string name="login_language_text_cnf">Chino (tradicional)</string>
+    <string name="login_language_text_cn">Chino (simplificado)</string>
+    <string name="translate_dialog_close">Confirmar</string>
+    <string name="translate_switch_title">Bocadillo de diálogo para traducir</string>
+    <string name="translate_switch_info">Mostrar la burbuja de traducción rápida a la derecha de cada mensaje</string>
+    <string name="translate_choose_language">Seleccione un idioma</string>
+    <string name="translate_language_auto">Detectar idioma</string>
+    <string name="translate_language_af">Afrikaans</string>
+    <string name="translate_language_sq">Albanés</string>
+    <string name="translate_language_ar">Árabe</string>
+    <string name="translate_language_hy">armenio</string>
+    <string name="translate_language_az">Azerbaiyano</string>
+    <string name="translate_language_be">Bielorruso</string>
+    <string name="translate_language_bn">Bengalí</string>
+    <string name="translate_language_bg">Búlgaro</string>
+    <string name="translate_language_ca">Catalán</string>
+    <string name="translate_language_zh_cn">Chino (simplificado)</string>
+    <string name="translate_language_zh_tw">Chino (tradicional)</string>
+    <string name="translate_language_hr">croata</string>
+    <string name="translate_language_cs">Checo</string>
+    <string name="translate_language_da">Danés</string>
+    <string name="translate_language_nl">Holandés</string>
+    <string name="translate_language_en">Inglés</string>
+    <string name="translate_language_eo">Esperanto</string>
+    <string name="translate_language_et">Estonio</string>
+    <string name="translate_language_tl">filipino (tagalo)</string>
+    <string name="translate_language_fi">finés</string>
+    <string name="translate_language_fr">francés</string>
+    <string name="translate_language_fy">frisón</string>
+    <string name="translate_language_gl">Gallego</string>
+    <string name="translate_language_ka">georgiano</string>
+    <string name="translate_language_de">Alemán</string>
+    <string name="translate_language_el">Griego</string>
+    <string name="translate_language_gu">Gujarati</string>
+    <string name="translate_language_ht">Criollo haitiano</string>
+    <string name="translate_language_ha">Hausa</string>
+    <string name="translate_language_hi">Hindi</string>
+    <string name="translate_language_hu">Húngaro</string>
+    <string name="translate_language_is">islandés</string>
+    <string name="translate_language_ig">Igbo</string>
+    <string name="translate_language_id">indonesio</string>
+    <string name="translate_language_ga">irlandés</string>
+    <string name="translate_language_it">Italiano</string>
+    <string name="translate_language_ja">japonés</string>
+    <string name="translate_language_jw">javanés</string>
+    <string name="translate_language_kn">Canarés</string>
+    <string name="translate_language_kk">kazajo</string>
+    <string name="translate_language_km">Khmer</string>
+    <string name="translate_language_ko">Coreano</string>
+    <string name="translate_language_ku">Kurdo (Kurmanji)</string>
+    <string name="translate_language_ky">Kirguís</string>
+    <string name="translate_language_lo">laosiano</string>
+    <string name="translate_language_la">Latín</string>
+    <string name="translate_language_lv">letón</string>
+    <string name="translate_language_lt">lituano</string>
+    <string name="translate_language_lb">luxemburgués</string>
+    <string name="translate_language_mk">macedonio</string>
+    <string name="translate_language_mg">malgache</string>
+    <string name="translate_language_ms">Malayo</string>
+    <string name="translate_language_ml">Malayalam</string>
+    <string name="translate_language_mt">Maltés</string>
+    <string name="translate_language_mi">maorí</string>
+    <string name="translate_language_mr">maratí</string>
+    <string name="translate_language_mn">Mongol</string>
+    <string name="translate_language_my">Myanmar (birmano)</string>
+    <string name="translate_language_ne">Nepalí</string>
+    <string name="translate_language_no">Noruego (Bokmål)</string>
+    <string name="translate_language_ps">Pashto</string>
+    <string name="translate_language_fa">Persa</string>
+    <string name="translate_language_pl">Polaco</string>
+    <string name="translate_language_pt">Portugués</string>
+    <string name="translate_language_ma">Punyabí (Gurmukhi)</string>
+    <string name="translate_language_ro">rumano</string>
+    <string name="translate_language_ru">Ruso</string>
+    <string name="translate_language_gd">Gaélico escocés</string>
+    <string name="translate_language_sr">serbio</string>
+    <string name="translate_language_st">Sotho</string>
+    <string name="translate_language_sn">Shona</string>
+    <string name="translate_language_sd">sindhi</string>
+    <string name="translate_language_si">Singalés</string>
+    <string name="translate_language_sk">Eslovaco</string>
+    <string name="translate_language_sl">esloveno</string>
+    <string name="translate_language_so">somalí</string>
+    <string name="translate_language_es">Español</string>
+    <string name="translate_language_su">Sundanés</string>
+    <string name="translate_language_sw">Suajili</string>
+    <string name="translate_language_sv">Sueco</string>
+    <string name="translate_language_tg">Tayiko</string>
+    <string name="translate_language_ta">tamil</string>
+    <string name="translate_language_te">Telugu</string>
+    <string name="translate_language_th">Tailandés</string>
+    <string name="translate_language_tr">Turco</string>
+    <string name="translate_language_uk">ucraniano</string>
+    <string name="translate_language_uz">Uzbeko</string>
+    <string name="translate_language_vi">vietnamita</string>
+    <string name="translate_language_cy">Galés</string>
+    <string name="translate_language_xh">Xhosa</string>
+    <string name="translate_language_yi">Yídish</string>
+    <string name="translate_language_yo">Yoruba</string>
+    <string name="translate_language_zu">Zulú</string>
+    <string name="translate_language_iw">Hebreo</string>
+
+    <!--无痕-->
+    <string name="stealth_login_title">Habilitar incógnito</string>
+    <string name="stealth_login_tips">“Los mensajes no se marcarán como vistos por ti.”</string>
+    <string name="stealth_toast_open">Incógnito activado</string>
+    <string name="stealth_toast_close">Incógnito está desactivado</string>
+    <string name="stealth_menu_title_on">Desactivar incógnito</string>
+    <string name="stealth_menu_title_off">Habilitar incógnito</string>
+    <string name="stealth_header_item_title_on">Desactivar incógnito aquí</string>
+    <string name="stealth_header_item_title_off">Activar incógnito aquí</string>
+
+    <string name="bot_token_login_text">Iniciar sesión con token de bot</string>
+    <string name="bot_token_login_title">Inicio de sesión con token de bot</string>
+    <string name="bot_phone_login_text">Iniciar sesión con número de teléfono</string>
+    <string name="bot_token_login_hint">Ingrese su token de bot</string>
+    <string name="bot_token_login_tips">Aviso:
+        \nPuedes crear un Bot a través de @BotFather.
+        \nIngrese el token de bot que @BotFather le envió.
+        \n\nSi inicia sesión con Bot, tiene los límites, incluidos los siguientes:
+        \n-- No se puede acceder a los contactos.
+        \n-- No puedo unirme a grupos y canales (excepto después de agregar sus administradores)
+        \n-- Solo puedes responder a otros usuarios después de que te envíen "/start".
+        \n-- No puedo ver si los mensajes se leen o no.</string>
+    <string name="bot_token_login_invalid">Token no válido</string>
+    <string name="ac_video_feed_ad_tips">Actualizar a la versión sin anuncios</string>
+    <string name="ad_banner_text">Eliminar anuncio</string>
+
+    <string name="login_phone_view_title">Inicia sesión en Telegram con número de teléfono</string>
+    <string name="login_phone_view_subtitle">Seleccione el código de su país e ingrese su número de teléfono</string>
+    <string name="login_see_phone_title">Nadie puede ver mi número de teléfono</string>
+    <string name="login_see_phone_desc">Recomiendo encarecidamente seleccionar esto para la protección de la privacidad</string>
+
+    <string name="tv_delete_all">Eliminar todo</string>
+    <string name="tv_delete_dialog_title">Confirmación de eliminación</string>
+    <string name="tv_delete_dialog_content">¿Está seguro de que desea eliminar todo? La operación no se puede reanudar</string>
+    <string name="tv_delete_dialog_positive_button">Claro</string>
+    <string name="tv_download_file_not_finish">Todavía no se ha descargado ningún archivo</string>
+
+    <string name="currency_tab_price">Precio</string>
+    <string name="currency_tab_general">Resumen</string>
+    <string name="currency_tab_exchange">Comercio</string>
+    <string name="currency_price_1d">1 Día</string>
+    <string name="currency_price_1w">1 semana</string>
+    <string name="currency_price_1m">1 Mes</string>
+    <string name="currency_price_3m">3 Meses</string>
+    <string name="currency_price_1y">1 año</string>
+    <string name="currency_price_max">Todo</string>
+    <string name="currency_general_rank">Valor de mercado</string>
+    <string name="currency_general_website">Sitio web</string>
+    <string name="currency_general_announcement">Anuncio</string>
+    <string name="currency_general_explorer">Navegador</string>
+    <string name="currency_general_source_code">Código fuente</string>
+    <string name="currency_general_community">Comunidad</string>
+    <string name="currency_general_tags">Etiqueta</string>
+    <string name="currency_general_market_cap">Valor de mercado</string>
+    <string name="currency_general_24h_vol">Volumen de operaciones (24h)</string>
+    <string name="currency_general_circulating_supply">Suministro circulante</string>
+    <string name="currency_general_total_supply">Suministro total</string>
+    <string name="currency_data_source">Fuente de datos</string>
+
+    <!--******************************************-->
+    <string name="http_unknown_error">Solicitud fallida por error desconocido</string>
+    <string name="http_token_error">error de inicio de sesión, inténtelo de nuevo</string>
+    <string name="http_data_explain_error">Excepción de análisis de datos, espere</string>
+    <string name="http_server_out_time">Se agotó el tiempo de espera de la solicitud del servidor, inténtelo de nuevo más tarde</string>
+    <string name="http_network_error">Solicitud fallida, verifique la configuración de red</string>
+    <string name="http_response_error">El servidor respondió de manera anormal, intente nuevamente más tarde</string>
+    <string name="http_server_error">Error de conexión del servidor, inténtalo de nuevo más tarde</string>
+    <string name="http_request_cancel">La solicitud se interrumpió, inténtalo de nuevo</string>
+    <string name="http_response_null_body">Los datos del servidor devolvieron una excepción, inténtelo de nuevo más tarde</string>
+
+    <!--登录-->
+    <string name="ac_login_title">Ingrese su número de teléfono para obtener el código de verificación de inicio de sesión</string>
+    <string name="ac_login_register_tip">Su número de teléfono es su cuenta de inicio de sesión de Telegram después de iniciar sesión correctamente. Para cambiar su nombre de usuario, perfil y configuración de privacidad de Telegram en la esquina superior izquierda de la página de chat.</string>
+    <string name="splash_btn_login">Iniciar sesión con cuenta de Telegram</string>
+    <string name="splash_btn_register_tip">¿No tienes cuenta de Telegram? </string>
+    <string name="splash_btn_register">Iniciar sesión</string>
+
+    <!--首页-->
+    <string name="home_unbind_wallet_tips">No te has conectado a ninguna billetera digital</string>
+    <string name="home_link_wallet">Conéctese a su billetera</string>
+    <string name="home_contact">Contactos</string>
+    <string name="home_relatedme">Para mí</string>
+    <string name="home_unknown_sender">Extraños</string>
+    <string name="home_commontools">Herramientas</string>
+    <string name="home_my_wallet">Mi billetera</string>
+    <string name="home_edit_nft_photo">Editar foto de perfil NFT</string>
+    <string name="home_msg_group">Carpetas de chat</string>
+    <string name="message_center_content">Centro de información</string>
+    <string name="message_center_myjoin_group">Grupos a los que me uní</string>
+    <string name="message_center_archiveortop">Archivar y anclado</string>
+
+    <!--首页弹窗菜单-->
+    <string name="homeoption_pop_qrcode">Escanear</string>
+    <string name="homeoption_pop_createmsg">Iniciar un nuevo mensaje</string>
+    <string name="homeoption_pop_addfriend">Nuevo contacto</string>
+    <string name="homeoption_pop_creategroup">Nuevo grupo</string>
+    <string name="homeoption_pop_createchannel">Nuevo canal</string>
+    <string name="homeoption_pop_encryptedchat">Iniciar chat secreto</string>
+    <string name="homeoption_pop_relatedme">Administrar &quot;mi relacionado&quot;</string>
+
+    <!--好工具-->
+    <string name="ac_title_theme">Tienda de temas</string>
+    <string name="commontools_system_tool">Herramientas del sistema</string>
+    <string name="commontools_content_recommend">Recomendación</string>
+    <string name="commontools_oneclick_cleanup">Limpiar ahora</string>
+    <string name="commontools_local_cache_size_tips">se usa almacenamiento</string>
+    <string name="commontools_scan_qrcode">Escanear código QR</string>
+    <string name="commontools_add_friend">Invitar amigos</string>
+    <string name="commontools_download_management">Administrar descarga</string>
+    <string name="commontools_my_collection">Mi guardado</string>
+    <string name="commontools_resource_navigation">Guía de recursos</string>
+    <string name="commontools_group_recommend">Recomendación de grupo</string>
+    <string name="commontools_channel_recommend">Recomendación de canal</string>
+    <string name="commontools_official_group_ch">Grupo oficial</string>
+    <string name="commontools_official_group_ex">Grupo oficial</string>
+    <string name="commontools_official_channel_ch">Canal oficial</string>
+    <string name="commontools_official_channel_ex">Canal oficial</string>
+
+    <!--清理缓存-->
+    <string name="ac_title_storage_clean">Limpiar caché</string>
+    <string name="ac_tgclean_title_image">Imágenes</string>
+    <string name="ac_tgclean_null_file">Ningún archivo de este tipo</string>
+    <string name="ac_tgclean_views_grid">Vista de cuadrícula</string>
+    <string name="ac_tgclean_views_list">Vista de lista</string>
+    <string name="ac_tgclean_loading_text">Escaneando…</string>
+    <string name="ac_tgclean_total_show_format"> %d archivos, en total %s</string>
+
+    <!--频道焦点-->
+    <string name="dg_channel_block">Abandonar el canal</string>
+    <string name="dg_channel_block_ok">Has dejado el Canal</string>
+    <string name="dg_channel_all_media">Mostrar todos los medios</string>
+    <string name="dg_channel_in_chat">Mostrar en el chat</string>
+    <string name="channel_more_message_format">Desplegar %d mensajes</string>
+    <string name="channel_tag_all_text">Todo</string>
+    <string name="channel_recommend_tag_secret">Privado🙈</string>
+    <string name="fragment_channel_coutent_title">Publicaciones del canal</string>
+    <string name="fragment_channel_coutent_like">Me gusta</string>
+    <string name="fragment_channel_coutent_comments">Comentario</string>
+    <string name="fragment_channel_coutent_share">Compartir</string>
+    <string name="fragment_channel_nolike_tips">¡No puedo hacer clic en "me gusta" en este canal!</string>
+
+    <!--他人主页-->
+    <string name="dialog_other_homepage_msg">Mensajes</string>
+    <string name="dialog_other_homepage_voice">Llamada de voz</string>
+    <string name="dialog_other_homepage_video">Videollamada</string>
+    <string name="dialog_other_homepage_commune">Chat secreto</string>
+    <string name="dialog_other_homepage_addfirend">Nuevo contacto</string>
+    <string name="dialog_other_homepage_introduction">Perfil</string>
+    <string name="dialog_other_homepage_commongroup">Grupos en común</string>
+    <string name="dialog_other_homepage_msgnum">Este grupo ha enviado %d mensajes</string>
+
+    <!--个人主页-->
+    <string name="user_personal_message">Mensaje</string>
+    <string name="user_personal_voice">Voz</string>
+    <string name="user_personal_video">Video</string>
+    <string name="user_personal_secret_chat">Chat secreto</string>
+    <string name="user_personal_add_friend">Agregar amigos</string>
+    <string name="user_personal_edit_friend">Editar</string>
+    <string name="user_personal_main_page">Inicio</string>
+    <string name="user_personal_introduction">Perfil</string>
+    <string name="user_personal_common_group">Grupos en común</string>
+    <string name="user_personal_msg_num">envió %d mensajes en este grupo ></string>
+    <string name="user_personal_last_msg_date">El último envío fue\t</string>
+    <string name="user_personal_online_time">El último en línea fue</string>
+
+    <!-- 好友列表-->
+    <string name="view_title_text">Lista de amigos</string>
+
+    <!--sticker收藏-->
+    <string name="sticker_my_collect">Mi guardado</string>
+
+    <!--清除消息-->
+    <string name="dialog_clean_all">¿Marcar todo como leído?</string>
+    <string name="dialog_clean_tv_cancel">Cancelar</string>
+    <string name="dialog_clean_tv_ok">Claro</string>
+
+    <!--闪屏页-->
+    <string name="splash_tips">Devoted to the best crypto social.</string>
+
+    <!--设置页面-->
+    <string name="setting_linkwallet_title">Conecte su billetera</string>
+    <string name="setting_wallet_unbind_title">Mi billetera</string>
+    <string name="setting_wallet_uninstall_toast">Solo MataMask está disponible ahora, configure una billetera antes de conectarla</string>
+
+    <!--绑定钱包页面-->
+    <string name="act_bindwallet_linkwallet">Conecte su billetera</string>
+    <string name="act_bindwallet_select_linkwallet">Elija la billetera que desea conectar</string>
+    <string name="act_bindwallet_cancel">Cancelar</string>
+
+    <!--与我相关设置-->
+    <string name="act_relatedme_setting_title">Configuración para mí</string>
+    <string name="act_relatedme_setting_addtoping_list">Agregar a la lista superior</string>
+    <string name="act_relatedme_setting_meetcriteria_group">Grupos según lo solicitado (%d)</string>
+    <string name="act_relatedme_setting_archive_list">Agregar al archivo</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list">Grupos dentro de la siguiente cantidad de miembros</string>
+    <string name="act_relatedme_setting_peoplenumber_screen_list_tips">Grupos que tienen menos de %d miembros</string>
+    <string name="act_relatedme_setting_filter_title">Filtro</string>
+    <string name="act_relatedme_setting_blacklist">Lista negra</string>
+    <string name="act_relatedme_setting_whitelist">Lista blanca</string>
+
+    <!--黑白名单页面-->
+    <string name="act_permissions_chat_addwhitelist">Agregar a la lista blanca</string>
+    <string name="act_permissions_chat_addblacklist">Agregar a la lista negra</string>
+    <string name="act_permissions_chat_whitelist_num">Lista blanca %d</string>
+    <string name="act_permissions_chat_blacklist_num">Lista negra %d</string>
+    <string name="act_permissions_chat_remove">Eliminar</string>
+    <string name="act_permissions_chat_channel">%d seguidores</string>
+    <string name="act_permissions_chat_group">%d Miembros</string>
+    <string name="act_permissions_chat_confirm_addwhitelist">Confirmar en la lista blanca</string>
+    <string name="act_permissions_chat_confirm_addblacklist">Confirmar en la lista negra</string>
+    <string name="act_permissions_chat_selectoruser">Elegir usuarios</string>
+    <string name="act_permissions_black_null_tips1">Sin lista negra</string>
+    <string name="act_permissions_black_null_tips2">Los usuarios en la lista negra no afectarán los resultados del filtro</string>
+    <string name="act_permissions_white_null_tips1">Sin lista blanca</string>
+    <string name="act_permissions_white_null_tips2">Los usuarios en la lista blanca no afectarán los resultados del filtro</string>
+
+    <!--社群推荐-->
+    <string name="view_community_recommendtab_title">Grupos sugeridos</string>
+    <string name="view_community_recommendtab_search">Buscar grupos y canales</string>
+    <string name="view_community_recommendtab_recommend">Sugerencias para usted</string>
+    <string name="view_community_recommendtab_showall_recommend">Mostrar todo</string>
+    <string name="view_community_recommendtab_hottopic">Tema candente</string>
+    <string name="view_community_recommendtab_morerecommend">Más grupos sugeridos</string>
+    <string name="view_community_recommendtab_findandjoin">Buscar y unirse</string>
+    <string name="view_community_recommendtab_group">Grupos</string>
+    <string name="view_community_recommendtab_channel">Canales</string>
+    <string name="view_community_recommendtab_boot">Bots</string>
+    <string name="channel_subscription_num">%d seguidores</string>
+    <string name="group_subscription_num">%d Miembros</string>
+    <string name="online_num">• %d en línea</string>
+    <string name="view_community_recommendtab_addchannel">Únete al canal</string>
+    <string name="view_community_recommendtab_addgroup">Únete al grupo</string>
+    <string name="view_community_recommend_invate">Lo sentimos, este grupo/canal ya no está disponible o se volvió privado, haga clic en confirmar para eliminarlo.</string>
+    <string name="view_community_recommend_confirm">Confirmar</string>
+
+    <!-- 群搜索-->
+    <string name="act_recommend_search_text">Resultados de búsqueda de αlphagram</string>
+    <string name="act_recommend_tg_search_text">Resultados de búsqueda de Telegram</string>
+    <string name="act_recommend_tg_search_hint">Ingrese el nombre del grupo</string>
+    <string name="act_recommend_tg_search_more">Mostrar más</string>
+
+    <!-- 消息中心清空陌生人-->
+    <string name="act_delete_other_dialog_title">¿Estás seguro de limpiar estos chats?</string>
+    <string name="act_delete_other_dialog_left_text">Cancelar</string>
+    <string name="act_delete_other_dialog_right_text">Claro</string>
+
+    <!-- NFT资产列表-->
+    <string name="nft_assets_title">Elija su foto de perfil NFT</string>
+    <string name="nft_assets_empty_text">Ningún NFT todavía</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_channel_top_layout" />
+
+    <FrameLayout
+        android:id="@+id/media_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:minHeight="100dp" />
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/function_layout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="46dp"-->
+    <!--        android:background="#ffffff"-->
+    <!--        android:gravity="center_vertical"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:paddingLeft="16dp"-->
+    <!--        android:paddingRight="16dp">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_channel_views"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:drawableLeft="@drawable/ic_channle_view"-->
+    <!--            android:drawablePadding="4dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:text="0"-->
+    <!--            android:textColor="#868E95"-->
+    <!--            android:textSize="14sp"/>-->
+
+    <!--        <View-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="1px"-->
+    <!--            android:layout_weight="1"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_channel_collect"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:drawableLeft="@drawable/ic_channel_collect"-->
+    <!--            android:drawablePadding="4dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:paddingLeft="30dp"-->
+    <!--            android:text=""-->
+    <!--            android:textColor="#868E95"-->
+    <!--            android:textSize="14sp"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/tv_channel_download"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:drawableLeft="@drawable/ic_channel_download"-->
+    <!--            android:drawablePadding="4dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:paddingLeft="30dp"-->
+    <!--            android:text=""-->
+    <!--            android:textColor="#868E95"-->
+    <!--            android:textSize="14sp"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/iv_channel_share"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:paddingLeft="30dp"-->
+    <!--            android:src="@drawable/ic_channel_share"/>-->
+
+    <!--    </LinearLayout>-->
+
+    <include
+        android:id="@+id/function_layout"
+        layout="@layout/view_function_layout" />
+
+    <include layout="@layout/view_more_message_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#f0f0f0" />
+
+</LinearLayout>

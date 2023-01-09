@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <!-- google facebook 广告层-->
+    <com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ggad_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="visible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.ruffian.library.widget.RLinearLayout
+                android:id="@+id/ll_ad_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:background_normal="#D60E0E0E"
+                app:corner_radius="4dp"
+                app:layout_constraintBottom_toTopOf="@+id/ggad_media"
+                app:layout_constraintLeft_toLeftOf="parent">
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_ad_remove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingHorizontal="7dp"
+                    android:text="@string/ad_banner_text"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    app:background_normal="@array/gradient_ad_banner"
+                    app:corner_radius_bottom_left="4dp"
+                    app:corner_radius_top_left="4dp"
+                    app:gradient_orientation="LEFT_RIGHT" />
+
+                <TextView
+                    android:id="@+id/tv_ad_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="7dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    tools:text="@string/ac_video_feed_ad_tips" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ad_vip_right" />
+            </com.ruffian.library.widget.RLinearLayout>
+
+            <com.google.android.gms.ads.nativead.MediaView
+                android:id="@+id/ggad_media"
+                android:layout_width="0dp"
+                android:layout_height="225dp"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/bt_ggbtn"
+                android:layout_width="224dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/ic_ad_button_backgroud"
+                android:gravity="center"
+                android:textColor="#ffffffff"
+                android:textSize="15sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ggad_media"
+                tools:text="立即下载"/>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                app:shapeAppearance="@style/circleImageStyle"
+                android:id="@+id/ggad_icon"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="13dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:src="@mipmap/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/tv_ggtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_ggbody"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:text="R2one 抖音美女"/>
+
+            <TextView
+                android:id="@+id/tv_ggbody"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#99ffffff"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/ggad_icon"
+                tools:text="扎克·施奈德版正义联盟 扎克·施奈德版正义联盟扎克·施版正义联盟克·施版正义联盟克·施版正义联盟克·施版正义联盟"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+
+    <!--    Max ad-->
+    <FrameLayout
+        android:id="@+id/max_ad_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>

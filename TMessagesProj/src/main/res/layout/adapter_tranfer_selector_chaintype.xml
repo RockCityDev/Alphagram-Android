@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    android:paddingHorizontal="16dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_slector_state"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        tools:src="@drawable/btn_radio_selected"/>
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        tools:src="@drawable/user_chain_logo_18"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Ethereum Mainnet"
+        android:lines="1"
+        android:layout_marginStart="11dp"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>

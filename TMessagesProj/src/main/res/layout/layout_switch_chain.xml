@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_chain_type"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawablePadding="10dp"
+    android:gravity="center_vertical"
+    android:includeFontPadding="false"
+    android:singleLine="true"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    app:icon_normal_right="@drawable/ic_ab_new"
+    tools:icon_normal_left="@drawable/user_chain_logo_18"
+    tools:text="Ethereum" />
+
+

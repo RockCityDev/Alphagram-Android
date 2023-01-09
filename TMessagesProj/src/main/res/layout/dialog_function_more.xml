@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_channel_more_dialog_selector"
+        android:orientation="vertical">
+
+        <com.ruffian.library.widget.RFrameLayout
+            android:id="@+id/close_frame"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            app:background_normal="#EBEBEB"
+            app:corner_radius="50dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_function_more_dialog_close"></ImageView>
+        </com.ruffian.library.widget.RFrameLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_storage_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:includeFontPadding="false"
+                android:text="--"
+                android:textColor="#000000"
+                android:textSize="33sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></TextView>
+
+            <TextView
+                android:id="@+id/tv_storage_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:includeFontPadding="false"
+                android:textColor="#56565C"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_storage_size"
+                app:layout_constraintLeft_toRightOf="@+id/tv_storage_size"
+                tools:text="--"></TextView>
+
+            <TextView
+                android:id="@+id/tv_storage_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:includeFontPadding="false"
+                android:text="@string/dg_storage_scan_tips"
+                android:textColor="#56565C"
+                android:textSize="16sp"
+                android:visibility="visible"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_storage_size"
+                app:layout_constraintTop_toBottomOf="@+id/tv_storage_size"></TextView>
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_storage_clean"
+                android:layout_width="127dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="@string/dg_storage_scan_clean"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                app:background_normal="@color/theme_color"
+                app:corner_radius="37dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_storage_scan"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_storage_size"></com.ruffian.library.widget.RTextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="21dp"
+            android:background="#DFDFDF"></View>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/function_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"></androidx.recyclerview.widget.RecyclerView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="21dp"
+            android:background="#DFDFDF"
+            android:visibility="gone"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/sticker_dialog_popular"
+                android:textColor="#56565C"
+                android:textSize="15sp"></TextView>
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_collect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_arrow_right_blue"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:text="@string/sticker_dialog_collect"
+                android:textColor="@color/theme_color"
+                android:textSize="15sp"></com.ruffian.library.widget.RTextView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/sticker_frame"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:visibility="gone"></FrameLayout>
+
+        <com.ruffian.library.widget.RLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            app:background_normal="#EBEBEB"
+            app:corner_radius="24dp">
+
+            <FrameLayout
+                android:id="@+id/contact_us_frame"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_contact_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/icon_twitter_tools"
+                    android:drawablePadding="3dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="@string/view_home_contact_us"
+                    android:textColor="#56565C"
+                    android:textSize="16sp" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="23dp"
+                android:background="#868686" />
+
+            <FrameLayout
+                android:id="@+id/official_group_frame"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_official_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/icon_official_group_tools"
+                    android:drawablePadding="3dp"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="@string/view_home_official_group"
+                    android:textColor="#FF56565C"
+                    android:textSize="16sp" />
+            </FrameLayout>
+        </com.ruffian.library.widget.RLinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

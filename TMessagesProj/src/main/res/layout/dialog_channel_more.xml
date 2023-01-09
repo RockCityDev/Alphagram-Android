@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_dialog_shadow_top"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/holder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_channel_more_dialog_selector"
+        android:orientation="vertical">
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_add_tag"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:drawableLeft="@drawable/ic_channel_add_tag"-->
+<!--            android:drawablePadding="22dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:padding="16dp"-->
+<!--            android:text="@string/dg_channel_add_tag"-->
+<!--            android:textColor="#78828A"-->
+<!--            android:textSize="16sp"-->
+<!--            android:visibility="visible"/>-->
+
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/tag_rv"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="60dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginBottom="16dp"/>-->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#20000000"/>
+
+        <LinearLayout
+            android:id="@+id/layoutAllMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_all_media"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_channel_all"
+                android:drawablePadding="22dp"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                tools:text="@string/dg_channel_all_media"
+                android:textColor="#78828A"
+                android:textSize="16sp"
+                android:visibility="visible"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="#20000000"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_inchat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_channel_inchat"
+            android:drawablePadding="22dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            tools:text="@string/dg_channel_in_chat"
+            android:textColor="#78828A"
+            android:textSize="16sp"
+            android:visibility="visible"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:background="#20000000"/>
+
+
+        <TextView
+            android:id="@+id/tv_pb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_channel_pb"
+            android:drawablePadding="22dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            tools:text="@string/dg_channel_block"
+            android:textColor="#78828A"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

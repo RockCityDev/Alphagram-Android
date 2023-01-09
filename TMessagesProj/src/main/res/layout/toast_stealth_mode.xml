@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:paddingVertical="16dp"
+    app:background_normal="#CC000000"
+    app:corner_radius="4dp">
+
+    <ImageView
+        android:id="@+id/iv_stealth_mode"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:src="@drawable/ic_toast_stealth_mode_open" />
+
+    <TextView
+        android:id="@+id/tv_stealth_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/stealth_toast_open"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp" />
+</com.ruffian.library.widget.RLinearLayout>

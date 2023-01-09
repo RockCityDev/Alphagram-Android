@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:paddingTop="80dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingVertical="6dp"
+                android:textColor="#1A1A1D"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="@string/transfer_activity_title" />
+
+            <ImageView
+                android:id="@+id/iv_close_page"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="11dp"
+                android:src="@drawable/line_close" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_send_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:textColor="#828283"
+            android:textSize="18sp"
+            tools:text="@string/transfer_activity_sended" />
+
+        <com.ruffian.library.widget.RConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:layout_marginTop="16dp"
+            app:border_color_normal="#DCDDE0"
+            app:border_width_normal="1dp"
+            app:corner_radius_top_left="8dp"
+            app:corner_radius_top_right="8dp">
+
+            <TextView
+                android:id="@+id/tv_from_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="From:"
+                android:textColor="#1a1a1d"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/v_line"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <teleblock.widget.TelegramUserAvatar
+                android:id="@+id/fl_avatar_from"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="20dp"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_from_title"
+                app:layout_constraintLeft_toRightOf="@+id/tv_from_title"
+                app:layout_constraintTop_toTopOf="@+id/tv_from_title"
+                tools:background="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_from_account"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:ellipsize="middle"
+                android:singleLine="true"
+                android:text="0xA7E2...998f"
+                android:textColor="#56565c"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@+id/tv_balance"
+                app:layout_constraintLeft_toRightOf="@+id/fl_avatar_from"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <TextView
+                android:id="@+id/tv_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="余额：0.072ETH"
+                android:textColor="#ababaf"
+                android:textSize="12sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/v_line"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_from_account"
+                app:layout_constraintTop_toBottomOf="@+id/tv_from_account" />
+
+            <View
+                android:id="@+id/v_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#DCDDE0"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_to_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To:"
+                android:textColor="#1a1a1d"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="@+id/tv_from_title"
+                app:layout_constraintTop_toBottomOf="@+id/v_line" />
+
+            <EditText
+                android:id="@+id/et_search_account"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/white"
+                android:ellipsize="middle"
+                android:hint="@string/transfer_activity_search_hint"
+                android:singleLine="true"
+                android:textColorHint="#D3D3D6"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="@+id/fl_avatar_from"
+                app:layout_constraintRight_toLeftOf="@+id/iv_screen"
+                app:layout_constraintTop_toBottomOf="@+id/v_line" />
+
+            <ImageView
+                android:id="@+id/iv_screen"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/line_full_screen_icon"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_to_title"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/tv_to_title" />
+
+            <LinearLayout
+                android:id="@+id/ll_selector_to_account"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="@+id/fl_avatar_from"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_line">
+
+                <teleblock.widget.TelegramUserAvatar
+                    android:id="@+id/fl_avatar_to"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    tools:background="@color/black" />
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <com.ruffian.library.widget.RTextView
+                        android:id="@+id/tv_show_address"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="8dp"
+                        android:ellipsize="middle"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textColor="#56565c"
+                        android:textSize="15sp"
+                        app:icon_height="20dp"
+                        app:icon_width="20dp"
+                        tools:text="ohoho.eth" />
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/iv_close"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingHorizontal="12dp"
+                    android:src="@drawable/selector_account_close" />
+            </LinearLayout>
+        </com.ruffian.library.widget.RConstraintLayout>
+
+        <com.ruffian.library.widget.RLinearLayout
+            android:id="@+id/ll_wallet_tips"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:gravity="center"
+            android:visibility="gone"
+            app:background_normal="#FDEEEE"
+            app:border_color_normal="#FBCECE"
+            app:border_width_normal="1dp"
+            app:corner_radius_bottom_left="8dp"
+            app:corner_radius_bottom_right="8dp">
+
+            <TextView
+                android:id="@+id/tv_wallet_tips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/ic_tips_red"
+                android:gravity="center"
+                android:textColor="#EB5757"
+                android:textSize="13sp"
+                tools:text="无效的钱的地址" />
+
+        </com.ruffian.library.widget.RLinearLayout>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ll_bottom_next"
+        app:layout_constraintTop_toBottomOf="@+id/top_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:id="@+id/tv_recenttransactions_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:textColor="#414147"
+                android:textSize="14sp"
+                tools:text="@string/transfer_activity_recenttransactions" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_recenttransactions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#DCDDE0" />
+
+            <TextView
+                android:id="@+id/tv_myfriend_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#414147"
+                tools:text="@string/transfer_activity_myfriend" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_myfriend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@+id/ll_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="26dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/ll_nofrind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="#DCDDE0" />
+
+                    <TextView
+                        android:id="@+id/tv_no_friend_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="@string/transfer_activity_nobind_friend"
+                        android:textColor="#56565c"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="#DCDDE0" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/transfer_activity_tips"
+                    android:textColor="#83868b"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        app:gradient_orientation="LEFT_RIGHT"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1.5px"
+            android:layout_marginBottom="16dp"
+            android:background="#1F000000" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_nextstep_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:alpha="0.5"
+            android:clickable="false"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingVertical="15dp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:gradient_orientation="LEFT_RIGHT"
+            app:background_normal="@array/gradient_linkwallet_bg"
+            app:corner_radius="42dp"
+            tools:text="@string/transfer_activity_transfer_nextstep" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

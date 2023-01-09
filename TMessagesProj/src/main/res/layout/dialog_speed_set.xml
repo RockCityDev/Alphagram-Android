@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/view_holder"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="237dp"
+        android:layout_height="match_parent"
+        android:background="#80000000"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="55dp">
+
+        <TextView
+            android:id="@+id/tv_speed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/vw_video_speed_text2.0"
+            android:textColor="@drawable/ic_speed_selector"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_speed1.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/vw_video_speed_text1.5"
+            android:textColor="@drawable/ic_speed_selector"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_speed1.25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/vw_video_speed_text1.25"
+            android:textColor="@drawable/ic_speed_selector"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_speed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/vw_video_speed_text1_n"
+            android:textColor="@drawable/ic_speed_selector"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_speed0.75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/vw_video_speed_text0.75"
+            android:textColor="@drawable/ic_speed_selector"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

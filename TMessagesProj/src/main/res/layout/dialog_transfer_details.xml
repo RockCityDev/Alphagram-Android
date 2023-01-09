@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:background="@color/black">
+
+    <com.ruffian.library.widget.RConstraintLayout
+        app:background_normal="@color/white"
+        app:corner_radius="12dp"
+        android:paddingTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/transfer_detatils_dialog_title"
+            android:textStyle="bold"
+            android:paddingVertical="9dp"
+            android:gravity="center_vertical"
+            app:icon_normal_right="@drawable/line_close"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_status_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/transfer_detatils_dialog_status"
+            android:layout_marginTop="12dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_title"
+            android:textColor="#56565c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_marginTop="9dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_status_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/transfer_detatils_dialog_status1"
+            android:textStyle="bold"
+            android:textColor="#21c131"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            app:layout_constraintTop_toTopOf="@+id/tv_status"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_status"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="4月26日 17:21"
+            android:textColor="#56565c"
+            android:textSize="14sp" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_transfer_form_title"
+            android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="from"
+            android:paddingStart="12dp"
+            app:corner_radius_top_left="8dp"
+            app:corner_radius_top_right="8dp"
+            android:gravity="center_vertical"
+            app:background_normal="#F7F8F9"
+            android:textColor="#ababaf"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_transfer_form"
+            android:layout_marginEnd="12dp"
+            android:lines="1"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_transfer_form_title"
+            app:layout_constraintTop_toTopOf="@+id/tv_transfer_form_title"
+            app:layout_constraintRight_toRightOf="@+id/tv_transfer_form_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0xA7EF92...998f"
+            android:textColor="#37393d"
+            android:textSize="14sp" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_transfer_to_title"
+            android:layout_marginTop="1dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_transfer_form_title"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:text="to"
+            android:paddingStart="12dp"
+            app:corner_radius_bottom_left="8dp"
+            app:corner_radius_bottom_right="8dp"
+            android:gravity="center_vertical"
+            app:background_normal="#F7F8F9"
+            android:textColor="#ababaf"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_transfer_to"
+            android:layout_marginEnd="12dp"
+            android:lines="1"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_transfer_to_title"
+            app:layout_constraintTop_toTopOf="@+id/tv_transfer_to_title"
+            app:layout_constraintRight_toRightOf="@+id/tv_transfer_to_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0xA7EF92...998f"
+            android:textColor="#37393d"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_nonce_title"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/tv_transfer_to_title"
+            android:text="NONCE"
+            android:textColor="#56565c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_nonce"
+            app:layout_constraintTop_toTopOf="@+id/tv_nonce_title"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_nonce_title"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="#610477"
+            android:lines="1"
+            android:textColor="#37393d"
+            android:textSize="16sp" />
+
+        <View
+            app:layout_constraintTop_toBottomOf="@+id/tv_nonce_title"
+            android:background="#EDEDED"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/tv_num_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nonce_title"
+            tools:text="@string/transfer_detatils_dialog_num"
+            android:textColor="#56565c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_gas_fee_title"
+            android:layout_marginTop="2dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_num_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/transfer_detatils_dialog_gasfee"
+            android:textColor="#56565c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_num"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_num_title"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_num_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0.03 ETH "
+            android:textColor="#828283"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_gas_fee"
+            app:layout_constraintTop_toTopOf="@+id/tv_gas_fee_title"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_gas_fee_title"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0.00017 ETH"
+            android:textColor="#828283"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/view_line"
+            app:layout_constraintTop_toBottomOf="@+id/tv_gas_fee_title"
+            android:background="#EDEDED"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/group_gasfee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:constraint_referenced_ids="tv_num_title,tv_gas_fee_title,tv_num,tv_gas_fee,view_line"/>
+
+        <TextView
+            android:id="@+id/tv_total_num_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_total_num"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_total_num"
+            tools:text="@string/transfer_detatils_dialog_totalnum"
+            android:textColor="#56565c"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_total_num"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/view_line"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0.05017 ETH"
+            android:textColor="#37393d"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_num_dollar"
+            app:layout_constraintTop_toBottomOf="@+id/tv_total_num"
+            app:layout_constraintRight_toRightOf="@+id/tv_total_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="$ 82.23"
+            android:layout_marginTop="2dp"
+            android:textColor="#828283"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/view_line2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_num_dollar"
+            android:background="#EDEDED"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView
+            android:id="@+id/tv_goto_etherscan"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            tools:text="@string/transfer_detatils_dialog_goto_etherscan"
+            app:layout_constraintTop_toBottomOf="@+id/view_line2"
+            android:textColor="@color/theme_color"
+            android:textSize="14sp" />
+    </com.ruffian.library.widget.RConstraintLayout>
+</FrameLayout>

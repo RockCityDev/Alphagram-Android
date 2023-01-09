@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:background_normal="@color/white"
+    app:corner_radius_top_left="5dp"
+    app:corner_radius_top_right="5dp">
+
+    <TextView
+        android:id="@+id/tv_translate_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="20dp"
+        android:textColor="#222222"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:text="@string/translate_setting_title" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp">
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_translate_source"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/transparent"
+            android:gravity="center"
+            android:prompt="@string/translate_choose_language"
+            android:spinnerMode="dialog"
+            android:theme="@style/common_spinner"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/spinner_translate_target" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_translate_target"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/transparent"
+            android:gravity="center"
+            android:prompt="@string/translate_choose_language"
+            android:spinnerMode="dialog"
+            android:theme="@style/common_spinner"
+            app:layout_constraintLeft_toRightOf="@id/spinner_translate_source"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <ImageView
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:padding="11dp"
+            android:src="@drawable/translate_language_convert_ic"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_translate_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:background="#1FC5C7C9">
+
+        <TextView
+            android:id="@+id/tv_translate_close"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:padding="10dp"
+            android:text="@string/translate_dialog_close"
+            android:textColor="#66A9E0"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_translate_engine"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingHorizontal="20dp"
+            android:text="Google"
+            android:textColor="#A3A3A3"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</com.ruffian.library.widget.RLinearLayout>

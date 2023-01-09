@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:border_color_normal="#E6E6E6"
+    app:border_width_normal="1dp"
+    app:corner_radius="5dp">
+
+    <teleblock.widget.RatioFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="11dp"
+        android:layout_marginTop="11dp"
+        app:sizeRatio="1:1">
+
+        <ImageView
+            android:id="@+id/iv_nft_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </teleblock.widget.RatioFrameLayout>
+
+
+    <TextView
+        android:id="@+id/tv_asset_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="6dp"
+        android:includeFontPadding="false"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:text="Phanta Bear" />
+
+    <TextView
+        android:id="@+id/tv_nft_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="2dp"
+        android:includeFontPadding="false"
+        android:textColor="#868E95"
+        android:textSize="11sp"
+        tools:text="Phanta Bear #001" />
+
+    <TextView
+        android:id="@+id/tv_nft_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="20dp"
+        android:drawableLeft="@drawable/icon_eth_nft_edit"
+        android:drawablePadding="3dp"
+        android:gravity="center_vertical"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        tools:text="215.05" />
+</com.ruffian.library.widget.RLinearLayout>

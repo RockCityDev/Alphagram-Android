@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.ruffian.library.widget.RView
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        app:background_normal="@color/white"
+        app:corner_radius="4dp" />
+
+    <com.ruffian.library.widget.RLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
+        android:layout_weight="1"
+        android:minHeight="400dp"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        app:background_normal="@color/white"
+        app:corner_radius_top_left="30dp"
+        app:corner_radius_top_right="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="27dp">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:text="支付订单确认"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/iv_close_dialog"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/group_pay_close_ic" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_permit_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:text="入群许可"
+            android:textColor="#56565C"
+            android:textSize="14sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/iv_group_avatar"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearance="@style/circleImageStyle" />
+
+            <teleblock.widget.font.MediumTextView
+                android:id="@+id/tv_group_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:singleLine="true"
+                android:textColor="#202020"
+                android:textSize="16sp"
+                app:layout_constraintLeft_toRightOf="@id/iv_group_avatar"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/iv_group_avatar"
+                tools:text="BAYC HOULDER GROUP" />
+
+            <TextView
+                android:id="@+id/tv_pay_member_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#858585"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_group_avatar"
+                app:layout_constraintLeft_toLeftOf="@id/tv_group_name"
+                app:layout_constraintRight_toRightOf="parent"
+                tools:text="1943 人已付费" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/tv_status_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="状态"
+            android:textColor="#56565C"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tv_pay_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:text="待支付"
+                android:textColor="#FFD233"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tv_pay_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:textColor="#56565C"
+                android:textSize="14sp"
+                tools:text="8月2日 17:21" />
+        </LinearLayout>
+
+        <com.ruffian.library.widget.RLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="12dp"
+            app:background_normal="#F7F8F9"
+            app:corner_radius_top_left="8dp"
+            app:corner_radius_top_right="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:text="from"
+                android:textColor="#ABABAF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_from_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="0xA7EF92...998f"
+                android:textColor="#37393D"
+                android:textSize="14sp" />
+        </com.ruffian.library.widget.RLinearLayout>
+
+        <com.ruffian.library.widget.RLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="12dp"
+            app:background_normal="#F7F8F9"
+            app:corner_radius_bottom_left="8dp"
+            app:corner_radius_bottom_right="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:text="to"
+                android:textColor="#ABABAF"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_to_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="0x12849f...9920"
+                android:textColor="#37393D"
+                android:textSize="14sp" />
+        </com.ruffian.library.widget.RLinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:text="Total:"
+                android:textColor="#56565C"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_pay_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="4dp"
+                android:textColor="#02ABFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:icon_normal_left="@drawable/user_chain_logo_18"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:text="0.0729" />
+
+            <TextView
+                android:id="@+id/tv_amount_usd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ABABAF"
+                android:textSize="14sp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_pay_amount"
+                tools:text="$114.57.43 USD" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_pay_success"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingVertical="15dp"
+            android:text="支付成功"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:background_normal="#44D320"
+            app:corner_radius="42dp"
+            app:icon_normal_left="@drawable/group_pay_succes_ic"
+            app:icon_width_right="8dp"
+            app:icon_with_text="true" />
+
+        <com.ruffian.library.widget.RLinearLayout
+            android:id="@+id/ll_paying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="30dp"
+            android:alpha="0.5"
+            android:gravity="center"
+            android:paddingVertical="15dp"
+            android:visibility="gone"
+            app:background_normal="@array/gradient_linkwallet_bg"
+            app:corner_radius="42dp"
+            app:gradient_orientation="LEFT_RIGHT">
+
+            <ProgressBar
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_gravity="center"
+                android:indeterminateTint="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_paying"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:includeFontPadding="false"
+                android:text="支付中..."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </com.ruffian.library.widget.RLinearLayout>
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_pay_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingVertical="15dp"
+            android:text="确认支付"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:background_normal="@array/gradient_linkwallet_bg"
+            app:corner_radius="42dp"
+            app:gradient_orientation="LEFT_RIGHT" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_pay_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingVertical="15dp"
+            android:text="取消"
+            android:textColor="#02ABFF"
+            android:textSize="16sp"
+            app:border_color_normal="#3BA4DA"
+            app:border_width_normal="1dp"
+            app:corner_radius="42dp" />
+
+
+    </com.ruffian.library.widget.RLinearLayout>
+
+
+</LinearLayout>

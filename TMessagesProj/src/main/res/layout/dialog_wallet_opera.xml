@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@color/black">
+
+    <com.ruffian.library.widget.RLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:background_normal="@color/white"
+        app:corner_radius="14dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="19dp"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            tools:text="@string/dialog_wallet_opera_title" />
+
+        <com.ruffian.library.widget.RTextView
+            android:id="@+id/tv_wallet_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingVertical="15dp"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:icon_height="24dp"
+            app:icon_normal_left="@drawable/logo_meta_mask_connect_wallet"
+            app:icon_width="24dp"
+            app:text_color_normal="#000000"
+            tools:text="0x5CA4…B75F" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#B8B8BB" />
+
+        <TextView
+            android:id="@+id/tv_disconnect"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:textColor="#4b5bff"
+            android:textSize="17sp"
+            tools:text="@string/dialog_wallet_opera_disconnect" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#B8B8BB" />
+
+        <TextView
+            android:id="@+id/tv_change"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:textColor="#4b5bff"
+            android:textSize="17sp"
+            tools:text="@string/dialog_wallet_opera_change" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#B8B8BB" />
+
+        <TextView
+            android:id="@+id/tv_copyaddress"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:textColor="#4b5bff"
+            android:textSize="17sp"
+            tools:text="@string/dialog_wallet_opera_copyaddress" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#B8B8BB" />
+
+        <TextView
+            android:id="@+id/tv_viewexplorer"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:textColor="#4b5bff"
+            android:textSize="17sp"
+            tools:text="@string/dialog_wallet_opera_viewexplorer" />
+
+    </com.ruffian.library.widget.RLinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        android:src="@drawable/icon_close_tg_rpofile_bg" />
+</FrameLayout>

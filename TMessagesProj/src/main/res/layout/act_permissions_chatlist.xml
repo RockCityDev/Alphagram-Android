@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF"
+    android:orientation="vertical">
+
+    <com.ruffian.library.widget.RTextView
+        android:id="@+id/tv_click_add_list"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawablePadding="22dp"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:textColor="@color/theme_color"
+        android:textSize="15sp"
+        app:background_normal="@color/white"
+        app:icon_height_left="25dp"
+        app:icon_normal_left="@drawable/icon_permiss_add_user"
+        app:icon_width_left="25dp"
+        tools:text="@string/act_permissions_chat_addwhitelist" />
+
+    <TextView
+        android:id="@+id/tv_chat_nums"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:paddingStart="21dp"
+        android:paddingTop="19dp"
+        android:textColor="@color/theme_color"
+        android:textSize="15sp"
+        tools:text="@string/act_permissions_chat_whitelist_num" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+</LinearLayout>

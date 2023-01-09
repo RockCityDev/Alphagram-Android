@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:background="#EBECEF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_group_describe"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        tools:text="@string/create_group_describe"
+        android:paddingTop="19dp"
+        android:paddingStart="21dp"
+        tools:background="@color/white"
+        tools:textColor="@color/theme_color"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_add_group_describe"
+        android:paddingStart="21dp"
+        tools:textColorHint="#D3D3D6"
+        android:textSize="15sp"
+        tools:hint="@string/create_group_add_describe"
+        tools:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"/>
+
+    <TextView
+        android:id="@+id/tv_group_type_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/create_group_type"
+        android:paddingStart="22dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="12dp"
+        tools:background="@color/white"
+        android:background="@color/white"
+        android:textColor="@color/theme_color"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_radio"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_joingroup_tips"
+        android:layout_width="match_parent"
+        tools:paddingTop="8dp"
+        tools:paddingStart="20dp"
+        tools:paddingBottom="18dp"
+        android:layout_height="wrap_content"
+        tools:text="@string/create_group_tips_conditions"
+        tools:textColor="#ABABAF"
+        android:textSize="12sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_join_type"
+        tools:background="@color/white"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_join_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="@string/create_group_conditionjoin_group"
+            android:paddingStart="21dp"
+            android:paddingTop="19dp"
+            android:paddingBottom="9dp"
+            android:textColor="@color/theme_color"
+            android:textSize="15sp" />
+
+        <teleblock.widget.DividerLineView
+            tools:background="#F2F3F2"
+            android:layout_marginStart="21dp"
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_wallet_address"
+            android:paddingStart="21dp"
+            android:paddingEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv_address_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                tools:text="@string/create_group_address_title"
+                tools:textColor="@color/black" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_unbind_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:textSize="17sp"
+                app:icon_height="20dp"
+                app:icon_width="20dp"
+                tools:icon_normal_left="@drawable/icon_connect_group3_white"
+                tools:icon_normal_right="@drawable/icon_next_group3_white"
+                tools:text="@string/create_group_link_wallet"
+                tools:text_color_normal="@color/theme_color" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_wallet_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:drawablePadding="4dp"
+                android:gravity="center"
+                android:paddingVertical="2dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="15sp"
+                android:textSize="14sp"
+                android:visibility="gone"
+                tools:background_normal="#F0F5FF"
+                app:corner_radius="50dp"
+                app:icon_height="24dp"
+                app:icon_width="24dp"
+                tools:text_color_normal="#1A1A1D"
+                tools:icon_normal_left="@drawable/logo_meta_mask_connect_wallet"
+                tools:text="0x5cA4…B75F"
+                tools:visibility="visible" />
+        </RelativeLayout>
+
+        <teleblock.widget.DividerLineView
+            android:id="@+id/line_wallet_address"
+            tools:background="#F2F3F2"
+            android:layout_marginStart="21dp"
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_select_chain_type"
+            android:paddingStart="21dp"
+            android:paddingEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv_select_chain_type_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                tools:text="@string/create_group_chain_type"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_select_chain_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                tools:text="Mainnet"
+                tools:textColor="@color/theme_color" />
+        </RelativeLayout>
+
+        <teleblock.widget.DividerLineView
+            tools:background="#F2F3F2"
+            android:layout_marginStart="21dp"
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_select_token_type"
+            android:paddingStart="21dp"
+            android:paddingEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv_select_token_type_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                tools:text="@string/create_group_token_type"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_select_token_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                tools:text="ERC20"
+                tools:textColor="@color/theme_color" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_join_content"
+        tools:background="@color/white"
+        android:orientation="vertical"
+        android:layout_marginTop="12dp"
+        tools:visibility="visible"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_join_content_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="@string/create_group_conditions_described"
+            android:paddingStart="21dp"
+            android:paddingTop="19dp"
+            android:paddingBottom="9dp"
+            android:textColor="@color/theme_color"
+            android:textSize="15sp" />
+
+        <teleblock.widget.DividerLineView
+            tools:background="#F2F3F2"
+            android:layout_marginStart="21dp"
+            android:layout_width="match_parent"
+            android:layout_height="1.0px"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_selector_coin_type"
+            android:paddingStart="21dp"
+            android:paddingEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/tv_select_coin_type_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                tools:text="@string/create_group_coin_type"
+                tools:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_select_coin_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:textSize="15sp"
+                tools:text="ETH"
+                tools:textColor="@color/theme_color" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_input_coinnum_min"
+            android:gravity="center_vertical"
+            tools:hint="@string/create_group_input_tokennum_min"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            tools:textColorHint="#bfbfc2"
+            tools:textColor="#1A1A1D"
+            android:textSize="15sp"
+            android:paddingStart="21dp"
+            android:lines="1"
+            android:singleLine="true"
+            tools:background="@color/white"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_input_paynum"
+            android:orientation="vertical"
+            android:paddingEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:id="@+id/et_input_paynum"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/rtv_select_coin_type"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:orientation="horizontal"
+                android:paddingStart="21dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:lines="1"
+                android:singleLine="true"
+                tools:background="@color/white"
+                tools:hint="@string/create_group_input_paynum"
+                tools:textColor="#1A1A1D"
+                tools:textColorHint="#bfbfc2" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/rtv_select_coin_type"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:drawablePadding="4dp"
+                android:gravity="center"
+                android:textSize="15sp"
+                app:icon_height_left="16dp"
+                app:icon_height_right="16dp"
+                app:icon_normal_right="@drawable/arrow_gray_up_icon"
+                app:icon_width_left="16dp"
+                app:icon_width_right="16dp"
+                tools:icon_normal_left="@drawable/user_chain_logo_18"
+                tools:text="ETH"
+                tools:text_color_normal="@color/black" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_token_address"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginStart="21dp"
+                android:id="@+id/tv_token_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:textColor="@color/black"
+                android:textSize="15sp"
+                tools:text="@string/create_group_coin_type" />
+
+            <EditText
+                android:id="@+id/et_input_token_address"
+                android:gravity="center_vertical"
+                tools:hint="@string/create_group_input_tokenaddress"
+                android:textStyle="bold"
+                android:paddingStart="21dp"
+                tools:textColorHint="#bfbfc2"
+                tools:background="@color/white"
+                tools:textColor="#1A1A1D"
+                android:textSize="15sp"
+                android:lines="1"
+                android:singleLine="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

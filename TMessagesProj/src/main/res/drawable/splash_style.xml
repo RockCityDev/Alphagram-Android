@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景颜色 -->
+    <item android:drawable="@drawable/ic_splash_background" />
+    <!--  上部分图片-->
+    <item
+        android:width="360dp"
+        android:height="430dp"
+        android:drawable="@drawable/ic_splash_icon"
+        android:gravity="center_horizontal"
+        android:top="0dp"></item>
+</layer-list>

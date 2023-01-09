@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- 视频播放-->
+    <FrameLayout
+        android:id="@+id/video_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextureView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:minHeight="130dp"/>
+
+        <FrameLayout
+            android:id="@+id/video_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_item_pause"/>
+
+        <ProgressBar
+            android:id="@+id/loading_progress"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/pro_loading"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <!-- 全屏播放按钮-->
+    <LinearLayout
+        android:id="@+id/full_btn_container"
+        android:layout_width="118dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_full_wacher_selecter"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_container">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_full_wacher"
+            android:drawablePadding="5dp"
+            android:orientation="horizontal"
+            android:text="@string/vw_video_full_tip"
+            android:textColor="#ffffff"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <!-- 左边容器-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_shadow_bottom"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <!-- 文字内容-->
+        <LinearLayout
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingRight="80dp">
+
+            <TextView
+                android:id="@+id/tv_group_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                tools:text="R2one 抖音美女"/>
+
+            <teleblock.widget.MaxHeightLinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:paddingBottom="2dp"
+                android:scrollbars="none">
+
+                <at.blogc.android.views.ExpandableTextView
+                    android:id="@+id/tv_video_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+                    app:animation_duration="500"
+                    tools:text="扎克·施奈德版正义联盟 扎克·施奈德版正义联盟扎克·施版正义联盟克·施版正义联盟克·施版正义联盟克·施版正义联盟" />
+            </teleblock.widget.MaxHeightLinearLayout>
+
+            <TextView
+                android:id="@+id/tv_expand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/ic_text_open"
+                android:drawablePadding="3dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:textColor="#39AFEA"
+                android:textSize="14sp"
+                tools:text="@string/fg_textview_expand"/>
+        </LinearLayout>
+
+        <!-- 进度内容-->
+        <LinearLayout
+            android:id="@+id/pro_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="25dp"
+            android:paddingTop="13dp"
+            android:paddingRight="13dp"
+            android:paddingBottom="13dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_views"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_views_num"
+                    android:textColor="#99ffffff"
+                    android:textSize="14sp"
+                    tools:text="391"/>
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:textColor="#99ffffff"
+                    android:textSize="14sp"
+                    tools:text="03-12 13:12"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <SeekBar
+                    android:id="@+id/seek_progress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1.0"
+                    android:background="@null"
+                    android:max="100"
+                    android:maxHeight="4dp"
+                    android:minHeight="4dp"
+                    android:paddingStart="9dp"
+                    android:paddingTop="17dp"
+                    android:paddingEnd="9dp"
+                    android:paddingBottom="4dp"
+                    android:progressDrawable="@drawable/video_slip_seek_progress"
+                    android:thumb="@drawable/video_seek_thumb" />
+
+                <TextView
+                    android:id="@+id/tv_pro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:includeFontPadding="false"
+                    android:paddingTop="11dp"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp"
+                    tools:text="00:21 / 01:22"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_download_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:textColor="#99ffffff"
+                android:textSize="12sp"
+                tools:text="10M/100M"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- 右边容器-->
+    <LinearLayout
+        android:id="@+id/share_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="75dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/ad_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_video_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:drawableTop="@drawable/ic_video_collect"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            tools:text="@string/vw_video_collect"/>
+
+        <TextView
+            android:id="@+id/tv_video_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:drawableTop="@drawable/ic_video_download"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            tools:text="@string/vw_video_download"/>
+        <TextView
+            android:id="@+id/tv_save_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:drawableTop="@drawable/ic_video_save_album"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            tools:text="@string/vw_video_download"/>
+
+        <FrameLayout
+            android:id="@+id/avatar_frame"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+    <!-- 引导层-->
+    <LinearLayout
+        android:id="@+id/guide_container"
+        android:layout_width="0dp"
+        android:layout_height="360dp"
+        android:background="@drawable/ic_guide_bg"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:id="@+id/tv_video_guide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            tools:text="@string/vw_video_guide_text"/>
+
+        <TextView
+            android:id="@+id/tv_guide_skip"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="26dp"
+            android:background="@drawable/ic_guide_btn"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            tools:text="@string/vw_video_guide_btn_text"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_guide_arrow"/>
+
+        <TextView
+            android:id="@+id/tv_play_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="37dp"
+            android:gravity="center_horizontal"
+            android:textColor="#39AFEA"
+            android:textSize="16sp"
+            tools:text="@string/vw_video_guide_play_normal"/>
+    </LinearLayout>
+
+    <!-- google facebook 广告层-->
+    <FrameLayout
+        android:id="@+id/native_ad_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="70dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.ruffian.library.widget.RLinearLayout
+                android:id="@+id/ll_ad_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:background_normal="#D60E0E0E"
+                app:corner_radius="4dp">
+
+                <com.ruffian.library.widget.RTextView
+                    android:id="@+id/tv_ad_remove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:paddingHorizontal="7dp"
+                    android:text="@string/ad_banner_text"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="italic"
+                    app:background_normal="@array/gradient_ad_banner"
+                    app:corner_radius_bottom_left="4dp"
+                    app:corner_radius_top_left="4dp"
+                    app:gradient_orientation="LEFT_RIGHT" />
+
+                <TextView
+                    android:id="@+id/tv_ad_tips"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:paddingLeft="7dp"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"
+                    tools:text="@string/ac_video_feed_ad_tips" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ad_vip_right" />
+            </com.ruffian.library.widget.RLinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <com.google.android.gms.ads.nativead.NativeAdView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/ggad_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_nativea_ad_selector"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.gms.ads.nativead.MediaView
+                            android:id="@+id/ggad_media"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center" />
+
+                        <RelativeLayout
+                            android:id="@+id/ggad_content_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginRight="12dp"
+                                android:orientation="horizontal">
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    app:shapeAppearance="@style/roundedImageStyle"
+                                    android:id="@+id/ggad_icon"
+                                    android:layout_width="64dp"
+                                    android:layout_height="64dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:scaleType="centerCrop" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="8dp"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:id="@+id/tv_ggtitle"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:maxLines="1"
+                                        android:textColor="#000000"
+                                        android:textSize="16sp"
+                                        tools:text="广告标题"/>
+
+                                    <TextView
+                                        android:id="@+id/tv_ggbody"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="5dp"
+                                        android:maxLines="2"
+                                        android:textColor="#99000000"
+                                        android:textSize="13sp"
+                                        tools:text="广告描述文案吧啦吧啦吧啦吧啦"/>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/bt_ggbtn"
+                                android:layout_width="match_parent"
+                                android:layout_height="31dp"
+                                android:layout_alignParentBottom="true"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                android:background="@drawable/ic_ad_button_backgroud"
+                                android:gravity="center"
+                                android:maxLines="1"
+                                android:textColor="#ffffff"
+                                android:textSize="15sp"
+                                tools:text="立即下载"/>
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:id="@+id/ggad_close"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/ic_native_close"/>
+                    </RelativeLayout>
+                </com.google.android.gms.ads.nativead.NativeAdView>
+
+                <FrameLayout
+                    android:id="@+id/max_ad_frame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ruffian.library.widget.RTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="6dp"
+    android:paddingTop="9dp"
+    android:paddingBottom="9dp"
+    android:gravity="center"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:textSize="13sp"
+    android:textStyle="bold"
+    app:border_width_normal="1dp"
+    app:corner_radius="36dp"
+    tools:border_color_normal="#E6E6E6"
+    tools:layout_marginStart="6dp"
+    tools:text="区块区块链链"
+    tools:text_color_normal="#56565C">
+
+</com.ruffian.library.widget.RTextView>
