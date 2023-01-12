@@ -37,3 +37,10 @@ You will require Android Studio 3.4, Android NDK rev. 20 and Android SDK 8.1
 ### Localization
 
 We moved all translations to https://translations.telegram.org/en/android/. Please use it.
+
+### Web3
+
+1. Web3j https://github.com/web3j/web3j
+2. TSS Wallect https://docs.particle.network/
+3. Wallect-Connect https://docs.walletconnect.com/1.0/
+4. OpenSeaAPI https://docs.opensea.io/reference/api-overview
