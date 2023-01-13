@@ -1,3 +1,14 @@
+## About Alphagram
+
+Creates a secure 3rd party Web3 Telegram for worldwide users！ 
+
+## Features - Provides More Convenience
+
+1. Comfortable - Incognito Mode, The other party can't see the message read double checkmark
+2. Fast - Unlimited Pinned Messages, Help you find important messages quickly
+3. Instantly - Translate every message with one click, Help you manage the international communication and information
+
+
 ## Telegram messenger for Android
 
 [Telegram](https://telegram.org) is a messaging app with a focus on speed and security. It’s superfast, simple and free.
