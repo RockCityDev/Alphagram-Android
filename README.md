@@ -8,9 +8,6 @@
 
 # Alphagram
 
-[![GitHub license][badge-license]][license]
-[![Circle CI][badge-ci]][circle-ci]
-
 ## About
 
 Alphagram, the Web3 Telegram.
