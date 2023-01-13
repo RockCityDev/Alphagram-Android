@@ -1,3 +1,11 @@
+<!-- cspell:disable -->
+<!-- markdownlint-disable no-inline-html first-line-heading -->
+<a href="https://mask.io">
+  <img src="https://avatars.githubusercontent.com/u/122582484?s=200&v=4"
+       width="200" height="200" title="([I:b])" alt="([I:b])">
+</a>
+<!-- markdownlint-enable no-inline-html first-line-heading -->
+
 # Alphagram
 
 ## About
