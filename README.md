@@ -1,13 +1,25 @@
-## About Alphagram
+## About
 
+Alphagram, the Web3 Telegram.
 Creates a secure 3rd party Web3 Telegram for worldwide users！ 
 
 ## Features - Provides More Convenience
 
-1. Comfortable - Incognito Mode, The other party can't see the message read double checkmark
-2. Fast - Unlimited Pinned Messages, Help you find important messages quickly
-3. Instantly - Translate every message with one click, Help you manage the international communication and information
+1. Comfortable - Incognito Mode, The other party can't see the message read double checkmark.
+2. Fast - Unlimited Pinned Messages, Help you find important messages quickly.
+3. Instantly - Translate every message with one click, Help you manage the international communication and information.
+4. Helpful - Practical tools, Scan the code to add friends/Easy to clear up storage.
+5. Safe - Crypto Wallet, Fast Web3 Asset Transaction.
+6. Auto-sync - NFT Profile Verification, Give you immersive Web3 experience.
+7. Advanced - Crypto Transfer, Transactions will be done in a chat box.
+8. Statistics - Web3 Profile, Check your crypto public data easily.
 
+### Web3
+
+1. Web3j https://github.com/web3j/web3j
+2. TSS Wallet https://docs.particle.network/
+3. Wallet-Connect https://docs.walletconnect.com/1.0/
+4. OpenSeaAPI https://docs.opensea.io/reference/api-overview
 
 ## Telegram messenger for Android
 
@@ -48,10 +60,3 @@ You will require Android Studio 3.4, Android NDK rev. 20 and Android SDK 8.1
 ### Localization
 
 We moved all translations to https://translations.telegram.org/en/android/. Please use it.
-
-### Web3
-
-1. Web3j https://github.com/web3j/web3j
-2. TSS Wallet https://docs.particle.network/
-3. Wallet-Connect https://docs.walletconnect.com/1.0/
-4. OpenSeaAPI https://docs.opensea.io/reference/api-overview
