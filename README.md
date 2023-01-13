@@ -1,3 +1,5 @@
+# Alphagram
+
 ## About
 
 Alphagram, the Web3 Telegram.
@@ -15,12 +17,14 @@ Creates a secure 3rd party Web3 Telegram for worldwide users！
 7. Advanced - Crypto Transfer, Transactions will be done in a chat box.
 8. Statistics - Web3 Profile, Check your crypto public data easily.
 
-### Web3
+## Web3
 
 1. Web3j https://github.com/web3j/web3j
 2. TSS Wallet https://docs.particle.network/
 3. Wallet-Connect https://docs.walletconnect.com/1.0/
 4. OpenSeaAPI https://docs.opensea.io/reference/api-overview
+
+# Telegram
 
 ## Telegram messenger for Android
 
@@ -38,13 +42,13 @@ There are several things we require from **all developers** for the moment.
 3. Please study our [**security guidelines**](https://core.telegram.org/mtproto/security_guidelines) and take good care of your users' data and privacy.
 4. Please remember to publish **your** code too in order to comply with the licences.
 
-### API, Protocol documentation
+## API, Protocol documentation
 
 Telegram API manuals: https://core.telegram.org/api
 
 MTproto protocol manuals: https://core.telegram.org/mtproto
 
-### Compilation Guide
+## Compilation Guide
 
 **Note**: In order to support [reproducible builds](https://core.telegram.org/reproducible-builds), this repo contains dummy release.keystore,  google-services.json and filled variables inside BuildVars.java. Before publishing your own APKs please make sure to replace all these files with your own.
 
@@ -58,6 +62,6 @@ You will require Android Studio 3.4, Android NDK rev. 20 and Android SDK 8.1
 6. Fill out values in TMessagesProj/src/main/java/org/telegram/messenger/BuildVars.java – there’s a link for each of the variables showing where and which data to obtain.
 7. You are ready to compile Telegram.
 
-### Localization
+## Localization
 
 We moved all translations to https://translations.telegram.org/en/android/. Please use it.
