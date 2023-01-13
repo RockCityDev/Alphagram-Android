@@ -1,6 +1,7 @@
 ## About
 
 Alphagram, the Web3 Telegram.
+
 Creates a secure 3rd party Web3 Telegram for worldwide users！ 
 
 ## Features - Provides More Convenience
