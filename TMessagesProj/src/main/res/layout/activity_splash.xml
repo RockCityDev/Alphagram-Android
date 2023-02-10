@@ -6,7 +6,7 @@
     android:background="@drawable/ic_splash_background">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
@@ -14,10 +14,11 @@
 
         <ImageView
             android:id="@+id/iv_icon"
-            android:layout_width="360dp"
-            android:layout_height="430dp"
+            android:layout_width="163dp"
+            android:layout_height="181dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_splash_icon"></ImageView>
+            android:layout_marginTop="162dp"
+            android:src="@drawable/image_fountain_logo"/>
 
         <TextView
             android:id="@+id/tv_title"
@@ -25,11 +26,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="21dp"
             android:includeFontPadding="false"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="34sp"
             android:textStyle="bold"
-            android:visibility="gone"
-            tools:text="αlphagram"></TextView>
+            android:text="FOUNTAIN"/>
 
         <TextView
             android:id="@+id/tv_desc"
@@ -37,10 +37,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:includeFontPadding="false"
-            android:textColor="#868686"
+            android:textColor="@color/white"
             android:textSize="15sp"
-            android:visibility="gone"
-            tools:text="The best TG Social・Secure・Private"></TextView>
+            android:alpha="0.7"
+            android:gravity="center"
+            android:text="Earn Toncoin with your secure \n and private social graph"/>
     </LinearLayout>
 
     <LinearLayout
@@ -61,7 +62,7 @@
             android:gravity="center"
             android:text="@string/ac_splash_btn_login"
             android:textColor="#ffffff"
-            android:textSize="16sp"></TextView>
+            android:textSize="16sp"/>
 
         <LinearLayout
             android:id="@+id/layout_register"
@@ -77,7 +78,7 @@
                 android:gravity="center"
                 android:text="@string/ac_splash_btn_register_tip"
                 android:textColor="#4D4D4D"
-                android:textSize="16sp"></TextView>
+                android:textSize="16sp"/>
 
             <TextView
                 android:id="@+id/tv_register"
@@ -87,7 +88,7 @@
                 android:gravity="center"
                 android:text="@string/ac_splash_btn_register"
                 android:textColor="#39AFEA"
-                android:textSize="16sp"></TextView>
+                android:textSize="16sp"/>
         </LinearLayout>
     </LinearLayout>
 

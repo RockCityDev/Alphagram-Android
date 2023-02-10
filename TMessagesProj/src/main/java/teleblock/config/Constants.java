@@ -34,11 +34,12 @@ public class Constants {
     }
 
     public static boolean hideIntroView() {
-        String channel = ManifestUtil.getChannel(ApplicationLoader.applicationContext);
-        String[] adChannel = new String[]{};
-        if (Arrays.asList(adChannel).contains(channel)) {
-            return true;
-        }
+//        String channel = ManifestUtil.getChannel(ApplicationLoader.applicationContext);
+//        String[] adChannel = new String[]{};
+//        if (Arrays.asList(adChannel).contains(channel)) {
+//            return true;
+//        }
+//        return true;
         return true;
     }
 

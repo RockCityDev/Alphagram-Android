@@ -34,7 +34,7 @@
 
     <style name="Theme.Splash" parent="Theme.TMessages.Start">
         <!-- 系统闪屏图 -->
-        <item name="android:windowBackground">@drawable/splash_style</item>
+<!--        <item name="android:windowBackground">@drawable/splash_style</item>-->
         <item name="android:windowNoTitle">true</item>
     </style>
 

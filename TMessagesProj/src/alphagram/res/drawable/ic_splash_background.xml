@@ -8,7 +8,10 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape>
-            <gradient android:angle="270" android:endColor="#F5F6FF" android:startColor="#FFFFFF"></gradient>
+            <gradient android:angle="270"
+                android:startColor="#334358"
+                android:centerColor="#060715"
+                android:endColor="#060715" />
         </shape>
     </item>
 </selector>

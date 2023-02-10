@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingHorizontal="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <com.ruffian.library.widget.RLinearLayout
+            android:id="@+id/ll_bottom"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            app:layout_constraintRight_toRightOf="@+id/iv_top_img"
+            app:layout_constraintLeft_toLeftOf="@+id/iv_top_img"
+            app:layout_constraintTop_toBottomOf="@+id/iv_top_img"
+            app:corner_radius_bottom_right="12dp"
+            android:layout_marginTop="-50dp"
+            android:gravity="center"
+            app:corner_radius_bottom_left="12dp"
+            app:background_normal="@color/white"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your social w are authorized to be on chain"
+                android:textColor="#ff111743"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_marginHorizontal="31dp"
+                android:layout_marginTop="75dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="31dp"
+                android:layout_marginTop="10dp"
+                android:text="Your Telegram ID is on a chain to your social network that Fountain is authorized to store. Your Telegram social connections are being updated to the Fountain service. This authorization service is exclusive to Fountain ProfileNFT holders."
+                android:textColor="#ff000000"
+                android:textSize="13sp" />
+
+            <com.ruffian.library.widget.RTextView
+                android:id="@+id/tv_btn"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:text="確認"
+                android:layout_margin="22dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:corner_radius="42dp"
+                android:gravity="center"
+                app:background_normal="#FF111743"/>
+        </com.ruffian.library.widget.RLinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_top_img"
+            android:layout_width="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/ll_bottom"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/image_fountain_profilenft"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

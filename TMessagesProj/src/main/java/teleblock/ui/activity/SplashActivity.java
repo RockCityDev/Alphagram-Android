@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.Window;
 import android.widget.TextView;
@@ -56,19 +57,13 @@ public class SplashActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        BarUtils.transparentStatusBar(mActivity);//透明状态栏
+        BarUtils.setStatusBarColor(this, Color.parseColor("#334358"));
         // 将window的背景图设置为空
         getWindow().setBackgroundDrawable(null);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         binding = ActivitySplashBinding.inflate(LayoutInflater.from(this));
         setContentView(binding.getRoot());
-        AndroidUtilities.setNavigationBarColor(getWindow(), Theme.getColor(Theme.key_chat_messagePanelBackground));
-
-        //init
-        binding.tvTitle.setText(LocaleController.getString("view_lancher_title", R.string.view_lancher_title));
-        binding.tvDesc.setText(LocaleController.getString("view_lancher_desc", R.string.view_lancher_desc));
-
-        //if (test()) return;
+        AndroidUtilities.setNavigationBarColor(getWindow(), Color.parseColor("#060715"));
 
         if (!ApplicationLoader.applicationInited) { // 首次打开app
             getDeviceMsg();
@@ -83,7 +78,7 @@ public class SplashActivity extends BaseActivity {
             MMKVUtil.firstLoad(false);
         }
 
-        startMainAct();
+        new Handler().postDelayed(this::startMainAct, 1000);
     }
 
     private boolean test() {

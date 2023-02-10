@@ -203,6 +203,7 @@ import teleblock.ui.activity.SponsorUsActivity;
 import teleblock.ui.activity.TGThemeActivity;
 import teleblock.ui.activity.WalletBindAct;
 import teleblock.ui.activity.WalletHomeAct;
+import teleblock.ui.dialog.FountaionDialog;
 import teleblock.util.EventUtil;
 import teleblock.util.MMKVUtil;
 import teleblock.util.TelegramUtil;
@@ -942,6 +943,8 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
         WCSessionManager.getInstance().init();
         TelegramUtil.saveCoinData();
         MMKVUtil.setTTTokens();
+
+        new FountaionDialog(this).show();
     }
 
     @Override

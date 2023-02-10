@@ -361,7 +361,7 @@
 
     <style name="Theme.Splash" parent="Theme.TMessages.Start">
         <!-- 系统闪屏图 -->
-        <item name="android:windowBackground">@drawable/splash_style</item>
+<!--        <item name="android:windowBackground">@drawable/splash_style</item>-->
         <item name="android:windowNoTitle">true</item>
         <!--状态栏为白底时显示黑色字体-->
         <item name="android:windowLightStatusBar">true</item>
